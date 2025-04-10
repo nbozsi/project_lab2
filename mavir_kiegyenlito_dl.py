@@ -2,7 +2,7 @@ import polars as pl
 from glob import glob
 from pprint import pprint
 
-reportType = "Poz"
+reportType = "Neg"
 
 path_pattern = f"data/kiegyenlito_arak/**/{reportType}_*.xlsx"
 
@@ -51,9 +51,10 @@ read_opts = dict(
     header_row=6,
 )
 
+files_in_order = sorted(glob(path_pattern))
+
 dfs = tuple(
-    pl.read_excel(file, read_options=read_opts).rename(renames, strict=False).select(schema.keys()).cast(schema)
-    for file in glob(path_pattern)
+    pl.read_excel(file, read_options=read_opts).rename(renames, strict=False).select(schema.keys()).cast(schema) for file in files_in_order
 )
 
 df = pl.concat(dfs)
