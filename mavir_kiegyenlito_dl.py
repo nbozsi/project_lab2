@@ -1,6 +1,8 @@
 import polars as pl
 from glob import glob
 from pprint import pprint
+from datetime import timedelta
+
 
 reportType = "Neg"
 
@@ -58,7 +60,15 @@ dfs = tuple(
 )
 
 df = pl.concat(dfs)
-df = df.with_columns(pl.col("Kiegyenlítő-energia-elszámolási időszak").str.slice(0, 5).str.replace(r"\+", ":").str.to_time("%H:%M"))
+df = df.with_columns(
+    pl.col("Kiegyenlítő-energia-elszámolási időszak").str.slice(0, 5).str.replace(r"\+", ":").str.to_time("%H:%M"),
+).with_columns(
+    (
+        (pl.col("Kiegyenlítő-energia-elszámolási időszak").diff() != timedelta(minutes=15))
+        & (pl.col("Kiegyenlítő-energia-elszámolási időszak").dt.hour() != 0)
+    ).alias("Óraátállítás"),
+)
 assert df.height == 2192 * 24 * 4
+print(df.filter(pl.col("Óraátállítás")))
 df.write_parquet(f"data/mavir_{reportType}_data.parquet")
 print(df)
