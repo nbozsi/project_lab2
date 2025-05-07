@@ -50,16 +50,24 @@ def create_training_data(df):
                 for colname in cols:
                     yield (pl.col(colname).shift(-i).name.suffix(f"_t+{i*15}min"))
 
-    final_df = final_df.select(
+    X = final_df.select(
         pl.all(),
         *timelag_expressions(40, cols_10_h),
         *timelag_expressions(48, cols_12_h),
+    )
+    y = final_df.select(
         *timelag_expressions(range(16, 21), target_cols),
     )
-    return final_df
+
+    # nulls should be only at the tail of the dataframe
+    X = X.drop_nulls()
+    y = y.slice(0, X.height)
+
+    return (X, y)
 
 
 if __name__ == "__main__":
     joined_df = pl.read_parquet("data/joined_df.parquet")
-    final_df = create_training_data(joined_df)
-    print(final_df)
+    X, y = create_training_data(joined_df)
+    print(y.describe())
+    print(X.describe())
