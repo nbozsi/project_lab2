@@ -119,14 +119,71 @@ dataframes = [mavir_neg, mavir_poz, PV, hatar_aramlas, real_time_aggregated, ren
 join_key = "Időpont"
 
 # Sequentially join all DataFrames on the exact match of the 'Időpont' column
-final_df = dataframes[0]
+joined_df = dataframes[0]
 for df in dataframes[1:]:
-    final_df = final_df.join(df, on=join_key, how="inner")
+    joined_df = joined_df.join(df, on=join_key, how="inner")
 
-final_df = final_df.drop("Óraátállítás")
+joined_df = joined_df.drop("Óraátállítás")
 
 # Move 'Időpont' to the first column
-final_df = final_df.select(["Időpont"] + [col for col in final_df.columns if col != "Időpont"])
+joined_df = joined_df.select(["Időpont"] + [col for col in joined_df.columns if col != "Időpont"])
 
 
-final_df.write_parquet("data/joined_df.parquet")
+joined_df.write_parquet("data/joined_df.parquet")
+
+col_stats = (
+    joined_df.describe()
+    .transpose(column_names="statistic", include_header=True)
+    .with_columns((pl.col("null_count") / pl.col("count")).alias("null_ratio"))
+)
+
+keep_cols = col_stats.filter(pl.col("null_ratio") <= 0.1)["column"]
+print(keep_cols.to_list())
+final_df = joined_df.select(keep_cols.to_list()).fill_null(strategy="forward")
+
+cols_10_h = (
+    "Szélerőművek becsült termelése (aktuális)",
+    "Szélerőművek becsült termelése (dayahead)",
+    "Szélerőművek becsült termelése (intraday)",
+    "Naperőművek becsült termelése (aktuális)",
+    "Naperőművek becsült termelése (intraday)",
+    "Naperőművek becsült termelése (dayahead)",
+)
+
+cols_12_h = (
+    "Bruttó terv erőművi termelés",
+    "Bruttó rendszerterhelés becslés (dayahead)",
+    "HU-AT menetrend",
+    "HU-HR menetrend",
+    # "HU-SI menetrend (RIR NT)",
+    "HU-SK menetrend",
+    "HU-RS menetrend",
+    "HU-UK menetrend",
+    "HU-RO menetrend",
+)
+target_cols = (
+    "Negatív Mérlegköri kiegyenlítő energia egységára (HUF/kWh)",
+    "Pozitív Mérlegköri kiegyenlítő energia egységára (HUF/kWh)",
+    "Rendszer-irány (kWh)",
+)
+
+
+def timelag_expressions(lags, cols=None):
+    if isinstance(lags, int):
+        lags = range(1, lags + 1)
+    if not cols:
+        for i in lags:
+            yield (pl.all().exclude("Időpont").shift(-i).name.suffix(f"_t+{i*15}min"))
+    else:
+        for i in lags:
+            for colname in cols:
+                yield (pl.col(colname).shift(-i).name.suffix(f"_t+{i*15}min"))
+
+
+final_df = final_df.select(
+    pl.all(),
+    *timelag_expressions(40, cols_10_h),
+    *timelag_expressions(48, cols_12_h),
+    *timelag_expressions(range(16, 21), target_cols),
+)
+print(final_df)
