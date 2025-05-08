@@ -1,6 +1,21 @@
 import polars as pl
 
 
+def timelag_expressions(lags, cols=None):
+    if isinstance(lags, int):
+        if lags > 0:
+            lags = range(1, lags + 1)
+        else:
+            lags = range(lags, 0)
+    if not cols:
+        for i in lags:
+            yield (pl.all().exclude("Időpont").shift(-i).name.suffix(f"_t{i*15:+}min"))
+    else:
+        for i in lags:
+            for colname in cols:
+                yield (pl.col(colname).shift(-i).name.suffix(f"_t{i*15:+}min"))
+
+
 def create_training_data(df):
 
     col_stats = (
@@ -39,21 +54,11 @@ def create_training_data(df):
         "Rendszer-irány (kWh)",
     )
 
-    def timelag_expressions(lags, cols=None):
-        if isinstance(lags, int):
-            lags = range(1, lags + 1)
-        if not cols:
-            for i in lags:
-                yield (pl.all().exclude("Időpont").shift(-i).name.suffix(f"_t+{i*15}min"))
-        else:
-            for i in lags:
-                for colname in cols:
-                    yield (pl.col(colname).shift(-i).name.suffix(f"_t+{i*15}min"))
-
     X = final_df.select(
         pl.all(),
         *timelag_expressions(40, cols_10_h),
         *timelag_expressions(48, cols_12_h),
+        *timelag_expressions(-40, set(keep_cols) - set(cols_10_h) - set(cols_12_h) - {"Időpont"}),
     )
     y = final_df.select(
         *timelag_expressions(range(16, 21), target_cols),
