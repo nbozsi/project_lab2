@@ -64,9 +64,8 @@ def create_training_data(df):
         *timelag_expressions(range(16, 21), target_cols),
     )
 
-    # nulls should be only at the tail of the dataframe
     X = X.drop_nulls()
-    y = y.slice(0, X.height)
+    y = y.slice(40, y.height - 48 - 40)
 
     return (X, y)
 
