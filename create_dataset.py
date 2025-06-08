@@ -1,4 +1,5 @@
 import polars as pl
+from english_terms import hun2eng
 
 mavir_neg = pl.read_parquet("data/mavir_Neg_data.parquet").with_columns(
     pl.col("Dátum")
@@ -128,5 +129,5 @@ joined_df = joined_df.drop("Óraátállítás")
 # Move 'Időpont' to the first column
 joined_df = joined_df.select(["Időpont"] + [col for col in joined_df.columns if col != "Időpont"])
 
-
-joined_df.write_parquet("data/joined_df.parquet")
+joined_df.write_parquet("data/joined_df_HU.parquet")
+joined_df.rename(hun2eng).write_parquet("data/joined_df.parquet")

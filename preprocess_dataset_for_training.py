@@ -29,29 +29,29 @@ def create_training_data(df):
     final_df = df.select(keep_cols.to_list()).fill_null(strategy="forward")
 
     cols_10_h = (
-        "Szélerőművek becsült termelése (aktuális)",
-        "Szélerőművek becsült termelése (dayahead)",
-        "Szélerőművek becsült termelése (intraday)",
-        "Naperőművek becsült termelése (aktuális)",
-        "Naperőművek becsült termelése (intraday)",
-        "Naperőművek becsült termelése (dayahead)",
+        "Estimated Wind Power Production (Current)",
+        "Estimated Wind Power Production (Day-Ahead)",
+        "Estimated Wind Power Production (Intraday)",
+        "Estimated Solar Power Production (Current)",
+        "Estimated Solar Power Production (Intraday)",
+        "Estimated Solar Power Production (Day-Ahead)",
     )
 
     cols_12_h = (
-        "Bruttó terv erőművi termelés",
-        "Bruttó rendszerterhelés becslés (dayahead)",
-        "HU-AT menetrend",
-        "HU-HR menetrend",
-        # "HU-SI menetrend (RIR NT)",
-        "HU-SK menetrend",
-        "HU-RS menetrend",
-        "HU-UK menetrend",
-        "HU-RO menetrend",
+        "Gross Planned Power Plant Generation",
+        "Gross System Load Forecast (Day-Ahead)",
+        "HU-AT Schedule",
+        "HU-HR Schedule",
+        "HU-SK Schedule",
+        "HU-RS Schedule",
+        "HU-UA Schedule",
+        "HU-RO Schedule",
     )
+
     target_cols = (
-        "Negatív Mérlegköri kiegyenlítő energia egységára (HUF/kWh)",
-        "Pozitív Mérlegköri kiegyenlítő energia egységára (HUF/kWh)",
-        "Rendszer-irány (kWh)",
+        "Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)",
+        "Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)",
+        "System Direction (kWh)",
     )
 
     X = final_df.select(
