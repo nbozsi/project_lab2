@@ -1,5 +1,4 @@
 venv
 excels
 __pycache__
-*.ipynb
 .vscode

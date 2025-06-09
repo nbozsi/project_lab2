@@ -61,7 +61,7 @@ def create_training_data(df):
         *timelag_expressions(-40, set(keep_cols) - set(cols_10_h) - set(cols_12_h) - {"Időpont"}),
     )
     y = final_df.select(
-        *timelag_expressions(range(16, 21), target_cols),
+        *timelag_expressions(range(1, 6), target_cols),
     )
 
     X = X.drop_nulls()
