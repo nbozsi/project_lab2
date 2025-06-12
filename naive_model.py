@@ -22,7 +22,9 @@ def lag_chart(df, colors=["red", "green"], width=800, height=400):
             color=alt.Color("Target:N", scale=alt.Scale(range=colors)).legend(
                 orient="bottom", direction="vertical", labelFontSize=13, titleFontSize=13, labelLimit=600
             ),
-            strokeDash=alt.StrokeDash("model:N").legend(orient="bottom", labelFontSize=13, titleFontSize=13),
+            strokeDash=alt.StrokeDash("model:N", sort=(model_name, "Naive model")).legend(
+                orient="bottom", labelFontSize=13, titleFontSize=13
+            ),
         )
     else:
         base = alt.Chart(df).encode(
@@ -85,17 +87,17 @@ chart.save("figures/naive_model_rmse_unit_price.png")
 chart = lag_chart(naive_results.filter(pl.col("error measure") == "R²"), ["red", "green", "blue"])
 chart.save("figures/naive_model_R2.png")
 
-results = pl.read_parquet("dense_results512.parquet")
+results = pl.read_parquet("xgboost_separate_results.parquet")
 
 results = results.with_columns(
     pl.col("Target").str.strip_chars_end("t+1234567890min").str.strip_suffix("_"),
     (pl.col("Target").str.extract(r"_t\+(\d*)min").cast(pl.Int32) * 60 * 1000).cast(pl.Datetime("ms")).alias("lag"),
 ).unpivot(["MAE", "RMSE", "R²"], index=["Target", "lag"], variable_name="error measure", value_name="error")
-print(results)
-print(naive_results.columns)
+
+model_name = "xgboost"
 compare = pl.concat(
     (
-        results.with_columns(model=pl.lit("Dense model")),
+        results.with_columns(model=pl.lit(model_name)),
         naive_results.with_columns(model=pl.lit("Naive model")),
     ),
     how="vertical",
@@ -105,14 +107,14 @@ sys_dir = compare.filter((pl.col("Target") == "System Direction (kWh)"))
 unit_prices = compare.filter((pl.col("Target") != "System Direction (kWh)"))
 
 chart = lag_chart(sys_dir.filter(pl.col("error measure") == "MAE"), ["blue"])
-chart.save("figures/dense512_mae_system_direction.png")
+chart.save(f"figures/{model_name}_mae_system_direction.png")
 chart = lag_chart(sys_dir.filter(pl.col("error measure") == "RMSE"), ["blue"])
-chart.save("figures/dense512_rmse_system_direction.png")
+chart.save(f"figures/{model_name}_rmse_system_direction.png")
 
 chart = lag_chart(unit_prices.filter(pl.col("error measure") == "MAE"))
-chart.save("figures/dense512_mae_unit_price.png")
+chart.save(f"figures/{model_name}_mae_unit_price.png")
 chart = lag_chart(unit_prices.filter(pl.col("error measure") == "RMSE"))
-chart.save("figures/dense512_rmse_unit_price.png")
+chart.save(f"figures/{model_name}_rmse_unit_price.png")
 
 chart = lag_chart(compare.filter(pl.col("error measure") == "R²"), ["red", "green", "blue"])
-chart.save("figures/dense512_R2.png")
+chart.save(f"figures/{model_name}_R2.png")
