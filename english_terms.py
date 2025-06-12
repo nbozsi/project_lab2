@@ -16,6 +16,7 @@ hun2eng = {
     "HU-RS menetrend": "HU-RS Schedule",
     "HU-UK menetrend": "HU-UA Schedule",
     "HU-RO menetrend": "HU-RO Schedule",
+    "HU-SI menetrend (RIR NT)": "HU-SI Schedule (RIR NT)",
     "Bruttó hitelesített rendszerterhelés tény": "Gross Certified System Load (Actual)",
     "Bruttó terv rendszerterhelés": "Gross Planned System Load",
     "Bruttó tény erőművi termelés": "Gross Actual Power Plant Generation",
@@ -26,9 +27,11 @@ hun2eng = {
     "HU-RS": "HU-RS",
     "HU-SK": "HU-SK",
     "HU-UK": "HU-UA",
+    "HU-SI": "HU-SI",
     "Igényelt Negatív aFRR kiegyenlítő szabályozási energia (kWh)": "Requested Negative aFRR Balancing Energy (kWh)",
     "Igényelt Pozitív aFRR kiegyenlítő szabályozási energia (kWh)": "Requested Positive aFRR Balancing Energy (kWh)",
     "Naperőművek nettó üzemirányítási": "Solar Power Plants Net (Operational Control)",
+    "Ipari naperőművek nettó kereskedelmi": "Solar Power Plants Net (Commercial)",
     "Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)": "Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)",
     "Negatív GCC energia (kWh)": "Negative GCC Energy (kWh)",
     "Negatív aFRR aktivált kiegyenlítő szabályozási energia (kWh)": "Activated Negative aFRR Balancing Energy (kWh)",
@@ -52,6 +55,8 @@ hun2eng = {
     "System Direction (kWh)": "System Direction (kWh)",
     "Szélerőművek tény - nettó kereskedelmi elszámolási": "Wind Power Actual - Net Commercial Settlement",
     "Szélerőművek tény - nettó üzemirányítási": "Wind Power Actual - Net Operational Control",
+    "Szélerőművek tény - bruttó üzemirányítási": "Wind Power Actual - Gross Operational Control",
+    "Szélerőművek tény - bruttó üzemirányítási 1p": "Wind Power Actual - Gross Operational Control 1p",
 }
 
 eng2hun = {v: k for k, v in hun2eng.items()}
