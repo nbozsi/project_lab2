@@ -1,0 +1,8 @@
+venv
+excels
+__pycache__
+.vscode
+lightning_logs
+*.pkl
+era5
+corrupted
