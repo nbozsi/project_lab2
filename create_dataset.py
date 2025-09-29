@@ -116,15 +116,13 @@ wind = dataframes_dict["wind"]
 
 # List of DataFrames to join
 dataframes = [mavir_neg, mavir_poz, PV, hatar_aramlas, real_time_aggregated, rendszerterheles, wind]
-
-join_key = "Időpont"
-
-# Sequentially join all DataFrames on the exact match of the 'Időpont' column
-joined_df = dataframes[0]
+joined_df = dataframes[0].with_columns(pl.col("Időpont").cum_count().over("Időpont").alias("Óraátállítás"))
 for df in dataframes[1:]:
-    joined_df = joined_df.join(df, on=join_key, how="inner")
+    joined_df = joined_df.join(
+        df.with_columns(pl.col("Időpont").cum_count().over("Időpont").alias("Óraátállítás")), on=("Időpont", "Óraátállítás"), how="inner"
+    )
+    print(joined_df.height)
 
-joined_df = joined_df.drop("Óraátállítás")
 
 # Move 'Időpont' to the first column
 joined_df = joined_df.select(["Időpont"] + [col for col in joined_df.columns if col != "Időpont"])
