@@ -56,7 +56,23 @@ def create_training_data(df):
         "System Direction (kWh)",
     )
 
-    exclude_cols = {"valid_time", "number", "expver"}
+    exclude_cols = {"valid_time", "number", "expver", 
+                    "Óraátállítás", "Net System Load (Actual - Operational Control)",
+                    "Activated Negative mFRR and RR Balancing Energy Cost (HUF)",
+                    "Activated Positive mFRR and RR Balancing Energy Cost (HUF)",
+                    "Activated Positive mFRR and RR Balancing Energy (kWh)",
+                    "Activated Negative mFRR and RR Balancing Energy (kWh)",
+                    "Gross Actual System Load",
+                    "Gross Planned System Load",
+                    "Net Actual System Load - Net Commercial Settlement Measurement",
+                    "Net Domestic Generation (Actual)",
+                    "Net Load",
+                    "Net Planned Power Plant Generation",
+                    "Net Planned System Generation",
+                    "Net Planned System Load",
+                    "Net System Load Forecast (Day-Ahead)",
+                    
+                    }
     X = final_df.select(
         pl.all().exclude(exclude_cols),
         *timelag_expressions(40, cols_10_h),
