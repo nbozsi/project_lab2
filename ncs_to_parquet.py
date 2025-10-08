@@ -19,24 +19,13 @@ df = pl.from_dataframe(df).with_columns(
     pl.col("valid_time").dt.cast_time_unit("us").dt.replace_time_zone("Europe/Budapest", ambiguous="earliest", non_existent="null")
 )
 
-joined_time_col = pl.read_parquet("data/joined_df.parquet", columns="Időpont")
+joined_time_col = pl.read_parquet("data/joined_df.parquet", columns="UTCdate")
 print(joined_time_col.height)
 df = df.sort(by="valid_time").upsample("valid_time", every="15m", maintain_order=True).select(pl.all().fill_null(strategy="forward"))
 print(df.height)
-print(df)
-print(joined_time_col)
 
-# print(df.join(joined_time_col, left_on="valid_time", right_on="Időpont", how="inner"))
-
-# Find duplicates in join keys
-dupes_a = joined_time_col.filter(pl.col("Időpont").is_duplicated())
-dupes_b = df.filter(pl.col("valid_time").is_duplicated())
-dupes_a.write_parquet("mizu.parquet")
-print(dupes_a)
-print(dupes_b)
 
 df.write_parquet("hungary_hourly_temperature_2019_2024.parquet")
 joined = pl.read_parquet("data/joined_df.parquet")
-full = df.join(joined, how="inner", left_on="valid_time", right_on="Időpont")
-print(full.height)
+full = df.join(joined, how="inner", left_on="valid_time", right_on="UTCdate")
 full.write_parquet("data/joined_df_with_weather.parquet")
