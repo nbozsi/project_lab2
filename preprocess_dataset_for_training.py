@@ -38,6 +38,8 @@ def create_training_data(df):
     )
 
     cols_12_h = (
+        'temp_avg',
+        'temp_std',
         "Gross Planned Power Plant Generation",
         "Gross System Load Forecast (Day-Ahead)",
         "HU-AT Schedule",
@@ -54,11 +56,31 @@ def create_training_data(df):
         "System Direction (kWh)",
     )
 
+    exclude_cols = {"valid_time", "number", "expver", 
+                    "Óraátállítás", "Net System Load (Actual - Operational Control)",
+                    "Activated Negative mFRR and RR Balancing Energy Cost (HUF)",
+                    "Activated Positive mFRR and RR Balancing Energy Cost (HUF)",
+                    "Activated Positive mFRR and RR Balancing Energy (kWh)",
+                    "Activated Negative mFRR and RR Balancing Energy (kWh)",
+                    "Gross Actual System Load",
+                    "Gross Planned System Load",
+                    "Net Actual System Load - Net Commercial Settlement Measurement",
+                    "Net Domestic Generation (Actual)",
+                    "Net Load",
+                    "Net Planned Power Plant Generation",
+                    "Net Planned System Generation",
+                    "Net Planned System Load",
+                    "Net System Load Forecast (Day-Ahead)",
+                    
+                    }
     X = final_df.select(
-        pl.all(),
+        pl.all().exclude(exclude_cols),
         *timelag_expressions(40, cols_10_h),
         *timelag_expressions(48, cols_12_h),
-        *timelag_expressions(-40, set(keep_cols) - set(cols_10_h) - set(cols_12_h) - {"Időpont"}),
+        *timelag_expressions(
+            -40,
+            set(keep_cols) - set(cols_10_h) - set(cols_12_h) - {"Időpont"} - exclude_cols,
+        ),
     )
     y = final_df.select(
         *timelag_expressions(range(1, 6), target_cols),
@@ -71,7 +93,7 @@ def create_training_data(df):
 
 
 if __name__ == "__main__":
-    joined_df = pl.read_parquet("data/joined_df.parquet")
+    joined_df = pl.read_parquet("data/joined_df_with_weather.parquet")
     X, y = create_training_data(joined_df)
     print(y.describe())
     print(X.describe())
