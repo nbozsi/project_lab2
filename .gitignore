@@ -6,3 +6,5 @@ lightning_logs
 *.pkl
 era5
 corrupted
+era5_ssrd
+era5_wind
