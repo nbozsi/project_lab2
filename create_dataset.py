@@ -1,6 +1,7 @@
 import polars as pl
-from english_terms import hun2eng
 
+from era5csv_reader import read_all_era5
+from english_terms import hun2eng
 
 COMMON_DATECOL_NAME = "UTCdate"
 mavir_neg = pl.read_parquet("data/mavir_Neg_data.parquet").with_columns(
@@ -37,8 +38,6 @@ wind = pl.read_parquet("data/wind.parquet").rename({"Időpont": "UTCdate"})
 
 
 def delete_cols_with_nulls(df, null_th=0.1):
-    # Identify all columns except the join key COMMON_DATECOL_NAME
-    non_id_cols = [col for col in df.columns if col != COMMON_DATECOL_NAME]
 
     # Sum non-null indicators for these columns; if the sum is 0, then all are null.
     cols_with_nulls = list(col for col, nc in df.select(pl.all().null_count()).to_dict().items() if nc[0] / df.height > null_th)
@@ -58,8 +57,10 @@ real_time_aggregated = delete_cols_with_nulls(real_time_aggregated)
 rendszerterheles = delete_cols_with_nulls(rendszerterheles)
 wind = delete_cols_with_nulls(wind)
 
+
 # List of DataFrames to join
 dataframes = [mavir_neg, mavir_poz, PV, hatar_aramlas, real_time_aggregated, rendszerterheles, wind]
+
 joined_df = dataframes[0].with_columns(pl.col(COMMON_DATECOL_NAME).cum_count().over(COMMON_DATECOL_NAME).alias("Óraátállítás"))
 for df in dataframes[1:]:
     joined_df = joined_df.join(
@@ -74,4 +75,13 @@ for df in dataframes[1:]:
 joined_df = joined_df.select([COMMON_DATECOL_NAME] + [col for col in joined_df.columns if col != COMMON_DATECOL_NAME])
 
 joined_df.write_parquet("data/joined_df_HU.parquet")
-joined_df.rename(hun2eng).write_parquet("data/joined_df.parquet")
+joined_df = joined_df.rename(hun2eng)
+joined_df.write_parquet("data/joined_df.parquet")
+
+
+# adding weather data
+weather_data = read_all_era5("data/era5_weather")
+joined_df = joined_df.join(weather_data, on=COMMON_DATECOL_NAME, how="left")
+print(joined_df.height)
+
+joined_df.write_parquet("data/joined_df_with_weather.parquet")
