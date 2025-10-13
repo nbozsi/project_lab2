@@ -83,10 +83,10 @@ joined_df.write_parquet("data/joined_df.parquet")
 weather_data = read_all_era5("data/era5_weather")
 
 # creating 1 with only adding temperature
-joined_df.join(weather_data.select("UTCdate", "temperature", "volatility"), on=COMMON_DATECOL_NAME, how="left").write_parquet(
+joined_df_temp = joined_df.join(weather_data.select("UTCdate", "temp_mean", "temp_std"), on=COMMON_DATECOL_NAME, how="left").write_parquet(
     "data/joined_df_with_temp.parquet"
 )
 
-joined_df = joined_df.join(weather_data, on=COMMON_DATECOL_NAME, how="left")
+joined_df_weather = joined_df.join(weather_data, on=COMMON_DATECOL_NAME, how="left")
 print(joined_df.height)
-joined_df.write_parquet("data/joined_df_with_weather.parquet")
+joined_df_weather.write_parquet("data/joined_df_with_weather.parquet")

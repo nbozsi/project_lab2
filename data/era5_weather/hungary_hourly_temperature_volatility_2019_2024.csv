@@ -1,4 +1,4 @@
-valid_time,number,expver,volatility
+valid_time,number,expver,temp_std
 2019-01-01 00:00:00,0,0001,1.3324608
 2019-01-01 01:00:00,0,0001,1.323898
 2019-01-01 02:00:00,0,0001,1.2285554
