@@ -1,7 +1,7 @@
 import polars as pl
 from sklearn.metrics import mean_absolute_error, root_mean_squared_error, r2_score
 import altair as alt
-
+from datetime import datetime
 
 TIMELAGS = range(1, 6)  # in steps (1 step is 15 minutes)
 
@@ -51,10 +51,14 @@ joined_df = pl.read_parquet("data/joined_df.parquet")
 results = []
 for lag in TIMELAGS:
     for target in TARGET_COLS:
-        df = joined_df.select(pl.col(target).alias("y_true"), pl.col(target).shift(lag).alias("y_pred")).slice(lag)
-
+        df = (
+            joined_df.filter(pl.col("UTCdate").dt.replace_time_zone(None) >= datetime(2024, 1, 1))
+            .select(pl.col(target).alias("y_true"), pl.col(target).shift(lag).alias("y_pred"))
+            .slice(lag)
+        )
         y_true = df["y_true"]
         y_pred = df["y_pred"]
+        print("shape", df.height)
 
         results.append(
             {
