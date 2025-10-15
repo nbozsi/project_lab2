@@ -1,7 +1,9 @@
 import polars as pl
 from sklearn.metrics import mean_absolute_error, root_mean_squared_error, r2_score
-import altair as alt
+
 from datetime import datetime
+from plot_results import lag_chart
+
 
 TIMELAGS = range(1, 6)  # in steps (1 step is 15 minutes)
 
@@ -13,52 +15,14 @@ TARGET_COLS = (
 )
 
 
-def lag_chart(df, colors=["red", "green"], model_name=None, width=800, height=400):
-    # Base encodings
-    if "model" in df.columns:
-        base = alt.Chart(df).encode(
-            x=alt.X("lag:T", axis=alt.Axis(title="Lag", labelAngle=0, labelFontSize=14, titleFontSize=14, tickCount=4, format="%H:%M")),
-            y=alt.Y("error:Q", axis=alt.Axis(title="Error", labelFontSize=14, titleFontSize=14)),
-            color=alt.Color("Target:N", scale=alt.Scale(range=colors)).legend(
-                orient="bottom", direction="vertical", labelFontSize=13, titleFontSize=13, labelLimit=600
-            ),
-            strokeDash=alt.StrokeDash("model:N", sort=(model_name, "Naive model")).legend(
-                orient="bottom", labelFontSize=13, titleFontSize=13
-            ),
-        )
-    else:
-        base = alt.Chart(df).encode(
-            x=alt.X("lag:T", axis=alt.Axis(title="Lag", labelAngle=0, labelFontSize=14, titleFontSize=14, tickCount=4, format="%H:%M")),
-            y=alt.Y("error:Q", axis=alt.Axis(title="Error", labelFontSize=14, titleFontSize=14)),
-            color=alt.Color("Target:N", scale=alt.Scale(range=colors)).legend(
-                orient="bottom", direction="vertical", labelFontSize=13, titleFontSize=13, labelLimit=600
-            ),
-            strokeDash=alt.StrokeDash("error measure:N").legend(orient="bottom", labelFontSize=13, titleFontSize=13),
-        )
-
-    # Line chart
-    line = base.mark_line(size=2)
-
-    # Point markers
-    points = base.mark_point(size=50, filled=False)
-
-    # Combine
-    return (points + line).properties(width=800, height=300)
-
-
-joined_df = pl.read_parquet("data/joined_df.parquet")
+joined_df = pl.read_parquet("data/joined_df.parquet").filter(pl.col("UTCdate").dt.replace_time_zone(None) >= datetime(2024, 1, 1))
 
 results = []
 for lag in TIMELAGS:
     for target in TARGET_COLS:
-        df = (
-            joined_df.filter(pl.col("UTCdate").dt.replace_time_zone(None) >= datetime(2024, 1, 1))
-            .select(pl.col(target).alias("y_true"), pl.col(target).shift(lag).alias("y_pred"))
-            .slice(lag)
-        )
+        df = joined_df.select(pl.col(target).alias("y_true"), pl.col(target).shift(lag).alias("y_pred")).slice(lag)
         y_true = df["y_true"]
         y_pred = df["y_pred"]
-        print("shape", df.height)
 
         results.append(
             {
@@ -70,12 +34,12 @@ for lag in TIMELAGS:
             }
         )
 
-naive_results = (
-    pl.from_dicts(results)
-    .unpivot(["MAE", "RMSE", "R²"], index=["Target", "lag"], variable_name="error measure", value_name="error")
-    .with_columns(
-        (pl.col("lag") * 15 * 60 * 1000).cast(pl.Datetime("ms")),
-    )
+naive_results = pl.from_dicts(results)
+naive_results.write_csv("model_results/naive_model.csv")
+naive_results = naive_results.unpivot(
+    ["MAE", "RMSE", "R²"], index=["Target", "lag"], variable_name="error measure", value_name="error"
+).with_columns(
+    (pl.col("lag") * 15 * 60 * 1000).cast(pl.Datetime("ms")),
 )
 
 
