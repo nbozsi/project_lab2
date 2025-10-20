@@ -31,7 +31,7 @@ def unpivot_errors(df):
     return df.with_columns(
         pl.col("Target").str.strip_chars_end("t+1234567890min").str.strip_suffix("_"),
         (pl.col("Target").str.extract(r"_t\+(\d*)min").cast(pl.Int32) * 60 * 1000).cast(pl.Datetime("ms")).alias("lag"),
-    ).unpivot(["MAE", "RMSE", "R²"], index=["Target", "lag"], variable_name="error measure", value_name="error")
+    ).unpivot(set(df.columns) - {"Target", "lag"}, index=["Target", "lag"], variable_name="error measure", value_name="error")
 
 
 def compare_results(results):
