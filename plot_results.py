@@ -45,7 +45,7 @@ def compare_results(results):
     pos_unit_prices = compare.filter((pl.col("Target") == "Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)"))
     neg_unit_prices = compare.filter((pl.col("Target") == "Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)"))
 
-    for meas in ("MAE", "RMSE", "R²"):
+    for meas in compare["error measure"].unique():
         chart = lag_chart(sys_dir.filter(pl.col("error measure") == meas))
         chart.save(f"figures/{meas}_system_direction.png")
         chart = lag_chart(pos_unit_prices.filter(pl.col("error measure") == meas))
