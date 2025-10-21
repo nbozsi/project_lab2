@@ -17,6 +17,7 @@ def lag_chart(df, width=800, height=400):
         .properties(title=df["Target"][0])
     )
 
+    bar = base.mark_bar()
     # Line chart
     line = base.mark_line(size=2)
 
@@ -25,6 +26,28 @@ def lag_chart(df, width=800, height=400):
 
     # Combine
     return (points + line).properties(width=800, height=300)
+
+
+def lag_chart(df, width=800, height=400):
+
+    # Base encodings
+    base = (
+        alt.Chart(df)
+        .encode(
+            x=alt.X("model:N"),
+            y=alt.Y("error:Q", axis=alt.Axis(title=df["error measure"][0], labelFontSize=14, titleFontSize=14)),
+            color=alt.Color("model:N")
+            .scale(scheme="category10")
+            .legend(orient="bottom", direction="horizontal", labelFontSize=13, titleFontSize=13, labelLimit=600),
+            column=alt.Column("lag:T", header=alt.Header(format="%H:%M")),
+        )
+        .properties(title=df["Target"][0])
+    )
+
+    bar = base.mark_bar()
+
+    # Combine
+    return bar  # .properties(width=800, height=300)
 
 
 def unpivot_errors(df):
@@ -55,7 +78,7 @@ def compare_results(results):
 
 
 results = {
-    "xgboost_w_weather": unpivot_errors(pl.read_parquet("model_results/xgboost_separate_results.parquet")),
+    "xgboost_w_weather": unpivot_errors(pl.read_csv("model_results/xgb_results_with_weather.csv")),
     "NN": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_joined_df.csv")),
     "NN_w_temp": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_joined_df_with_temp.csv")),
     "NN_w_weather": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_joined_df_with_weather.csv")),
