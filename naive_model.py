@@ -2,7 +2,6 @@ import polars as pl
 from sklearn.metrics import mean_absolute_error, root_mean_squared_error, r2_score
 
 from datetime import datetime
-from plot_results import lag_chart
 from smape_error import smape
 
 TIMELAGS = range(1, 6)  # in steps (1 step is 15 minutes)
@@ -29,7 +28,7 @@ for lag in TIMELAGS:
                 "Target": f"{target}_t+{lag*15}min",
                 "MAE": mean_absolute_error(y_true, y_pred),
                 "RMSE": root_mean_squared_error(y_true, y_pred),
-                "R²": r2_score(y_true, y_pred),
+                "R2": r2_score(y_true, y_pred),
                 "SMAPE": smape(y_true.to_numpy(), y_pred.to_numpy()),
             }
         )

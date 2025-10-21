@@ -1,6 +1,5 @@
 import altair as alt
 import polars as pl
-from semver import compare
 
 
 def lag_chart(df, width=800, height=400):
@@ -56,10 +55,13 @@ def compare_results(results):
 
 
 results = {
-    "xgboost": unpivot_errors(pl.read_parquet("model_results/xgboost_separate_results.parquet")),
-    "NN": unpivot_errors(pl.read_csv("model_results/evaluation_metrics_joined_df.csv")),
-    "NN_with_temp": unpivot_errors(pl.read_csv("model_results/evaluation_metrics_joined_df_with_temp.csv")),
-    "NN_with_weather": unpivot_errors(pl.read_csv("model_results/evaluation_metrics_joined_df_with_weather.csv")),
+    "xgboost_w_weather": unpivot_errors(pl.read_parquet("model_results/xgboost_separate_results.parquet")),
+    "NN": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_joined_df.csv")),
+    "NN_w_temp": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_joined_df_with_temp.csv")),
+    "NN_w_weather": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_joined_df_with_weather.csv")),
+    "NNH": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_Huber_joined_df.csv")),
+    "NNH_w_temp": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_Huber_joined_df_with_temp.csv")),
+    "NNH_w_weather": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_Huber_joined_df_with_weather.csv")),
     "naive": unpivot_errors(pl.read_csv("model_results/naive_model.csv")),
 }
 compare_results(results)
