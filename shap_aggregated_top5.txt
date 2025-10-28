@@ -1,0 +1,810 @@
+=== Target: Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t+15min ===
+ 1. Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.04663
+ 2. Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.04096
+ 3. Negative GCC Energy (kWh): 0.03543
+ 4. day_of_year: 0.02202
+ 5. Requested Negative aFRR Balancing Energy (kWh): 0.01955
+ 6. Activated Negative aFRR Balancing Energy (kWh): 0.01879
+ 7. Positive GCC Energy (kWh): 0.01404
+ 8. Activated Positive aFRR Balancing Energy Cost (HUF): 0.01386
+ 9. HU-RO Schedule: 0.01265
+10. HU-AT Schedule: 0.01096
+11. Requested Positive aFRR Balancing Energy (kWh): 0.01037
+12. dayofweek_cos: 0.00978
+13. Gross System Load Forecast (Day-Ahead): 0.00961
+14. Activated Positive aFRR Balancing Energy (kWh): 0.00927
+15. HU-HR Schedule: 0.00915
+16. Estimated Wind Power Production (Intraday): 0.00905
+17. Solar Power Plants Net (Operational Control): 0.00887
+18. HU-RS Schedule: 0.00789
+19. HU-SK Schedule: 0.00776
+20. Gross Certified System Load (Actual): 0.00743
+21. hour: 0.00728
+22. Estimated Wind Power Production (Day-Ahead): 0.00705
+23. Estimated Wind Power Production (Current): 0.00690
+24. ssrd_mean: 0.00668
+25. Gross Actual Power Plant Generation: 0.00656
+26. HU-RO: 0.00653
+27. HU-SK: 0.00642
+28. Wind Power Actual - Net Commercial Settlement: 0.00631
+29. System Direction (kWh): 0.00629
+30. 100m_wind_speed_mean: 0.00547
+31. Estimated Solar Power Production (Current): 0.00544
+32. Estimated Solar Power Production (Day-Ahead): 0.00543
+33. UTCdate: 0.00536
+34. HU-HR: 0.00530
+35. Gross Planned Power Plant Generation: 0.00518
+36. ssrd_std: 0.00510
+37. Estimated Solar Power Production (Intraday): 0.00505
+38. Wind Power Actual - Net Operational Control: 0.00476
+39. HU-RS: 0.00451
+40. Activated Negative aFRR Balancing Energy Cost (HUF): 0.00449
+41. 10m_wind_speed_mean: 0.00448
+42. HU-AT: 0.00432
+43. 10m_wind_speed_std: 0.00430
+44. temp_std: 0.00346
+45. dayofweek_sin: 0.00344
+46. HU-UA: 0.00276
+47. HU-UA Schedule: 0.00275
+48. is_holiday: 0.00244
+49. dayofweek: 0.00210
+50. temp_mean: 0.00183
+51. 100m_wind_speed_std: 0.00170
+>>> Top 5 features (top 5 _t* averaged): Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh), Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh), Negative GCC Energy (kWh), day_of_year, Requested Negative aFRR Balancing Energy (kWh)
+
+=== Target: Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t+15min ===
+ 1. Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.04856
+ 2. Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.04280
+ 3. Negative GCC Energy (kWh): 0.03571
+ 4. Requested Negative aFRR Balancing Energy (kWh): 0.02073
+ 5. day_of_year: 0.02043
+ 6. Activated Negative aFRR Balancing Energy (kWh): 0.01940
+ 7. Activated Positive aFRR Balancing Energy Cost (HUF): 0.01437
+ 8. Positive GCC Energy (kWh): 0.01427
+ 9. HU-RO Schedule: 0.01281
+10. HU-AT Schedule: 0.01126
+11. Requested Positive aFRR Balancing Energy (kWh): 0.01064
+12. dayofweek_cos: 0.00978
+13. Gross System Load Forecast (Day-Ahead): 0.00964
+14. Activated Positive aFRR Balancing Energy (kWh): 0.00952
+15. HU-HR Schedule: 0.00942
+16. Estimated Wind Power Production (Intraday): 0.00813
+17. HU-RS Schedule: 0.00775
+18. Gross Certified System Load (Actual): 0.00749
+19. Solar Power Plants Net (Operational Control): 0.00740
+20. HU-SK Schedule: 0.00718
+21. hour: 0.00708
+22. ssrd_mean: 0.00691
+23. Estimated Wind Power Production (Day-Ahead): 0.00687
+24. HU-RO: 0.00677
+25. HU-SK: 0.00676
+26. Estimated Wind Power Production (Current): 0.00640
+27. Wind Power Actual - Net Commercial Settlement: 0.00634
+28. System Direction (kWh): 0.00628
+29. Gross Actual Power Plant Generation: 0.00620
+30. Estimated Solar Power Production (Current): 0.00587
+31. Estimated Solar Power Production (Day-Ahead): 0.00579
+32. HU-HR: 0.00563
+33. Gross Planned Power Plant Generation: 0.00531
+34. ssrd_std: 0.00517
+35. 100m_wind_speed_mean: 0.00517
+36. HU-RS: 0.00487
+37. 10m_wind_speed_mean: 0.00483
+38. Wind Power Actual - Net Operational Control: 0.00476
+39. UTCdate: 0.00441
+40. Estimated Solar Power Production (Intraday): 0.00434
+41. HU-AT: 0.00426
+42. Activated Negative aFRR Balancing Energy Cost (HUF): 0.00424
+43. 10m_wind_speed_std: 0.00420
+44. temp_std: 0.00349
+45. HU-UA: 0.00299
+46. is_holiday: 0.00282
+47. HU-UA Schedule: 0.00282
+48. 100m_wind_speed_std: 0.00245
+49. dayofweek: 0.00242
+50. dayofweek_sin: 0.00239
+51. temp_mean: 0.00198
+>>> Top 5 features (top 5 _t* averaged): Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh), Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh), Negative GCC Energy (kWh), Requested Negative aFRR Balancing Energy (kWh), day_of_year
+
+=== Target: System Direction (kWh)_t+15min ===
+ 1. System Direction (kWh): 0.05928
+ 2. day_of_year: 0.01802
+ 3. Negative GCC Energy (kWh): 0.01582
+ 4. Requested Negative aFRR Balancing Energy (kWh): 0.01263
+ 5. Activated Negative aFRR Balancing Energy (kWh): 0.01191
+ 6. hour: 0.01057
+ 7. UTCdate: 0.00980
+ 8. HU-RO Schedule: 0.00792
+ 9. HU-AT Schedule: 0.00728
+10. Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.00717
+11. Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.00713
+12. Requested Positive aFRR Balancing Energy (kWh): 0.00707
+13. Activated Positive aFRR Balancing Energy (kWh): 0.00637
+14. HU-RO: 0.00604
+15. Activated Positive aFRR Balancing Energy Cost (HUF): 0.00581
+16. HU-SK Schedule: 0.00571
+17. Gross System Load Forecast (Day-Ahead): 0.00554
+18. Wind Power Actual - Net Commercial Settlement: 0.00539
+19. HU-SK: 0.00538
+20. HU-RS Schedule: 0.00522
+21. HU-UA Schedule: 0.00509
+22. ssrd_mean: 0.00503
+23. Gross Certified System Load (Actual): 0.00485
+24. Estimated Solar Power Production (Intraday): 0.00474
+25. HU-HR Schedule: 0.00460
+26. Positive GCC Energy (kWh): 0.00460
+27. Solar Power Plants Net (Operational Control): 0.00439
+28. Estimated Solar Power Production (Current): 0.00427
+29. Estimated Wind Power Production (Intraday): 0.00419
+30. Estimated Wind Power Production (Day-Ahead): 0.00403
+31. Gross Planned Power Plant Generation: 0.00396
+32. Gross Actual Power Plant Generation: 0.00392
+33. Wind Power Actual - Net Operational Control: 0.00388
+34. Estimated Solar Power Production (Day-Ahead): 0.00387
+35. Estimated Wind Power Production (Current): 0.00364
+36. HU-RS: 0.00354
+37. HU-AT: 0.00354
+38. HU-HR: 0.00336
+39. 10m_wind_speed_std: 0.00320
+40. HU-UA: 0.00310
+41. 100m_wind_speed_mean: 0.00270
+42. 10m_wind_speed_mean: 0.00248
+43. dayofweek: 0.00243
+44. is_holiday: 0.00224
+45. dayofweek_sin: 0.00212
+46. ssrd_std: 0.00201
+47. dayofweek_cos: 0.00200
+48. 100m_wind_speed_std: 0.00189
+49. temp_mean: 0.00160
+50. Activated Negative aFRR Balancing Energy Cost (HUF): 0.00150
+51. temp_std: 0.00146
+>>> Top 5 features (top 5 _t* averaged): System Direction (kWh), day_of_year, Negative GCC Energy (kWh), Requested Negative aFRR Balancing Energy (kWh), Activated Negative aFRR Balancing Energy (kWh)
+
+=== Target: Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t+30min ===
+ 1. Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.03539
+ 2. Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.03234
+ 3. Negative GCC Energy (kWh): 0.03075
+ 4. day_of_year: 0.01904
+ 5. Activated Negative aFRR Balancing Energy (kWh): 0.01353
+ 6. HU-RO Schedule: 0.01278
+ 7. Positive GCC Energy (kWh): 0.01272
+ 8. Requested Negative aFRR Balancing Energy (kWh): 0.01242
+ 9. Gross System Load Forecast (Day-Ahead): 0.01061
+10. Activated Positive aFRR Balancing Energy Cost (HUF): 0.01006
+11. Solar Power Plants Net (Operational Control): 0.00973
+12. Estimated Wind Power Production (Intraday): 0.00929
+13. HU-AT Schedule: 0.00918
+14. dayofweek_cos: 0.00916
+15. Estimated Wind Power Production (Current): 0.00874
+16. Requested Positive aFRR Balancing Energy (kWh): 0.00804
+17. HU-HR Schedule: 0.00791
+18. HU-SK Schedule: 0.00755
+19. Activated Positive aFRR Balancing Energy (kWh): 0.00748
+20. hour: 0.00730
+21. Gross Certified System Load (Actual): 0.00717
+22. Gross Actual Power Plant Generation: 0.00691
+23. UTCdate: 0.00679
+24. HU-SK: 0.00654
+25. HU-RO: 0.00626
+26. HU-RS Schedule: 0.00617
+27. Estimated Solar Power Production (Current): 0.00595
+28. 100m_wind_speed_mean: 0.00584
+29. System Direction (kWh): 0.00578
+30. Wind Power Actual - Net Commercial Settlement: 0.00566
+31. Estimated Wind Power Production (Day-Ahead): 0.00550
+32. Estimated Solar Power Production (Day-Ahead): 0.00510
+33. Estimated Solar Power Production (Intraday): 0.00508
+34. Gross Planned Power Plant Generation: 0.00500
+35. HU-HR: 0.00500
+36. 10m_wind_speed_mean: 0.00494
+37. Wind Power Actual - Net Operational Control: 0.00489
+38. ssrd_mean: 0.00471
+39. HU-AT: 0.00436
+40. dayofweek_sin: 0.00425
+41. ssrd_std: 0.00411
+42. HU-RS: 0.00377
+43. 10m_wind_speed_std: 0.00354
+44. Activated Negative aFRR Balancing Energy Cost (HUF): 0.00348
+45. dayofweek: 0.00319
+46. HU-UA: 0.00288
+47. HU-UA Schedule: 0.00283
+48. is_holiday: 0.00269
+49. temp_std: 0.00255
+50. 100m_wind_speed_std: 0.00185
+51. temp_mean: 0.00147
+>>> Top 5 features (top 5 _t* averaged): Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh), Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh), Negative GCC Energy (kWh), day_of_year, Activated Negative aFRR Balancing Energy (kWh)
+
+=== Target: Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t+30min ===
+ 1. Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.03652
+ 2. Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.03246
+ 3. Negative GCC Energy (kWh): 0.03158
+ 4. day_of_year: 0.01764
+ 5. Activated Negative aFRR Balancing Energy (kWh): 0.01397
+ 6. Positive GCC Energy (kWh): 0.01348
+ 7. HU-RO Schedule: 0.01325
+ 8. Requested Negative aFRR Balancing Energy (kWh): 0.01273
+ 9. Gross System Load Forecast (Day-Ahead): 0.01238
+10. dayofweek_cos: 0.01093
+11. Activated Positive aFRR Balancing Energy Cost (HUF): 0.01027
+12. Solar Power Plants Net (Operational Control): 0.00970
+13. HU-AT Schedule: 0.00927
+14. Estimated Wind Power Production (Intraday): 0.00924
+15. Estimated Wind Power Production (Current): 0.00881
+16. Requested Positive aFRR Balancing Energy (kWh): 0.00858
+17. HU-HR Schedule: 0.00814
+18. Activated Positive aFRR Balancing Energy (kWh): 0.00774
+19. Gross Certified System Load (Actual): 0.00772
+20. HU-SK Schedule: 0.00765
+21. Gross Actual Power Plant Generation: 0.00697
+22. HU-SK: 0.00684
+23. UTCdate: 0.00665
+24. HU-RO: 0.00664
+25. hour: 0.00658
+26. HU-RS Schedule: 0.00650
+27. System Direction (kWh): 0.00609
+28. 100m_wind_speed_mean: 0.00606
+29. Estimated Solar Power Production (Current): 0.00590
+30. Wind Power Actual - Net Commercial Settlement: 0.00568
+31. Estimated Wind Power Production (Day-Ahead): 0.00548
+32. 10m_wind_speed_mean: 0.00528
+33. Estimated Solar Power Production (Day-Ahead): 0.00520
+34. Estimated Solar Power Production (Intraday): 0.00512
+35. Gross Planned Power Plant Generation: 0.00499
+36. HU-HR: 0.00492
+37. Wind Power Actual - Net Operational Control: 0.00485
+38. ssrd_mean: 0.00484
+39. HU-AT: 0.00449
+40. dayofweek_sin: 0.00437
+41. ssrd_std: 0.00434
+42. HU-RS: 0.00410
+43. 10m_wind_speed_std: 0.00368
+44. dayofweek: 0.00313
+45. Activated Negative aFRR Balancing Energy Cost (HUF): 0.00306
+46. HU-UA: 0.00301
+47. is_holiday: 0.00278
+48. temp_std: 0.00260
+49. HU-UA Schedule: 0.00255
+50. 100m_wind_speed_std: 0.00167
+51. temp_mean: 0.00158
+>>> Top 5 features (top 5 _t* averaged): Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh), Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh), Negative GCC Energy (kWh), day_of_year, Activated Negative aFRR Balancing Energy (kWh)
+
+=== Target: System Direction (kWh)_t+30min ===
+ 1. System Direction (kWh): 0.05174
+ 2. Negative GCC Energy (kWh): 0.01794
+ 3. Requested Negative aFRR Balancing Energy (kWh): 0.01170
+ 4. Activated Negative aFRR Balancing Energy (kWh): 0.01047
+ 5. hour: 0.01024
+ 6. UTCdate: 0.01000
+ 7. HU-RO Schedule: 0.00934
+ 8. Gross System Load Forecast (Day-Ahead): 0.00823
+ 9. day_of_year: 0.00745
+10. Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.00701
+11. HU-RO: 0.00691
+12. Requested Positive aFRR Balancing Energy (kWh): 0.00682
+13. HU-AT Schedule: 0.00681
+14. Activated Positive aFRR Balancing Energy (kWh): 0.00615
+15. HU-UA Schedule: 0.00595
+16. HU-SK Schedule: 0.00569
+17. HU-RS Schedule: 0.00551
+18. Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.00534
+19. HU-HR Schedule: 0.00522
+20. Estimated Solar Power Production (Intraday): 0.00490
+21. Activated Positive aFRR Balancing Energy Cost (HUF): 0.00479
+22. HU-SK: 0.00468
+23. Wind Power Actual - Net Commercial Settlement: 0.00446
+24. Positive GCC Energy (kWh): 0.00445
+25. Gross Certified System Load (Actual): 0.00429
+26. HU-RS: 0.00418
+27. Estimated Solar Power Production (Current): 0.00418
+28. HU-HR: 0.00416
+29. Wind Power Actual - Net Operational Control: 0.00410
+30. Estimated Solar Power Production (Day-Ahead): 0.00400
+31. HU-AT: 0.00393
+32. dayofweek_sin: 0.00391
+33. Solar Power Plants Net (Operational Control): 0.00390
+34. Estimated Wind Power Production (Day-Ahead): 0.00387
+35. ssrd_mean: 0.00383
+36. Estimated Wind Power Production (Intraday): 0.00365
+37. Estimated Wind Power Production (Current): 0.00362
+38. Gross Planned Power Plant Generation: 0.00344
+39. 10m_wind_speed_mean: 0.00342
+40. HU-UA: 0.00331
+41. Gross Actual Power Plant Generation: 0.00329
+42. 10m_wind_speed_std: 0.00283
+43. is_holiday: 0.00279
+44. 100m_wind_speed_mean: 0.00263
+45. dayofweek_cos: 0.00234
+46. ssrd_std: 0.00228
+47. dayofweek: 0.00212
+48. 100m_wind_speed_std: 0.00205
+49. temp_mean: 0.00159
+50. temp_std: 0.00147
+51. Activated Negative aFRR Balancing Energy Cost (HUF): 0.00125
+>>> Top 5 features (top 5 _t* averaged): System Direction (kWh), Negative GCC Energy (kWh), Requested Negative aFRR Balancing Energy (kWh), Activated Negative aFRR Balancing Energy (kWh), hour
+
+=== Target: Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t+45min ===
+ 1. Negative GCC Energy (kWh): 0.03105
+ 2. Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.02770
+ 3. Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.02358
+ 4. day_of_year: 0.02059
+ 5. Positive GCC Energy (kWh): 0.01456
+ 6. HU-RO Schedule: 0.01385
+ 7. Gross System Load Forecast (Day-Ahead): 0.01317
+ 8. Solar Power Plants Net (Operational Control): 0.01165
+ 9. Activated Negative aFRR Balancing Energy (kWh): 0.01131
+10. Requested Negative aFRR Balancing Energy (kWh): 0.01104
+11. hour: 0.01096
+12. Estimated Wind Power Production (Current): 0.01069
+13. Estimated Wind Power Production (Intraday): 0.01007
+14. HU-AT Schedule: 0.00971
+15. dayofweek_cos: 0.00894
+16. HU-SK Schedule: 0.00817
+17. Gross Certified System Load (Actual): 0.00765
+18. 100m_wind_speed_mean: 0.00702
+19. Requested Positive aFRR Balancing Energy (kWh): 0.00701
+20. Activated Positive aFRR Balancing Energy Cost (HUF): 0.00701
+21. Gross Actual Power Plant Generation: 0.00688
+22. Activated Positive aFRR Balancing Energy (kWh): 0.00676
+23. Estimated Solar Power Production (Current): 0.00657
+24. dayofweek_sin: 0.00624
+25. HU-HR Schedule: 0.00617
+26. Estimated Wind Power Production (Day-Ahead): 0.00611
+27. Wind Power Actual - Net Commercial Settlement: 0.00602
+28. 10m_wind_speed_mean: 0.00595
+29. Estimated Solar Power Production (Intraday): 0.00594
+30. System Direction (kWh): 0.00594
+31. HU-RO: 0.00571
+32. HU-RS Schedule: 0.00557
+33. Wind Power Actual - Net Operational Control: 0.00556
+34. HU-SK: 0.00550
+35. UTCdate: 0.00530
+36. Estimated Solar Power Production (Day-Ahead): 0.00474
+37. Gross Planned Power Plant Generation: 0.00467
+38. HU-RS: 0.00425
+39. ssrd_std: 0.00401
+40. HU-AT: 0.00384
+41. HU-HR: 0.00379
+42. ssrd_mean: 0.00367
+43. HU-UA: 0.00324
+44. Activated Negative aFRR Balancing Energy Cost (HUF): 0.00294
+45. is_holiday: 0.00272
+46. HU-UA Schedule: 0.00266
+47. dayofweek: 0.00233
+48. 10m_wind_speed_std: 0.00219
+49. temp_std: 0.00215
+50. temp_mean: 0.00162
+51. 100m_wind_speed_std: 0.00154
+>>> Top 5 features (top 5 _t* averaged): Negative GCC Energy (kWh), Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh), Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh), day_of_year, Positive GCC Energy (kWh)
+
+=== Target: Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t+45min ===
+ 1. Negative GCC Energy (kWh): 0.02989
+ 2. Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.02843
+ 3. Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.02378
+ 4. day_of_year: 0.01828
+ 5. Positive GCC Energy (kWh): 0.01420
+ 6. HU-RO Schedule: 0.01392
+ 7. Gross System Load Forecast (Day-Ahead): 0.01318
+ 8. Solar Power Plants Net (Operational Control): 0.01248
+ 9. Estimated Wind Power Production (Current): 0.01076
+10. Activated Negative aFRR Balancing Energy (kWh): 0.01067
+11. Requested Negative aFRR Balancing Energy (kWh): 0.01062
+12. dayofweek_cos: 0.01037
+13. Estimated Wind Power Production (Intraday): 0.01003
+14. hour: 0.00974
+15. HU-AT Schedule: 0.00949
+16. HU-SK Schedule: 0.00838
+17. Gross Certified System Load (Actual): 0.00774
+18. Activated Positive aFRR Balancing Energy Cost (HUF): 0.00738
+19. Requested Positive aFRR Balancing Energy (kWh): 0.00684
+20. Estimated Solar Power Production (Current): 0.00680
+21. Gross Actual Power Plant Generation: 0.00677
+22. Activated Positive aFRR Balancing Energy (kWh): 0.00662
+23. dayofweek_sin: 0.00650
+24. 100m_wind_speed_mean: 0.00639
+25. HU-HR Schedule: 0.00627
+26. System Direction (kWh): 0.00621
+27. HU-RO: 0.00618
+28. Wind Power Actual - Net Commercial Settlement: 0.00611
+29. Estimated Solar Power Production (Intraday): 0.00604
+30. UTCdate: 0.00601
+31. Estimated Wind Power Production (Day-Ahead): 0.00589
+32. Wind Power Actual - Net Operational Control: 0.00556
+33. 10m_wind_speed_mean: 0.00542
+34. HU-SK: 0.00533
+35. HU-RS Schedule: 0.00532
+36. Estimated Solar Power Production (Day-Ahead): 0.00503
+37. Gross Planned Power Plant Generation: 0.00503
+38. HU-RS: 0.00444
+39. HU-AT: 0.00394
+40. ssrd_mean: 0.00371
+41. ssrd_std: 0.00352
+42. HU-HR: 0.00333
+43. dayofweek: 0.00310
+44. HU-UA: 0.00288
+45. Activated Negative aFRR Balancing Energy Cost (HUF): 0.00279
+46. is_holiday: 0.00269
+47. HU-UA Schedule: 0.00262
+48. temp_std: 0.00224
+49. 10m_wind_speed_std: 0.00191
+50. temp_mean: 0.00167
+51. 100m_wind_speed_std: 0.00154
+>>> Top 5 features (top 5 _t* averaged): Negative GCC Energy (kWh), Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh), Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh), day_of_year, Positive GCC Energy (kWh)
+
+=== Target: System Direction (kWh)_t+45min ===
+ 1. System Direction (kWh): 0.04417
+ 2. Negative GCC Energy (kWh): 0.01682
+ 3. UTCdate: 0.01554
+ 4. day_of_year: 0.01336
+ 5. Requested Negative aFRR Balancing Energy (kWh): 0.01103
+ 6. Activated Negative aFRR Balancing Energy (kWh): 0.01094
+ 7. hour: 0.00871
+ 8. HU-RO Schedule: 0.00869
+ 9. HU-AT Schedule: 0.00773
+10. Gross System Load Forecast (Day-Ahead): 0.00728
+11. HU-RO: 0.00661
+12. Estimated Solar Power Production (Intraday): 0.00654
+13. Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.00611
+14. HU-SK Schedule: 0.00568
+15. Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.00533
+16. HU-RS Schedule: 0.00530
+17. Estimated Solar Power Production (Day-Ahead): 0.00520
+18. HU-UA Schedule: 0.00520
+19. Gross Actual Power Plant Generation: 0.00489
+20. Estimated Wind Power Production (Intraday): 0.00469
+21. Requested Positive aFRR Balancing Energy (kWh): 0.00459
+22. HU-HR Schedule: 0.00446
+23. Solar Power Plants Net (Operational Control): 0.00445
+24. Estimated Wind Power Production (Day-Ahead): 0.00439
+25. Positive GCC Energy (kWh): 0.00438
+26. HU-SK: 0.00428
+27. ssrd_mean: 0.00425
+28. Activated Positive aFRR Balancing Energy (kWh): 0.00424
+29. Activated Positive aFRR Balancing Energy Cost (HUF): 0.00418
+30. dayofweek: 0.00417
+31. Gross Certified System Load (Actual): 0.00416
+32. 100m_wind_speed_mean: 0.00415
+33. Wind Power Actual - Net Operational Control: 0.00414
+34. Estimated Wind Power Production (Current): 0.00410
+35. HU-HR: 0.00408
+36. 10m_wind_speed_std: 0.00379
+37. Estimated Solar Power Production (Current): 0.00363
+38. HU-AT: 0.00361
+39. Gross Planned Power Plant Generation: 0.00352
+40. HU-RS: 0.00349
+41. 10m_wind_speed_mean: 0.00344
+42. dayofweek_sin: 0.00343
+43. Wind Power Actual - Net Commercial Settlement: 0.00319
+44. HU-UA: 0.00272
+45. is_holiday: 0.00237
+46. 100m_wind_speed_std: 0.00235
+47. ssrd_std: 0.00227
+48. temp_std: 0.00178
+49. temp_mean: 0.00161
+50. dayofweek_cos: 0.00139
+51. Activated Negative aFRR Balancing Energy Cost (HUF): 0.00118
+>>> Top 5 features (top 5 _t* averaged): System Direction (kWh), Negative GCC Energy (kWh), UTCdate, day_of_year, Requested Negative aFRR Balancing Energy (kWh)
+
+=== Target: Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t+60min ===
+ 1. Negative GCC Energy (kWh): 0.03055
+ 2. Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.02269
+ 3. day_of_year: 0.02227
+ 4. Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.01855
+ 5. hour: 0.01515
+ 6. Gross System Load Forecast (Day-Ahead): 0.01456
+ 7. Solar Power Plants Net (Operational Control): 0.01374
+ 8. Positive GCC Energy (kWh): 0.01328
+ 9. HU-RO Schedule: 0.01229
+10. Requested Negative aFRR Balancing Energy (kWh): 0.01129
+11. Activated Negative aFRR Balancing Energy (kWh): 0.01120
+12. Estimated Wind Power Production (Current): 0.01068
+13. Estimated Wind Power Production (Intraday): 0.01047
+14. dayofweek_cos: 0.00931
+15. HU-AT Schedule: 0.00878
+16. Estimated Solar Power Production (Current): 0.00850
+17. Gross Certified System Load (Actual): 0.00804
+18. Wind Power Actual - Net Commercial Settlement: 0.00802
+19. Requested Positive aFRR Balancing Energy (kWh): 0.00797
+20. Activated Positive aFRR Balancing Energy Cost (HUF): 0.00794
+21. 100m_wind_speed_mean: 0.00770
+22. HU-SK Schedule: 0.00729
+23. Estimated Wind Power Production (Day-Ahead): 0.00714
+24. Estimated Solar Power Production (Intraday): 0.00708
+25. Activated Positive aFRR Balancing Energy (kWh): 0.00701
+26. Wind Power Actual - Net Operational Control: 0.00630
+27. UTCdate: 0.00624
+28. dayofweek_sin: 0.00611
+29. System Direction (kWh): 0.00601
+30. Gross Planned Power Plant Generation: 0.00598
+31. HU-SK: 0.00593
+32. Gross Actual Power Plant Generation: 0.00587
+33. Estimated Solar Power Production (Day-Ahead): 0.00572
+34. dayofweek: 0.00480
+35. HU-RO: 0.00471
+36. HU-HR Schedule: 0.00471
+37. 10m_wind_speed_mean: 0.00436
+38. HU-AT: 0.00374
+39. HU-RS Schedule: 0.00361
+40. HU-RS: 0.00349
+41. HU-HR: 0.00346
+42. ssrd_std: 0.00314
+43. is_holiday: 0.00284
+44. Activated Negative aFRR Balancing Energy Cost (HUF): 0.00281
+45. HU-UA: 0.00275
+46. 10m_wind_speed_std: 0.00250
+47. HU-UA Schedule: 0.00249
+48. temp_std: 0.00241
+49. 100m_wind_speed_std: 0.00217
+50. temp_mean: 0.00176
+51. ssrd_mean: 0.00170
+>>> Top 5 features (top 5 _t* averaged): Negative GCC Energy (kWh), Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh), day_of_year, Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh), hour
+
+=== Target: Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t+60min ===
+ 1. Negative GCC Energy (kWh): 0.03050
+ 2. Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.02233
+ 3. day_of_year: 0.02070
+ 4. Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.01869
+ 5. hour: 0.01577
+ 6. Gross System Load Forecast (Day-Ahead): 0.01414
+ 7. Solar Power Plants Net (Operational Control): 0.01386
+ 8. Positive GCC Energy (kWh): 0.01352
+ 9. HU-RO Schedule: 0.01242
+10. Requested Negative aFRR Balancing Energy (kWh): 0.01192
+11. Activated Negative aFRR Balancing Energy (kWh): 0.01118
+12. Estimated Wind Power Production (Current): 0.01051
+13. Estimated Wind Power Production (Intraday): 0.01023
+14. dayofweek_cos: 0.00897
+15. HU-AT Schedule: 0.00893
+16. Estimated Solar Power Production (Current): 0.00826
+17. 100m_wind_speed_mean: 0.00818
+18. Requested Positive aFRR Balancing Energy (kWh): 0.00806
+19. Activated Positive aFRR Balancing Energy Cost (HUF): 0.00786
+20. Wind Power Actual - Net Commercial Settlement: 0.00755
+21. Estimated Wind Power Production (Day-Ahead): 0.00747
+22. HU-SK Schedule: 0.00729
+23. Gross Certified System Load (Actual): 0.00716
+24. Estimated Solar Power Production (Intraday): 0.00708
+25. System Direction (kWh): 0.00700
+26. Activated Positive aFRR Balancing Energy (kWh): 0.00680
+27. UTCdate: 0.00614
+28. Gross Planned Power Plant Generation: 0.00604
+29. Wind Power Actual - Net Operational Control: 0.00599
+30. HU-SK: 0.00567
+31. Gross Actual Power Plant Generation: 0.00557
+32. Estimated Solar Power Production (Day-Ahead): 0.00555
+33. dayofweek_sin: 0.00538
+34. HU-HR Schedule: 0.00502
+35. 10m_wind_speed_mean: 0.00454
+36. HU-RO: 0.00443
+37. HU-AT: 0.00409
+38. HU-RS Schedule: 0.00384
+39. dayofweek: 0.00366
+40. HU-RS: 0.00361
+41. HU-HR: 0.00317
+42. Activated Negative aFRR Balancing Energy Cost (HUF): 0.00296
+43. ssrd_std: 0.00282
+44. temp_std: 0.00255
+45. HU-UA: 0.00249
+46. is_holiday: 0.00247
+47. HU-UA Schedule: 0.00245
+48. 100m_wind_speed_std: 0.00235
+49. 10m_wind_speed_std: 0.00210
+50. ssrd_mean: 0.00195
+51. temp_mean: 0.00168
+>>> Top 5 features (top 5 _t* averaged): Negative GCC Energy (kWh), Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh), day_of_year, Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh), hour
+
+=== Target: System Direction (kWh)_t+60min ===
+ 1. System Direction (kWh): 0.03749
+ 2. Negative GCC Energy (kWh): 0.01666
+ 3. day_of_year: 0.01323
+ 4. UTCdate: 0.01032
+ 5. HU-RO Schedule: 0.01002
+ 6. Requested Negative aFRR Balancing Energy (kWh): 0.00948
+ 7. Activated Negative aFRR Balancing Energy (kWh): 0.00868
+ 8. Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.00708
+ 9. HU-AT Schedule: 0.00706
+10. Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.00661
+11. Gross System Load Forecast (Day-Ahead): 0.00641
+12. HU-RO: 0.00564
+13. HU-SK Schedule: 0.00561
+14. Requested Positive aFRR Balancing Energy (kWh): 0.00529
+15. Estimated Solar Power Production (Intraday): 0.00504
+16. Activated Positive aFRR Balancing Energy Cost (HUF): 0.00483
+17. Gross Certified System Load (Actual): 0.00469
+18. Activated Positive aFRR Balancing Energy (kWh): 0.00468
+19. HU-UA Schedule: 0.00461
+20. HU-HR Schedule: 0.00454
+21. Estimated Wind Power Production (Intraday): 0.00441
+22. ssrd_mean: 0.00440
+23. Estimated Solar Power Production (Current): 0.00439
+24. 10m_wind_speed_mean: 0.00425
+25. hour: 0.00425
+26. Estimated Solar Power Production (Day-Ahead): 0.00412
+27. HU-SK: 0.00402
+28. Wind Power Actual - Net Commercial Settlement: 0.00400
+29. Positive GCC Energy (kWh): 0.00398
+30. Estimated Wind Power Production (Current): 0.00392
+31. HU-RS Schedule: 0.00386
+32. Solar Power Plants Net (Operational Control): 0.00386
+33. Wind Power Actual - Net Operational Control: 0.00371
+34. HU-HR: 0.00368
+35. Gross Planned Power Plant Generation: 0.00361
+36. Estimated Wind Power Production (Day-Ahead): 0.00359
+37. Gross Actual Power Plant Generation: 0.00354
+38. HU-AT: 0.00346
+39. HU-RS: 0.00346
+40. dayofweek_sin: 0.00328
+41. 100m_wind_speed_mean: 0.00325
+42. HU-UA: 0.00274
+43. ssrd_std: 0.00246
+44. 10m_wind_speed_std: 0.00236
+45. 100m_wind_speed_std: 0.00222
+46. is_holiday: 0.00202
+47. dayofweek: 0.00199
+48. dayofweek_cos: 0.00178
+49. temp_std: 0.00154
+50. temp_mean: 0.00153
+51. Activated Negative aFRR Balancing Energy Cost (HUF): 0.00121
+>>> Top 5 features (top 5 _t* averaged): System Direction (kWh), Negative GCC Energy (kWh), day_of_year, UTCdate, HU-RO Schedule
+
+=== Target: Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t+75min ===
+ 1. Negative GCC Energy (kWh): 0.02697
+ 2. day_of_year: 0.01698
+ 3. Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.01682
+ 4. Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.01554
+ 5. Activated Negative aFRR Balancing Energy (kWh): 0.01318
+ 6. Requested Negative aFRR Balancing Energy (kWh): 0.01267
+ 7. Solar Power Plants Net (Operational Control): 0.01264
+ 8. Gross System Load Forecast (Day-Ahead): 0.01220
+ 9. HU-RO Schedule: 0.01177
+10. Positive GCC Energy (kWh): 0.01130
+11. HU-AT Schedule: 0.00940
+12. Estimated Wind Power Production (Current): 0.00936
+13. Estimated Wind Power Production (Intraday): 0.00908
+14. Activated Positive aFRR Balancing Energy Cost (HUF): 0.00853
+15. Estimated Solar Power Production (Current): 0.00852
+16. 100m_wind_speed_mean: 0.00758
+17. Gross Certified System Load (Actual): 0.00723
+18. Wind Power Actual - Net Commercial Settlement: 0.00717
+19. Requested Positive aFRR Balancing Energy (kWh): 0.00714
+20. Estimated Solar Power Production (Intraday): 0.00708
+21. dayofweek_sin: 0.00702
+22. Activated Positive aFRR Balancing Energy (kWh): 0.00686
+23. Gross Actual Power Plant Generation: 0.00652
+24. Gross Planned Power Plant Generation: 0.00633
+25. Estimated Wind Power Production (Day-Ahead): 0.00627
+26. UTCdate: 0.00625
+27. dayofweek_cos: 0.00618
+28. HU-SK Schedule: 0.00615
+29. Wind Power Actual - Net Operational Control: 0.00606
+30. HU-HR Schedule: 0.00596
+31. System Direction (kWh): 0.00582
+32. Estimated Solar Power Production (Day-Ahead): 0.00572
+33. HU-RS Schedule: 0.00564
+34. HU-SK: 0.00551
+35. dayofweek: 0.00526
+36. HU-RO: 0.00499
+37. hour: 0.00493
+38. ssrd_mean: 0.00449
+39. 10m_wind_speed_mean: 0.00416
+40. ssrd_std: 0.00408
+41. HU-HR: 0.00380
+42. 10m_wind_speed_std: 0.00346
+43. HU-AT: 0.00334
+44. HU-RS: 0.00318
+45. HU-UA Schedule: 0.00302
+46. temp_std: 0.00276
+47. Activated Negative aFRR Balancing Energy Cost (HUF): 0.00237
+48. 100m_wind_speed_std: 0.00233
+49. is_holiday: 0.00227
+50. HU-UA: 0.00180
+51. temp_mean: 0.00155
+>>> Top 5 features (top 5 _t* averaged): Negative GCC Energy (kWh), day_of_year, Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh), Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh), Activated Negative aFRR Balancing Energy (kWh)
+
+=== Target: Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t+75min ===
+ 1. Negative GCC Energy (kWh): 0.02805
+ 2. Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.01757
+ 3. day_of_year: 0.01714
+ 4. Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.01606
+ 5. Activated Negative aFRR Balancing Energy (kWh): 0.01366
+ 6. Requested Negative aFRR Balancing Energy (kWh): 0.01329
+ 7. Solar Power Plants Net (Operational Control): 0.01315
+ 8. Gross System Load Forecast (Day-Ahead): 0.01301
+ 9. HU-RO Schedule: 0.01216
+10. Positive GCC Energy (kWh): 0.01193
+11. Estimated Wind Power Production (Current): 0.00956
+12. HU-AT Schedule: 0.00943
+13. Estimated Wind Power Production (Intraday): 0.00939
+14. Estimated Solar Power Production (Current): 0.00869
+15. Activated Positive aFRR Balancing Energy Cost (HUF): 0.00841
+16. Requested Positive aFRR Balancing Energy (kWh): 0.00783
+17. Activated Positive aFRR Balancing Energy (kWh): 0.00762
+18. Gross Certified System Load (Actual): 0.00751
+19. Wind Power Actual - Net Commercial Settlement: 0.00750
+20. Estimated Solar Power Production (Intraday): 0.00721
+21. UTCdate: 0.00711
+22. 100m_wind_speed_mean: 0.00702
+23. dayofweek_cos: 0.00701
+24. dayofweek_sin: 0.00681
+25. Gross Actual Power Plant Generation: 0.00675
+26. Wind Power Actual - Net Operational Control: 0.00652
+27. System Direction (kWh): 0.00652
+28. Estimated Wind Power Production (Day-Ahead): 0.00648
+29. HU-RS Schedule: 0.00644
+30. HU-HR Schedule: 0.00631
+31. HU-SK: 0.00607
+32. Gross Planned Power Plant Generation: 0.00599
+33. HU-SK Schedule: 0.00594
+34. HU-RO: 0.00579
+35. Estimated Solar Power Production (Day-Ahead): 0.00565
+36. ssrd_mean: 0.00544
+37. hour: 0.00492
+38. ssrd_std: 0.00457
+39. dayofweek: 0.00431
+40. 10m_wind_speed_mean: 0.00415
+41. HU-AT: 0.00370
+42. HU-RS: 0.00348
+43. 10m_wind_speed_std: 0.00347
+44. HU-HR: 0.00329
+45. HU-UA Schedule: 0.00316
+46. temp_std: 0.00272
+47. 100m_wind_speed_std: 0.00233
+48. HU-UA: 0.00233
+49. Activated Negative aFRR Balancing Energy Cost (HUF): 0.00228
+50. is_holiday: 0.00227
+51. temp_mean: 0.00173
+>>> Top 5 features (top 5 _t* averaged): Negative GCC Energy (kWh), Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh), day_of_year, Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh), Activated Negative aFRR Balancing Energy (kWh)
+
+=== Target: System Direction (kWh)_t+75min ===
+ 1. System Direction (kWh): 0.03219
+ 2. day_of_year: 0.01528
+ 3. Negative GCC Energy (kWh): 0.01460
+ 4. UTCdate: 0.01424
+ 5. hour: 0.01206
+ 6. Activated Negative aFRR Balancing Energy (kWh): 0.01048
+ 7. Requested Negative aFRR Balancing Energy (kWh): 0.01027
+ 8. Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.00777
+ 9. HU-RO Schedule: 0.00770
+10. Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh): 0.00710
+11. HU-AT Schedule: 0.00609
+12. Gross System Load Forecast (Day-Ahead): 0.00565
+13. Estimated Solar Power Production (Intraday): 0.00565
+14. Requested Positive aFRR Balancing Energy (kWh): 0.00512
+15. HU-RO: 0.00505
+16. ssrd_mean: 0.00502
+17. HU-SK Schedule: 0.00493
+18. 100m_wind_speed_mean: 0.00451
+19. HU-SK: 0.00440
+20. Solar Power Plants Net (Operational Control): 0.00437
+21. Activated Positive aFRR Balancing Energy (kWh): 0.00422
+22. HU-RS Schedule: 0.00422
+23. HU-UA Schedule: 0.00418
+24. Estimated Wind Power Production (Intraday): 0.00408
+25. Estimated Solar Power Production (Day-Ahead): 0.00401
+26. HU-HR Schedule: 0.00400
+27. Positive GCC Energy (kWh): 0.00391
+28. Estimated Wind Power Production (Current): 0.00390
+29. Estimated Solar Power Production (Current): 0.00389
+30. Activated Positive aFRR Balancing Energy Cost (HUF): 0.00381
+31. Wind Power Actual - Net Commercial Settlement: 0.00372
+32. Gross Certified System Load (Actual): 0.00366
+33. HU-HR: 0.00348
+34. Estimated Wind Power Production (Day-Ahead): 0.00343
+35. Gross Planned Power Plant Generation: 0.00334
+36. 10m_wind_speed_mean: 0.00311
+37. HU-RS: 0.00307
+38. HU-AT: 0.00299
+39. Gross Actual Power Plant Generation: 0.00299
+40. 10m_wind_speed_std: 0.00274
+41. HU-UA: 0.00266
+42. 100m_wind_speed_std: 0.00254
+43. Wind Power Actual - Net Operational Control: 0.00230
+44. ssrd_std: 0.00224
+45. is_holiday: 0.00223
+46. dayofweek: 0.00222
+47. dayofweek_sin: 0.00184
+48. temp_std: 0.00158
+49. temp_mean: 0.00158
+50. dayofweek_cos: 0.00144
+51. Activated Negative aFRR Balancing Energy Cost (HUF): 0.00124
+>>> Top 5 features (top 5 _t* averaged): System Direction (kWh), day_of_year, Negative GCC Energy (kWh), UTCdate, hour
+

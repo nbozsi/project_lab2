@@ -80,7 +80,12 @@ def create_training_data(df):
         "Net Planned System Generation",
         "Net Planned System Load",
         "Net System Load Forecast (Day-Ahead)",
-        "100m_wind_speed_mean_right"
+        "100m_wind_speed_mean_right",
+        "hour",
+        "dayofweek",
+        "dayofweek_sin",
+        "dayofweek_cos",
+        "day_of_year",
     }
 
     existing_cols = set(final_df.columns)
@@ -90,20 +95,17 @@ def create_training_data(df):
     cols_5_steps_exist = [c for c in cols_5_steps if c in existing_cols]
     target_cols_exist = [c for c in target_cols if c in existing_cols]
 
+    time_features = ["hour", "dayofweek", "dayofweek_sin", "dayofweek_cos", "day_of_year"]
+
+    # Columns to include without duplication
+    non_time_cols = set(final_df.columns) - set(time_features) - exclude_cols
+
     X = final_df.select(
-        pl.all().exclude(exclude_cols),
-        *(
-            timelag_expressions(40, cols_10_h_exist)
-            if cols_10_h_exist else []
-        ),
-        *(
-            timelag_expressions(48, cols_12_h_exist)
-            if cols_12_h_exist else []
-        ),
-        *(
-            timelag_expressions(5, cols_5_steps_exist)
-            if cols_5_steps_exist else []
-        ),
+        *(pl.col(c) for c in time_features if c in final_df.columns),  # time features as-is
+        *(pl.col(c) for c in non_time_cols),                           # everything else that isn’t excluded
+        *(timelag_expressions(40, cols_10_h_exist) if cols_10_h_exist else []),
+        *(timelag_expressions(48, cols_12_h_exist) if cols_12_h_exist else []),
+        *(timelag_expressions(5, cols_5_steps_exist) if cols_5_steps_exist else []),
         *timelag_expressions(
             -40,
             set(keep_cols)
