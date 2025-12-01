@@ -86,6 +86,7 @@ def create_training_data(df):
         "dayofweek_sin",
         "dayofweek_cos",
         "day_of_year",
+        "is_holiday",
     }
 
     existing_cols = set(final_df.columns)
@@ -95,7 +96,7 @@ def create_training_data(df):
     cols_5_steps_exist = [c for c in cols_5_steps if c in existing_cols]
     target_cols_exist = [c for c in target_cols if c in existing_cols]
 
-    time_features = ["hour", "dayofweek", "dayofweek_sin", "dayofweek_cos", "day_of_year"]
+    time_features = ["hour", "dayofweek", "dayofweek_sin", "dayofweek_cos", "day_of_year", "is_holiday"]
 
     # Columns to include without duplication
     non_time_cols = set(final_df.columns) - set(time_features) - exclude_cols

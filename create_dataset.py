@@ -85,7 +85,7 @@ joined_df = joined_df.with_columns([
     (pl.col(COMMON_DATECOL_NAME).dt.weekday() * 2 * pl.lit(3.14159) / 7).cos().alias("dayofweek_cos"),
     
     # Day of year
-    pl.col(COMMON_DATECOL_NAME).dt.ordinal_day().alias("day_of_year"),
+    (pl.col(COMMON_DATECOL_NAME).dt.ordinal_day() / 366).alias("day_of_year"),
     
     # Hungarian holidays (hardcoded dates including movable holidays)
     pl.when(
