@@ -41,7 +41,12 @@ def shap_agg_plot(df):
             )
         )
         .properties(width=1600, height=800)
-        .configure_legend(gradientLength=800, gradientThickness=20)
+        .configure_legend(
+            gradientLength=1600,
+            gradientThickness=20,
+            orient="bottom",
+            direction="horizontal",
+        )
     )
 
 
