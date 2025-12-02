@@ -82,10 +82,11 @@ results = {
     "NN": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_joined_df.csv")),
     "NN_w_temp": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_joined_df_with_temp.csv")),
     "NN_w_weather": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_joined_df_with_weather.csv")),
-    "NNH": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_Huber_joined_df.csv")),
-    "NNH_w_temp": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_Huber_joined_df_with_temp.csv")),
-    "NNH_w_weather": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_Huber_joined_df_with_weather.csv")),
+    "NNH": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_Huber_joined_df_12-1.csv")),
+    "NNH_w_temp": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_Huber_joined_df_with_temp_12-1.csv")),
+    "NNH_w_weather": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_Huber_joined_df_with_weather_12-1.csv")),
     "NNH_w_instnorm": unpivot_errors(pl.read_csv("model_results/NN_100_seeds_Huber_instance_norm_joined_df_with_weather_11-4.csv")),
+    "NNH_w_instnorm_new": unpivot_errors(pl.read_csv("model_results/NN_1_seeds_Huber_instance_norm_joined_df_with_weather_11-27.csv")),
     "naive": unpivot_errors(pl.read_csv("model_results/naive_model.csv")),
 }
 compare_results(results)
