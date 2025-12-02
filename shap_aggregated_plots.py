@@ -32,7 +32,7 @@ def shap_agg_plot(df):
                         order="descending",  # descending = biggest on top
                     ),
                 ),
-                color=alt.Color("lag:Q").scale(scheme="plasma"),
+                color=alt.Color("lag:Q").scale(scheme="plasma").legend(values=range(-600, 721, 30)),
                 order=alt.Order(
                     # Sort the segments of the bars by this field
                     "lag:O",
@@ -41,12 +41,7 @@ def shap_agg_plot(df):
             )
         )
         .properties(width=1600, height=800)
-        .configure_legend(
-            gradientLength=1600,
-            gradientThickness=20,
-            orient="bottom",
-            direction="horizontal",
-        )
+        .configure_legend(gradientLength=1600, gradientThickness=20, orient="bottom", direction="horizontal")
     )
 
 
