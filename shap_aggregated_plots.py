@@ -49,13 +49,26 @@ for target in targets:
             {
                 "temp_mean": "Temperature Mean",
                 "temp_std": "Temperature Std",
+                "ssrd_mean": "Surface Solar Radiation Downwards Mean",
+                "ssrd_std": "Surface Solar Radiation Downwards Std",
+                "100m_wind_speed_mean": "Wind Speed (100m) Mean",
+                "100m_wind_speed_std": "Wind Speed (100m) Std",
+                "10m_wind_speed_mean": "Wind Speed (10m) Mean",
+                "10m_wind_speed_std": "Wind Speed (10m) Std",
             }
         )
         .alias("base_feature"),
         pl.col("feature").str.extract(r"_t((?:\+|\-)\d*)min").cast(pl.Int32).fill_null(0).alias("lag"),
     )
     if label2idx.is_empty():
-        label2idx = df.select(pl.col("base_feature").unique().sort()).with_row_index(offset=1).rename({"index": "Feature"})
+        label2idx = (
+            df.group_by("base_feature")
+            .agg((pl.col("lag").sort_by(pl.col("lag").abs()).last() / 60).alias("lag"))
+            .sort("base_feature")
+            .with_row_index(offset=1)
+            .rename({"index": "Feature"})
+        )
+        # label2idx = df.select(pl.col("base_feature").unique().sort()).with_row_index(offset=1).rename({"index": "Feature"})
         label2idx.write_csv(f"figurelabels.csv", separator="&", line_terminator=" \\\\\n", include_header=False)
     df = df.join(label2idx, on="base_feature")
     chart = shap_agg_plot(df)
