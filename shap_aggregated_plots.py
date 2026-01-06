@@ -9,7 +9,15 @@ df = pl.read_csv("shap_results/shap_feature_importance_all_features.csv")
 
 
 df = df.with_columns(
-    pl.col("feature").str.replace(r"(.*)(\_t(\-|\+)\d{2,3}min)", "${1}").alias("base_feature"),
+    pl.col("feature")
+    .str.replace(r"(.*)(\_t(\-|\+)\d{2,3}min)", "${1}")
+    .replace(
+        {
+            "temp_avg": "Temperature Mean",
+            "temp_std": "Temperature Std",
+        }
+    )
+    .alias("base_feature"),
     pl.col("feature").str.extract(r"_t((?:\+|\-)\d*)min").cast(pl.Int32).fill_null(0).alias("lag"),
 )
 
@@ -25,7 +33,7 @@ def shap_agg_plot(df):
             .encode(
                 x="sum(mean_abs_shap)",
                 y=alt.Y(
-                    "base_feature",
+                    "Feature:N",
                     sort=alt.EncodingSortField(
                         field="mean_abs_shap",  # field to sort by
                         op="sum",  # aggregate operation
@@ -45,6 +53,9 @@ def shap_agg_plot(df):
     )
 
 
+label2idx = df.select(pl.col("base_feature").unique().sort()).with_row_index(offset=1).rename({"index": "Feature"})
+label2idx.write_csv("figurelabels.csv", separator="&", line_terminator=" \\\\\n", include_header=False)
+df = df.join(label2idx, on="base_feature")
 chart = shap_agg_plot(df)
 chart.save("figures/shap_aggregated_plot.png")
 chart = shap_agg_plot(df.filter(pl.col("base_feature") != "System Direction (kWh)"))
