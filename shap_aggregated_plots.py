@@ -5,26 +5,6 @@ pl.Config.set_tbl_width_chars(-1)
 pl.Config.set_fmt_str_lengths(120)
 
 
-df = pl.read_csv("shap_results/shap_feature_importance_all_features.csv")
-
-
-df = df.with_columns(
-    pl.col("feature")
-    .str.replace(r"(.*)(\_t(\-|\+)\d{2,3}min)", "${1}")
-    .replace(
-        {
-            "temp_avg": "Temperature Mean",
-            "temp_std": "Temperature Std",
-        }
-    )
-    .alias("base_feature"),
-    pl.col("feature").str.extract(r"_t((?:\+|\-)\d*)min").cast(pl.Int32).fill_null(0).alias("lag"),
-)
-
-print(df)
-print(df["base_feature"].value_counts().sort(by="count"))
-
-
 def shap_agg_plot(df):
     return (
         (
@@ -53,10 +33,30 @@ def shap_agg_plot(df):
     )
 
 
-label2idx = df.select(pl.col("base_feature").unique().sort()).with_row_index(offset=1).rename({"index": "Feature"})
-label2idx.write_csv("figurelabels.csv", separator="&", line_terminator=" \\\\\n", include_header=False)
-df = df.join(label2idx, on="base_feature")
-chart = shap_agg_plot(df)
-chart.save("figures/shap_aggregated_plot.png")
-chart = shap_agg_plot(df.filter(pl.col("base_feature") != "System Direction (kWh)"))
-chart.save("figures/shap_aggregated_plot_wo_sysdir.png")
+targets = [
+    "System Direction (kWh)",
+    "Positive Balancing Energy Unit Price for Balance Groups (HUFkWh)",
+    "Negative Balancing Energy Unit Price for Balance Groups (HUFkWh)",
+]
+
+label2idx = pl.DataFrame()
+for target in targets:
+    df = pl.read_csv(f"shap_results/SHAP_Aggregated_{target}.csv")
+    df = df.with_columns(
+        pl.col("feature")
+        .str.replace(r"(.*)(\_t(\-|\+)\d{2,3}min)", "${1}")
+        .replace(
+            {
+                "temp_mean": "Temperature Mean",
+                "temp_std": "Temperature Std",
+            }
+        )
+        .alias("base_feature"),
+        pl.col("feature").str.extract(r"_t((?:\+|\-)\d*)min").cast(pl.Int32).fill_null(0).alias("lag"),
+    )
+    if label2idx.is_empty():
+        label2idx = df.select(pl.col("base_feature").unique().sort()).with_row_index(offset=1).rename({"index": "Feature"})
+        label2idx.write_csv(f"figurelabels.csv", separator="&", line_terminator=" \\\\\n", include_header=False)
+    df = df.join(label2idx, on="base_feature")
+    chart = shap_agg_plot(df)
+    chart.save(f"figures/shap_aggregated_{target}plot.png")

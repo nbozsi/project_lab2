@@ -1,47 +1,50 @@
-1&Activated Negative aFRR Balancing Energy (kWh) \\
-2&Activated Negative aFRR Balancing Energy Cost (HUF) \\
-3&Activated Positive aFRR Balancing Energy (kWh) \\
-4&Activated Positive aFRR Balancing Energy Cost (HUF) \\
-5&Estimated Solar Power Production (Current) \\
-6&Estimated Solar Power Production (Day-Ahead) \\
-7&Estimated Solar Power Production (Intraday) \\
-8&Estimated Wind Power Production (Current) \\
-9&Estimated Wind Power Production (Day-Ahead) \\
-10&Estimated Wind Power Production (Intraday) \\
-11&Gross Actual Power Plant Generation \\
-12&Gross Actual System Load \\
-13&Gross Certified System Load (Actual) \\
-14&Gross Planned Power Plant Generation \\
-15&Gross Planned System Load \\
-16&Gross System Load Forecast (Day-Ahead) \\
-17&HU-AT \\
-18&HU-AT Schedule \\
-19&HU-HR \\
-20&HU-HR Schedule \\
-21&HU-RO \\
-22&HU-RO Schedule \\
-23&HU-RS \\
-24&HU-RS Schedule \\
-25&HU-SK \\
-26&HU-SK Schedule \\
-27&HU-UA \\
-28&HU-UA Schedule \\
-29&Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh) \\
-30&Negative GCC Energy (kWh) \\
-31&Net Actual System Load - Net Commercial Settlement Measurement \\
-32&Net Domestic Generation (Actual) \\
-33&Net Load \\
-34&Net Planned Power Plant Generation \\
-35&Net Planned System Generation \\
-36&Net Planned System Load \\
-37&Net System Load Forecast (Day-Ahead) \\
-38&Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh) \\
-39&Positive GCC Energy (kWh) \\
-40&Requested Negative aFRR Balancing Energy (kWh) \\
-41&Requested Positive aFRR Balancing Energy (kWh) \\
-42&Solar Power Plants Net (Operational Control) \\
-43&System Direction (kWh) \\
-44&Temperature Mean \\
-45&Temperature Std \\
-46&Wind Power Actual - Net Commercial Settlement \\
-47&Wind Power Actual - Net Operational Control \\
+1&100m_wind_speed_mean \\
+2&100m_wind_speed_std \\
+3&10m_wind_speed_mean \\
+4&10m_wind_speed_std \\
+5&Activated Negative aFRR Balancing Energy (kWh) \\
+6&Activated Negative aFRR Balancing Energy Cost (HUF) \\
+7&Activated Positive aFRR Balancing Energy (kWh) \\
+8&Activated Positive aFRR Balancing Energy Cost (HUF) \\
+9&Estimated Solar Power Production (Current) \\
+10&Estimated Solar Power Production (Day-Ahead) \\
+11&Estimated Solar Power Production (Intraday) \\
+12&Estimated Wind Power Production (Current) \\
+13&Estimated Wind Power Production (Day-Ahead) \\
+14&Estimated Wind Power Production (Intraday) \\
+15&Gross Actual Power Plant Generation \\
+16&Gross Certified System Load (Actual) \\
+17&Gross Planned Power Plant Generation \\
+18&Gross System Load Forecast (Day-Ahead) \\
+19&HU-AT \\
+20&HU-AT Schedule \\
+21&HU-HR \\
+22&HU-HR Schedule \\
+23&HU-RO \\
+24&HU-RO Schedule \\
+25&HU-RS \\
+26&HU-RS Schedule \\
+27&HU-SK \\
+28&HU-SK Schedule \\
+29&HU-UA \\
+30&HU-UA Schedule \\
+31&Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh) \\
+32&Negative GCC Energy (kWh) \\
+33&Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh) \\
+34&Positive GCC Energy (kWh) \\
+35&Requested Negative aFRR Balancing Energy (kWh) \\
+36&Requested Positive aFRR Balancing Energy (kWh) \\
+37&Solar Power Plants Net (Operational Control) \\
+38&System Direction (kWh) \\
+39&Temperature Mean \\
+40&Temperature Std \\
+41&Wind Power Actual - Net Commercial Settlement \\
+42&Wind Power Actual - Net Operational Control \\
+43&day_of_year \\
+44&dayofweek \\
+45&dayofweek_cos \\
+46&dayofweek_sin \\
+47&hour \\
+48&is_holiday \\
+49&ssrd_mean \\
+50&ssrd_std \\
