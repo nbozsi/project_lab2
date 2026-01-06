@@ -1,0 +1,50 @@
+1&Activated Negative aFRR Balancing Energy (kWh)&-10.0 \\
+2&Activated Negative aFRR Balancing Energy Cost (HUF)&-10.0 \\
+3&Activated Positive aFRR Balancing Energy (kWh)&-10.0 \\
+4&Activated Positive aFRR Balancing Energy Cost (HUF)&-10.0 \\
+5&Estimated Solar Power Production (Current)&10.0 \\
+6&Estimated Solar Power Production (Day-Ahead)&10.0 \\
+7&Estimated Solar Power Production (Intraday)&10.0 \\
+8&Estimated Wind Power Production (Current)&10.0 \\
+9&Estimated Wind Power Production (Day-Ahead)&10.0 \\
+10&Estimated Wind Power Production (Intraday)&10.0 \\
+11&Gross Actual Power Plant Generation&-10.0 \\
+12&Gross Certified System Load (Actual)&-10.0 \\
+13&Gross Planned Power Plant Generation&12.0 \\
+14&Gross System Load Forecast (Day-Ahead)&12.0 \\
+15&HU-AT&-10.0 \\
+16&HU-AT Schedule&12.0 \\
+17&HU-HR&-10.0 \\
+18&HU-HR Schedule&12.0 \\
+19&HU-RO&-10.0 \\
+20&HU-RO Schedule&12.0 \\
+21&HU-RS&-10.0 \\
+22&HU-RS Schedule&12.0 \\
+23&HU-SK&-10.0 \\
+24&HU-SK Schedule&12.0 \\
+25&HU-UA&-10.0 \\
+26&HU-UA Schedule&12.0 \\
+27&Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)&-10.0 \\
+28&Negative GCC Energy (kWh)&-10.0 \\
+29&Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)&-10.0 \\
+30&Positive GCC Energy (kWh)&-10.0 \\
+31&Requested Negative aFRR Balancing Energy (kWh)&-10.0 \\
+32&Requested Positive aFRR Balancing Energy (kWh)&-10.0 \\
+33&Solar Power Plants Net (Operational Control)&-10.0 \\
+34&Surface Solar Radiation Downwards Mean&1.25 \\
+35&Surface Solar Radiation Downwards Std&1.25 \\
+36&System Direction (kWh)&-10.0 \\
+37&Temperature Mean&1.25 \\
+38&Temperature Std&1.25 \\
+39&Wind Power Actual - Net Commercial Settlement&-10.0 \\
+40&Wind Power Actual - Net Operational Control&-10.0 \\
+41&Wind Speed (100m) Mean&1.25 \\
+42&Wind Speed (100m) Std&1.25 \\
+43&Wind Speed (10m) Mean&1.25 \\
+44&Wind Speed (10m) Std&1.25 \\
+45&day_of_year&0.0 \\
+46&dayofweek&0.0 \\
+47&dayofweek_cos&0.0 \\
+48&dayofweek_sin&0.0 \\
+49&hour&0.0 \\
+50&is_holiday&0.0 \\

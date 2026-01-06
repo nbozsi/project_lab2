@@ -5,18 +5,6 @@ pl.Config.set_tbl_width_chars(-1)
 pl.Config.set_fmt_str_lengths(120)
 
 
-df = pl.read_csv("shap_results/shap_feature_importance_all_features.csv")
-
-
-df = df.with_columns(
-    pl.col("feature").str.replace(r"(.*)(\_t(\-|\+)\d{2,3}min)", "${1}").alias("base_feature"),
-    pl.col("feature").str.extract(r"_t((?:\+|\-)\d*)min").cast(pl.Int32).fill_null(0).alias("lag"),
-)
-
-print(df)
-print(df["base_feature"].value_counts().sort(by="count"))
-
-
 def shap_agg_plot(df):
     return (
         (
@@ -25,7 +13,7 @@ def shap_agg_plot(df):
             .encode(
                 x="sum(mean_abs_shap)",
                 y=alt.Y(
-                    "base_feature",
+                    "Feature:N",
                     sort=alt.EncodingSortField(
                         field="mean_abs_shap",  # field to sort by
                         op="sum",  # aggregate operation
@@ -45,7 +33,43 @@ def shap_agg_plot(df):
     )
 
 
-chart = shap_agg_plot(df)
-chart.save("figures/shap_aggregated_plot.png")
-chart = shap_agg_plot(df.filter(pl.col("base_feature") != "System Direction (kWh)"))
-chart.save("figures/shap_aggregated_plot_wo_sysdir.png")
+targets = [
+    "System Direction (kWh)",
+    "Positive Balancing Energy Unit Price for Balance Groups (HUFkWh)",
+    "Negative Balancing Energy Unit Price for Balance Groups (HUFkWh)",
+]
+
+label2idx = pl.DataFrame()
+for target in targets:
+    df = pl.read_csv(f"shap_results/SHAP_Aggregated_{target}.csv")
+    df = df.with_columns(
+        pl.col("feature")
+        .str.replace(r"(.*)(\_t(\-|\+)\d{2,3}min)", "${1}")
+        .replace(
+            {
+                "temp_mean": "Temperature Mean",
+                "temp_std": "Temperature Std",
+                "ssrd_mean": "Surface Solar Radiation Downwards Mean",
+                "ssrd_std": "Surface Solar Radiation Downwards Std",
+                "100m_wind_speed_mean": "Wind Speed (100m) Mean",
+                "100m_wind_speed_std": "Wind Speed (100m) Std",
+                "10m_wind_speed_mean": "Wind Speed (10m) Mean",
+                "10m_wind_speed_std": "Wind Speed (10m) Std",
+            }
+        )
+        .alias("base_feature"),
+        pl.col("feature").str.extract(r"_t((?:\+|\-)\d*)min").cast(pl.Int32).fill_null(0).alias("lag"),
+    )
+    if label2idx.is_empty():
+        label2idx = (
+            df.group_by("base_feature")
+            .agg((pl.col("lag").sort_by(pl.col("lag").abs()).last() / 60).alias("lag"))
+            .sort("base_feature")
+            .with_row_index(offset=1)
+            .rename({"index": "Feature"})
+        )
+        # label2idx = df.select(pl.col("base_feature").unique().sort()).with_row_index(offset=1).rename({"index": "Feature"})
+        label2idx.write_csv(f"figurelabels.csv", separator="&", line_terminator=" \\\\\n", include_header=False)
+    df = df.join(label2idx, on="base_feature")
+    chart = shap_agg_plot(df)
+    chart.save(f"figures/shap_aggregated_{target}plot.png")
