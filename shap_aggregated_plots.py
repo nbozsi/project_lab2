@@ -11,7 +11,7 @@ def shap_agg_plot(df):
             alt.Chart(df)
             .mark_bar()
             .encode(
-                x="sum(mean_abs_shap)",
+                x=alt.X("sum(mean_abs_shap)", axis=alt.Axis(title="Sum of Shap Value", labelFontSize=14, titleFontSize=16)),
                 y=alt.Y(
                     "Feature:N",
                     sort=alt.EncodingSortField(
@@ -19,6 +19,7 @@ def shap_agg_plot(df):
                         op="sum",  # aggregate operation
                         order="descending",  # descending = biggest on top
                     ),
+                    axis=alt.Axis(title="Feature", labelFontSize=14, titleFontSize=16),
                 ),
                 color=alt.Color("lag:Q").scale(scheme="plasma").legend(values=range(-600, 721, 30)),
                 order=alt.Order(
