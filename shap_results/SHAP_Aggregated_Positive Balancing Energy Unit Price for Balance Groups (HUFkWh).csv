@@ -1,1595 +1,1595 @@
 feature,mean_abs_shap
-Negative GCC Energy (kWh),2460.1294882417073
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh),2417.2072036461805
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh),2249.808408262138
-Positive GCC Energy (kWh),1496.1904468052783
-Requested Negative aFRR Balancing Energy (kWh),1274.164766500733
-Activated Negative aFRR Balancing Energy (kWh),1180.9011137233415
-Activated Positive aFRR Balancing Energy Cost (HUF),964.1000726471332
-Negative GCC Energy (kWh)_t-60min,927.1956146925943
-day_of_year,857.1310637634773
-Requested Positive aFRR Balancing Energy (kWh),766.0281460345107
-Solar Power Plants Net (Operational Control)_t-90min,725.1067611214746
-Activated Positive aFRR Balancing Energy (kWh),689.7784736504906
-Gross Certified System Load (Actual),671.3347748585272
-Solar Power Plants Net (Operational Control)_t-75min,653.8228622181999
-Gross System Load Forecast (Day-Ahead)_t+60min,647.6641279991686
-Gross System Load Forecast (Day-Ahead)_t+75min,639.47057620597
-Requested Negative aFRR Balancing Energy (kWh)_t-60min,638.4163633519382
-Solar Power Plants Net (Operational Control)_t-120min,635.9832107367972
-Negative GCC Energy (kWh)_t-15min,617.5603317674355
-Solar Power Plants Net (Operational Control)_t-105min,611.6189048767708
-Solar Power Plants Net (Operational Control)_t-60min,597.0815440599647
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-15min,587.0171916981044
-Activated Negative aFRR Balancing Energy (kWh)_t-60min,563.9570606387435
-HU-AT Schedule_t+15min,550.2575923070129
-Positive GCC Energy (kWh)_t-60min,531.9860706810766
-Solar Power Plants Net (Operational Control)_t-135min,520.078034645713
-Solar Power Plants Net (Operational Control)_t-45min,515.0665224531083
-HU-RO Schedule_t+195min,513.5975028506685
-Gross System Load Forecast (Day-Ahead)_t+45min,508.17977090754266
-Solar Power Plants Net (Operational Control)_t-30min,504.319890205469
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-30min,485.78437146436227
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-15min,485.30305126218155
-HU-AT Schedule_t+210min,468.97600012005506
-Negative GCC Energy (kWh)_t-75min,454.5066410564148
-Negative GCC Energy (kWh)_t-45min,447.5342612429937
-Negative GCC Energy (kWh)_t-30min,431.3099841331533
-Estimated Solar Power Production (Current)_t+120min,430.9351909381861
-HU-RO Schedule_t+15min,430.3005031702202
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-30min,393.98532818532567
-Gross Actual Power Plant Generation_t-30min,393.49729496071325
-Gross Actual Power Plant Generation_t-240min,392.29697929368825
-Estimated Solar Power Production (Current)_t+135min,388.75848094490334
-Estimated Solar Power Production (Intraday)_t+90min,385.65857550627436
-Solar Power Plants Net (Operational Control)_t-15min,381.5267858665841
-HU-RO Schedule_t+180min,378.45909545119946
-HU-RO Schedule_t+240min,377.4613050949979
-Gross System Load Forecast (Day-Ahead)_t+90min,371.99120812013433
-Estimated Solar Power Production (Current)_t+105min,370.03117370539957
-hour,359.10162332234466
-Estimated Solar Power Production (Current)_t+195min,358.27088309096166
-Requested Negative aFRR Balancing Energy (kWh)_t-15min,358.21744853242996
-Requested Negative aFRR Balancing Energy (kWh)_t-45min,356.89346149674145
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-45min,356.4448414805626
-Activated Positive aFRR Balancing Energy (kWh)_t-60min,355.7453856058893
-HU-AT Schedule_t+165min,352.51458158270697
-Estimated Solar Power Production (Day-Ahead)_t+315min,350.9147829014182
-HU-HR Schedule_t+30min,349.6152010260359
-HU-AT Schedule_t+180min,349.29687264684014
-Gross Planned Power Plant Generation_t+90min,348.65417458849004
-Wind Power Actual - Net Commercial Settlement_t-30min,340.68176579977086
-Estimated Solar Power Production (Day-Ahead)_t+285min,333.9196377792631
-Solar Power Plants Net (Operational Control)_t-180min,330.84289596917387
-HU-RO Schedule_t+225min,330.0343096840308
-HU-SK Schedule,327.9319832301053
-Estimated Wind Power Production (Current)_t+135min,325.0838232394736
-Requested Positive aFRR Balancing Energy (kWh)_t-60min,324.9360101238738
-Estimated Solar Power Production (Current)_t+165min,319.7264853498456
-HU-SK Schedule_t+285min,318.04220788749797
-Activated Negative aFRR Balancing Energy (kWh)_t-45min,315.679204431185
-HU-AT Schedule_t+90min,313.9541545299538
-ssrd_std,313.80863564779
-HU-SK,313.347684728032
-Solar Power Plants Net (Operational Control)_t-165min,312.47919399668245
-HU-AT Schedule_t+45min,310.9540192479806
-HU-HR Schedule_t+15min,310.47129576984275
-Negative GCC Energy (kWh)_t-105min,309.74441149582367
-Activated Negative aFRR Balancing Energy (kWh)_t-15min,307.71210246665805
-HU-AT Schedule_t+195min,307.2383291526895
-Estimated Solar Power Production (Intraday)_t+120min,305.9193435448684
-HU-HR,305.74066457880997
-HU-HR Schedule_t+90min,304.50255865825085
-Estimated Solar Power Production (Current)_t+75min,303.5588655914749
-Gross Actual Power Plant Generation_t-15min,301.5721123390055
-HU-RO Schedule_t+210min,300.37426497635136
-Estimated Solar Power Production (Current)_t+90min,300.14558860824536
-Gross System Load Forecast (Day-Ahead)_t+30min,299.44161938538355
-Estimated Solar Power Production (Intraday)_t+150min,299.19019746765673
-HU-AT Schedule_t+60min,297.66389704645854
-HU-AT Schedule_t+225min,297.5416545848996
-Estimated Solar Power Production (Intraday)_t+180min,297.1369075395909
-Solar Power Plants Net (Operational Control)_t-150min,296.98403293635147
-Estimated Wind Power Production (Current)_t+120min,294.0456414740212
-Estimated Solar Power Production (Intraday)_t+195min,294.02000655174623
-Estimated Wind Power Production (Intraday)_t+150min,293.61785928343534
-Gross Planned Power Plant Generation_t+75min,293.49412717555487
-Gross Planned Power Plant Generation_t+60min,292.6641874287972
-HU-AT Schedule_t+150min,292.1871502841157
-Estimated Solar Power Production (Current)_t+150min,290.86748858607416
-Requested Negative aFRR Balancing Energy (kWh)_t-30min,289.257817125628
-dayofweek_cos,287.0035148776726
-HU-RO Schedule_t+30min,286.9778492314758
-HU-AT Schedule_t+30min,286.283308862815
-HU-AT Schedule,286.24123790970066
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-15min,286.17357563569453
-Estimated Wind Power Production (Current)_t+105min,285.8938071328091
-Estimated Solar Power Production (Intraday)_t+105min,284.1340380076916
-Estimated Solar Power Production (Current)_t+180min,282.8103699310869
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-45min,281.3065497643976
-HU-RO Schedule_t+315min,278.8827586484813
-Estimated Wind Power Production (Intraday)_t+165min,278.0082130848943
-HU-SK_t-15min,275.8900075114093
-HU-RO Schedule_t+165min,275.5750641117978
-Estimated Wind Power Production (Current)_t+165min,274.59888632175546
-HU-AT Schedule_t+240min,273.798216218386
-Estimated Solar Power Production (Current)_t+60min,273.6627302237685
-Estimated Wind Power Production (Intraday)_t+135min,272.5140881011765
-Gross Planned Power Plant Generation_t+30min,272.49405309069436
-Gross Actual Power Plant Generation_t-255min,272.2973860464807
-Estimated Solar Power Production (Day-Ahead)_t+270min,271.5428030214971
-HU-RO Schedule_t+300min,270.80857519700373
-System Direction (kWh),270.5264279600373
-HU-UA Schedule_t+480min,270.1021565166819
-HU-SK Schedule_t+240min,270.0064571454407
-HU-AT Schedule_t+270min,268.47858066351773
-Estimated Solar Power Production (Intraday)_t+165min,266.90524256740474
-Gross Actual Power Plant Generation_t-60min,266.03509252049474
-HU-AT_t-30min,265.7354290175549
-Positive GCC Energy (kWh)_t-15min,265.5136046654733
-Estimated Wind Power Production (Current)_t+150min,265.4535857572184
-HU-AT Schedule_t+75min,264.2354652769678
-HU-HR Schedule_t+45min,263.08408600998206
-Gross Actual Power Plant Generation_t-330min,262.47126757225
-Wind Power Actual - Net Operational Control_t-30min,259.3493165698633
-Solar Power Plants Net (Operational Control)_t-195min,259.0104653307866
-HU-SK Schedule_t+90min,258.40045097414213
-Solar Power Plants Net (Operational Control)_t-285min,257.21451017383913
-ssrd_mean_t+60min,256.94325226517736
-HU-RO Schedule_t+255min,254.9285383640434
-dayofweek_sin,254.6793634520431
-100m_wind_speed_mean_t+15min,254.6611305131997
-Gross Actual Power Plant Generation_t-270min,254.1861883086264
-HU-RO Schedule_t+450min,253.55077670111496
-Gross Certified System Load (Actual)_t-15min,253.4933863060512
-Solar Power Plants Net (Operational Control)_t-315min,251.09153801795287
-Activated Negative aFRR Balancing Energy (kWh)_t-30min,250.1153756585838
-Wind Power Actual - Net Commercial Settlement_t-15min,250.07540678217123
-Positive GCC Energy (kWh)_t-45min,249.05703451869567
-Gross Planned Power Plant Generation_t+720min,247.69893766741924
-HU-RO Schedule_t+495min,247.1956070232647
-Activated Negative aFRR Balancing Energy Cost (HUF),246.63755357156575
-Gross Actual Power Plant Generation,246.118025274879
-Gross Planned Power Plant Generation_t+120min,245.70576697789596
-HU-SK Schedule_t+60min,245.10672197530226
-Gross Actual Power Plant Generation_t-315min,242.59562968925508
-ssrd_mean_t+15min,242.56685293291588
-HU-UA_t-30min,240.73663285613884
-System Direction (kWh)_t-45min,240.29853700739415
-ssrd_mean,239.97879969777492
-Gross Actual Power Plant Generation_t-285min,239.89902232226473
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-60min,239.26860688671118
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-60min,239.23170918654023
-HU-HR Schedule_t+195min,238.9745035713616
-Gross System Load Forecast (Day-Ahead)_t+240min,237.59398624135906
-HU-SK Schedule_t+255min,236.74806744393163
-Estimated Solar Power Production (Intraday)_t+135min,235.85817803603786
-HU-AT Schedule_t+405min,235.45506719625524
-Gross Actual Power Plant Generation_t-75min,235.34113531456623
-Gross Certified System Load (Actual)_t-345min,235.0586638105765
-HU-RO Schedule_t+45min,230.92689584093037
-Estimated Solar Power Production (Intraday)_t+75min,229.1685475940197
-Gross Actual Power Plant Generation_t-210min,228.76407606091843
-Gross System Load Forecast (Day-Ahead)_t+105min,228.06694027145878
-Gross System Load Forecast (Day-Ahead)_t+150min,227.34281899488323
-HU-RO Schedule,226.91971105302386
-HU-SK Schedule_t+15min,226.85036356554178
-Gross Planned Power Plant Generation_t+375min,225.60386919003227
-100m_wind_speed_mean,225.49961531020313
-HU-HR Schedule_t+375min,225.3834309281411
-HU-RO_t-540min,225.37657038127986
-Gross System Load Forecast (Day-Ahead)_t+225min,224.46942381144308
-Estimated Solar Power Production (Day-Ahead)_t+330min,224.05573227053924
-Gross Actual Power Plant Generation_t-195min,223.41624651304338
-HU-RO Schedule_t+60min,222.31663333568972
-HU-AT Schedule_t+285min,221.30112465249195
-ssrd_std_t+75min,221.12911725230805
-HU-UA_t-540min,221.03803777873023
-HU-HR Schedule_t+75min,219.0083203019351
-Estimated Wind Power Production (Intraday)_t+120min,216.72960121323763
-Gross Certified System Load (Actual)_t-585min,216.33164072282207
-HU-AT Schedule_t+660min,216.31587163073556
-Gross System Load Forecast (Day-Ahead)_t+465min,215.89496679306453
-HU-SK Schedule_t+225min,215.88273289203562
-HU-RO Schedule_t+435min,215.09710383064393
-Negative GCC Energy (kWh)_t-135min,214.89649211879
-HU-SK Schedule_t+75min,214.8093842938632
-Estimated Solar Power Production (Day-Ahead)_t+135min,214.75855054101552
-Estimated Wind Power Production (Intraday)_t+105min,214.11570307564503
-Estimated Solar Power Production (Intraday)_t+240min,213.89939704641301
-Gross System Load Forecast (Day-Ahead)_t+210min,213.46213988414578
-HU-UA Schedule_t+495min,211.3353915801476
-HU-UA_t-180min,210.96533838559003
-Estimated Wind Power Production (Current)_t+180min,210.94453472068517
-HU-AT_t-15min,210.7275582122847
-Estimated Solar Power Production (Day-Ahead)_t+345min,210.34092691772472
-Estimated Solar Power Production (Day-Ahead)_t+375min,209.52472253616526
-Estimated Solar Power Production (Current)_t+225min,209.26714872684389
-Gross Certified System Load (Actual)_t-600min,208.4938174349113
-Solar Power Plants Net (Operational Control),207.77932742665462
-Estimated Wind Power Production (Day-Ahead)_t+180min,207.29690049235646
-Positive GCC Energy (kWh)_t-30min,206.47169803120013
-Wind Power Actual - Net Operational Control_t-15min,206.41451050486904
-HU-UA_t-15min,206.4082337674307
-HU-SK Schedule_t+270min,205.46482594401868
-Gross Planned Power Plant Generation_t+525min,204.52293407965323
-Estimated Solar Power Production (Intraday)_t+210min,204.44395993669661
-HU-UA Schedule_t+615min,203.87998838336293
-HU-UA_t-555min,203.87883984869626
-Estimated Solar Power Production (Current)_t+210min,203.12635681910513
-HU-HR Schedule_t+210min,202.82470918284213
-Activated Positive aFRR Balancing Energy (kWh)_t-300min,202.17765390759286
-HU-UA Schedule_t+450min,202.08526436677857
-HU-RO Schedule_t+690min,201.8452063243131
-HU-AT Schedule_t+255min,199.71778420365578
-10m_wind_speed_mean,199.63226021786505
-HU-HR Schedule_t+180min,199.1457009873913
-HU-HR Schedule_t+60min,198.15382360753316
-HU-RO Schedule_t+360min,197.99509370677998
-HU-HR Schedule_t+330min,195.4789631616274
-HU-AT Schedule_t+435min,194.58802883226136
-HU-SK Schedule_t+195min,194.56197374798685
-HU-RO Schedule_t+420min,194.39858709382992
-HU-SK Schedule_t+45min,193.5097530647029
-HU-RO Schedule_t+615min,193.43457143318915
-HU-AT_t-495min,193.38542282902068
-HU-UA Schedule_t+645min,192.60099488681234
-HU-RO Schedule_t+525min,192.31328590681454
-HU-AT_t-45min,191.89459958431723
-ssrd_mean_t+45min,191.7589206575986
-HU-UA_t-405min,191.41389498180436
-10m_wind_speed_mean_t+75min,191.31018858866938
-Gross Planned Power Plant Generation_t+150min,191.0983061895216
-HU-UA Schedule_t+30min,191.02275486016077
-Estimated Wind Power Production (Day-Ahead)_t+165min,190.44107267306828
-HU-HR Schedule_t+105min,190.35352958089652
-HU-AT Schedule_t+630min,190.23706669633077
-Requested Positive aFRR Balancing Energy (kWh)_t-15min,189.7012613264398
-Gross System Load Forecast (Day-Ahead)_t+180min,189.61651606602146
-Gross System Load Forecast (Day-Ahead),189.5665825199339
-HU-UA Schedule_t+705min,189.18071063148196
-Activated Positive aFRR Balancing Energy (kWh)_t-15min,189.10341988364303
-HU-AT Schedule_t+585min,188.49094130733482
-HU-RS Schedule_t+30min,187.30462720599286
-Gross Actual Power Plant Generation_t-45min,186.94321910735067
-HU-SK Schedule_t+300min,186.92310295503893
-HU-RS_t-600min,185.87145016077034
-HU-AT_t-480min,185.8643049988751
-HU-AT Schedule_t+510min,185.34945644026817
-HU-RO Schedule_t+330min,185.3013734390898
-Positive GCC Energy (kWh)_t-75min,185.10225532333524
-Estimated Solar Power Production (Day-Ahead)_t+300min,184.78778223321223
-Negative GCC Energy (kWh)_t-300min,184.4203307354174
-HU-UA_t-435min,184.39490528779865
-HU-RO Schedule_t+270min,183.64402517076786
-Requested Negative aFRR Balancing Energy (kWh)_t-300min,182.95460267662267
-Gross Planned Power Plant Generation,182.95284920700382
-HU-SK Schedule_t+330min,182.72203389857842
-HU-RO Schedule_t+390min,182.36722948186792
-Requested Positive aFRR Balancing Energy (kWh)_t-45min,181.89674716713637
-HU-RO Schedule_t+585min,181.40024892110696
-HU-AT Schedule_t+360min,181.1830193550922
-Estimated Solar Power Production (Intraday)_t+45min,181.17752766720292
-Estimated Solar Power Production (Day-Ahead)_t+360min,180.62810441808884
-HU-RS Schedule_t+15min,180.34378706758818
-Requested Negative aFRR Balancing Energy (kWh)_t-345min,179.43474196029723
-HU-RO Schedule_t+555min,178.30300043488256
-Estimated Solar Power Production (Day-Ahead)_t+15min,177.5322086802518
-Gross Actual Power Plant Generation_t-345min,176.1019251443796
-HU-UA Schedule_t+720min,176.00949643636343
-HU-SK Schedule_t+30min,175.66289052249627
-ssrd_mean_t+75min,175.66068905990932
-Requested Positive aFRR Balancing Energy (kWh)_t-30min,175.20533505839708
-Negative GCC Energy (kWh)_t-150min,175.1545364163558
-Gross Actual Power Plant Generation_t-225min,175.13618646599244
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-30min,174.42504371944145
-Estimated Wind Power Production (Day-Ahead)_t+120min,173.58841060825864
-Requested Negative aFRR Balancing Energy (kWh)_t-360min,173.3927914102674
-Activated Positive aFRR Balancing Energy (kWh)_t-45min,173.22910597240735
-Gross Certified System Load (Actual)_t-495min,172.79291830656322
-HU-AT Schedule_t+135min,172.7410967110749
-HU-RO Schedule_t+480min,172.35002822780805
-HU-RO Schedule_t+630min,171.93360475898587
-HU-SK_t-555min,171.6397540390487
-Requested Negative aFRR Balancing Energy (kWh)_t-180min,171.47075420578943
-HU-SK_t-30min,171.2490503670735
-Gross Planned Power Plant Generation_t+105min,171.06196809247723
-HU-AT Schedule_t+390min,169.9439943482814
-Solar Power Plants Net (Operational Control)_t-270min,169.6634846869849
-HU-RO Schedule_t+705min,169.57681767690505
-HU-UA Schedule_t+690min,168.98328781705004
-Negative GCC Energy (kWh)_t-390min,168.6506677387355
-Gross System Load Forecast (Day-Ahead)_t+375min,168.49539390474783
-Estimated Solar Power Production (Intraday)_t+60min,168.4114385149042
-HU-HR_t-495min,168.40001076740927
-HU-UA Schedule_t+405min,168.28314589471228
-HU-SK_t-420min,167.6219616708654
-Estimated Solar Power Production (Intraday)_t+225min,167.4804118431276
-Requested Negative aFRR Balancing Energy (kWh)_t-270min,166.585929116607
-Negative GCC Energy (kWh)_t-540min,166.35128109157372
-HU-UA Schedule_t+540min,166.17070793079048
-Estimated Wind Power Production (Day-Ahead)_t+150min,166.0291741508928
-Gross Certified System Load (Actual)_t-570min,166.00409972697966
-HU-AT_t-525min,165.80944702368484
-Requested Negative aFRR Balancing Energy (kWh)_t-75min,165.77141113894277
-HU-RO Schedule_t+285min,165.69303175037956
-Wind Power Actual - Net Commercial Settlement_t-45min,165.53692084481725
-HU-AT Schedule_t+600min,165.33216515477613
-HU-RS,164.97588891243294
-Negative GCC Energy (kWh)_t-345min,164.70673055793264
-Gross Actual Power Plant Generation_t-465min,164.56281950891167
-Estimated Wind Power Production (Day-Ahead)_t+195min,164.55986122069285
-HU-UA_t-270min,164.13952714312285
-Gross Actual Power Plant Generation_t-300min,163.5174494057015
-HU-RO Schedule_t+645min,162.9559245962821
-HU-UA Schedule_t+240min,162.91897154827217
-Gross Actual Power Plant Generation_t-90min,162.45777009105979
-temp_mean,162.24589161648424
-HU-SK Schedule_t+390min,161.2484656454249
-Negative GCC Energy (kWh)_t-120min,161.14636765566868
-HU-UA Schedule_t+375min,160.84297809681698
-HU-RO Schedule_t+600min,160.73633494538555
-HU-HR Schedule_t+225min,160.3639117990571
-Gross Planned Power Plant Generation_t+570min,160.20164984542262
-temp_mean_t+15min,159.79007121117488
-HU-SK_t-600min,159.76063601736794
-HU-HR Schedule_t+720min,159.72266959859644
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-45min,159.67470142712412
-Estimated Solar Power Production (Day-Ahead)_t+255min,158.69420938022455
-HU-RO_t-525min,158.34013950027284
-Gross Planned Power Plant Generation_t+165min,158.1043865406278
-HU-SK Schedule_t+105min,157.93104960317163
-System Direction (kWh)_t-105min,157.76363931435054
-Estimated Solar Power Production (Day-Ahead)_t+420min,157.51653866702978
-Requested Negative aFRR Balancing Energy (kWh)_t-585min,156.6036343957268
-Activated Negative aFRR Balancing Energy (kWh)_t-495min,156.5044427964081
-Estimated Solar Power Production (Day-Ahead),156.42725840601048
-Activated Negative aFRR Balancing Energy (kWh)_t-360min,156.352315006639
-Gross Certified System Load (Actual)_t-180min,156.33472554806946
-HU-UA_t-585min,155.9509307055749
-Gross Planned Power Plant Generation_t+675min,155.84048490050606
-HU-SK_t-510min,155.50069497603943
-HU-AT Schedule_t+465min,155.39937362231308
-HU-SK Schedule_t+570min,155.27934655005632
-HU-UA_t-360min,155.23162204046236
-HU-RO Schedule_t+510min,155.1360722744662
-HU-SK_t-150min,154.2688134515778
-HU-UA_t-90min,154.20039644377098
-HU-RO Schedule_t+375min,154.13472529444533
-HU-AT Schedule_t+690min,153.9952154393752
-Activated Negative aFRR Balancing Energy (kWh)_t-540min,153.54092260781675
-HU-UA Schedule_t+660min,153.15126202699432
-HU-HR Schedule_t+120min,153.11392350918894
-HU-UA_t-570min,152.70375213504292
-Activated Negative aFRR Balancing Energy (kWh)_t-480min,152.6879989114289
-Solar Power Plants Net (Operational Control)_t-510min,152.44472601980436
-Gross System Load Forecast (Day-Ahead)_t+165min,152.3041506375815
-Gross System Load Forecast (Day-Ahead)_t+390min,152.22850909177768
-Gross System Load Forecast (Day-Ahead)_t+480min,152.057277566569
-HU-SK_t-210min,152.02765657067044
-HU-UA Schedule_t+270min,151.83696878310533
-HU-HR Schedule_t+570min,151.2173552741462
-HU-UA Schedule_t+510min,150.03563935481446
-HU-UA_t-315min,150.0160596363756
-HU-AT Schedule_t+450min,149.73861160352286
-Solar Power Plants Net (Operational Control)_t-210min,149.71545231981864
-HU-SK Schedule_t+210min,149.34271871429678
-HU-RO_t-570min,149.30166897001786
-Requested Negative aFRR Balancing Energy (kWh)_t-285min,149.12076773928723
-Estimated Wind Power Production (Day-Ahead)_t+135min,149.08252963454723
-Activated Positive aFRR Balancing Energy (kWh)_t-30min,149.0308208193689
-Activated Negative aFRR Balancing Energy (kWh)_t-465min,148.26812280622403
-Estimated Solar Power Production (Day-Ahead)_t+60min,148.10708929285505
-Negative GCC Energy (kWh)_t-405min,147.85393322999784
-HU-HR Schedule_t+150min,147.73501285389156
-Requested Negative aFRR Balancing Energy (kWh)_t-240min,147.55108580786134
-HU-SK Schedule_t+180min,147.4958327202857
-HU-UA Schedule_t+90min,147.286910563574
-Gross Certified System Load (Actual)_t-375min,147.2806290997617
-HU-UA Schedule_t+465min,147.25030448541182
-Negative GCC Energy (kWh)_t-255min,147.20436496745725
-Wind Power Actual - Net Commercial Settlement_t-405min,147.09056843233407
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-60min,147.04883757647804
-HU-AT_t-510min,146.8655917988055
-Activated Negative aFRR Balancing Energy (kWh)_t-285min,146.68324078915592
-Activated Negative aFRR Balancing Energy (kWh)_t-390min,146.0812480405861
-HU-SK_t-165min,145.6670830473188
-Gross Certified System Load (Actual)_t-165min,145.26861038813394
-System Direction (kWh)_t-15min,145.19855382954688
-HU-RS Schedule_t+90min,145.1961392170621
-HU-AT Schedule_t+705min,145.1518637392635
-HU-AT Schedule_t+675min,145.04291109809395
-Gross System Load Forecast (Day-Ahead)_t+720min,144.69689868828704
-ssrd_mean_t+30min,144.66605445927274
-HU-UA_t-240min,144.42621650807433
-Gross Certified System Load (Actual)_t-45min,144.3231848716569
-Activated Negative aFRR Balancing Energy (kWh)_t-300min,144.14398857720744
-System Direction (kWh)_t-30min,144.09988098347338
-HU-UA Schedule_t+330min,144.06640307512004
-HU-UA Schedule_t+675min,143.71068506166702
-HU-HR Schedule_t+390min,143.32683437480756
-Gross System Load Forecast (Day-Ahead)_t+195min,143.30231039549815
-HU-AT Schedule_t+315min,143.1988683481106
-HU-UA Schedule,143.1126267716732
-HU-UA Schedule_t+105min,143.07519513961853
-HU-RS Schedule_t+465min,142.7602698592688
-HU-UA_t-390min,142.67938820967817
-HU-RO Schedule_t+345min,142.66447582550956
-Negative GCC Energy (kWh)_t-525min,142.35126782938733
-HU-SK_t-570min,142.16987293355902
-HU-RO_t-480min,141.70681982598379
-Activated Negative aFRR Balancing Energy (kWh)_t-255min,141.50026279108496
-HU-RO Schedule_t+720min,140.96499938907203
-HU-UA_t-345min,140.9257225759506
-HU-AT Schedule_t+645min,140.89558191169644
-HU-HR Schedule_t+270min,140.8668716637073
-HU-UA_t-105min,140.70745137627858
-Gross Planned Power Plant Generation_t+360min,140.34150663497434
-Gross System Load Forecast (Day-Ahead)_t+675min,139.9774923110472
-100m_wind_speed_std,139.62500641818716
-Estimated Solar Power Production (Day-Ahead)_t+465min,139.42002030276623
-HU-UA_t-495min,138.28822284921725
-Negative GCC Energy (kWh)_t-270min,137.67307150130756
-Gross Actual Power Plant Generation_t-480min,137.5116571721341
-HU-UA Schedule_t+630min,137.37799831543836
-Estimated Wind Power Production (Day-Ahead)_t+225min,137.33885586377693
-HU-RO Schedule_t+75min,137.02372244748673
-Negative GCC Energy (kWh)_t-360min,136.99359864950094
-Solar Power Plants Net (Operational Control)_t-375min,136.90725903905894
-Gross Certified System Load (Actual)_t-315min,136.90057534279848
-Estimated Wind Power Production (Day-Ahead)_t+210min,136.28369888984318
-HU-SK_t-135min,136.230334665696
-Negative GCC Energy (kWh)_t-510min,136.123267390318
-HU-HR Schedule_t+240min,136.07232209654518
-System Direction (kWh)_t-135min,136.06568236999004
-Activated Negative aFRR Balancing Energy (kWh)_t-345min,135.9307509131777
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-375min,135.926022605764
-Gross Certified System Load (Actual)_t-450min,135.90832764303644
-Activated Negative aFRR Balancing Energy (kWh)_t-420min,135.7434931876687
-HU-RO Schedule_t+135min,135.73773816984558
-HU-RO Schedule_t+540min,135.6919951191551
-Gross Actual Power Plant Generation_t-360min,135.58880461693676
-Gross System Load Forecast (Day-Ahead)_t+255min,135.47886630157382
-HU-UA Schedule_t+15min,134.79698499049908
-HU-RS Schedule_t+450min,134.76981019693488
-Requested Negative aFRR Balancing Energy (kWh)_t-420min,134.73118458048674
-Negative GCC Energy (kWh)_t-285min,134.72536930455001
-HU-AT,134.72023345001136
-System Direction (kWh)_t-240min,134.6882600407697
-HU-UA_t-480min,134.497705652047
-HU-RS Schedule_t+195min,134.40760512696514
-Requested Negative aFRR Balancing Energy (kWh)_t-330min,134.32186817492794
-Gross System Load Forecast (Day-Ahead)_t+15min,134.30378256061087
-HU-UA,133.60057071841396
-Activated Negative aFRR Balancing Energy (kWh)_t-330min,133.23932854156956
-Gross Actual Power Plant Generation_t-540min,132.83498789692842
-HU-UA_t-285min,132.77561927063792
-HU-RO_t-330min,132.66570340839547
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-90min,132.53711193776599
-Gross Planned Power Plant Generation_t+255min,132.51709818812816
-Negative GCC Energy (kWh)_t-210min,132.46864435031426
-HU-RO_t-405min,132.4663745320408
-HU-UA_t-300min,132.3962151973837
-HU-UA_t-450min,132.3467602989086
-Estimated Wind Power Production (Current)_t+90min,132.34259953858174
-Estimated Solar Power Production (Day-Ahead)_t+45min,132.322738027392
-Gross System Load Forecast (Day-Ahead)_t+705min,131.8283194702601
-Activated Negative aFRR Balancing Energy (kWh)_t-450min,131.79287092466154
-Positive GCC Energy (kWh)_t-495min,131.0349196319033
-HU-AT Schedule_t+300min,130.8059927569068
-HU-HR Schedule_t+285min,130.74824780002822
-Gross Planned Power Plant Generation_t+555min,130.64086623174825
-Activated Negative aFRR Balancing Energy (kWh)_t-75min,130.40965886310627
-HU-SK Schedule_t+450min,130.22292330817282
-Wind Power Actual - Net Operational Control_t-45min,129.84678785957274
-HU-UA Schedule_t+420min,129.8384770466781
-Requested Negative aFRR Balancing Energy (kWh)_t-225min,129.7445864299472
-Requested Negative aFRR Balancing Energy (kWh)_t-450min,129.51408672043462
-Gross System Load Forecast (Day-Ahead)_t+120min,129.34290802183057
-Solar Power Plants Net (Operational Control)_t-465min,128.7262453182455
-Estimated Solar Power Production (Current)_t+255min,128.70739922731528
-HU-HR_t-30min,128.13514382932968
-HU-UA_t-135min,127.97787763910128
-HU-RS Schedule_t+105min,127.93070386543761
-HU-HR Schedule,127.89590082940454
-HU-RS Schedule_t+60min,127.88196565873257
-HU-UA_t-525min,127.87814769236789
-temp_mean_t+30min,127.64948274101587
-Activated Negative aFRR Balancing Energy (kWh)_t-315min,127.63890176268383
-Gross Planned Power Plant Generation_t+390min,127.35381044394435
-Gross Planned Power Plant Generation_t+330min,127.32655850331889
-Estimated Wind Power Production (Intraday)_t+240min,127.13008409869592
-Requested Negative aFRR Balancing Energy (kWh)_t-405min,126.89206713437963
-Gross Planned Power Plant Generation_t+690min,126.79106533019777
-Negative GCC Energy (kWh)_t-480min,126.78437719853935
-Gross Actual Power Plant Generation_t-570min,126.7838828921684
-Estimated Wind Power Production (Intraday)_t+195min,126.70262371150731
-Positive GCC Energy (kWh)_t-510min,126.69765486018332
-HU-HR_t-315min,126.56723601772481
-System Direction (kWh)_t-120min,126.26053651616226
-Activated Negative aFRR Balancing Energy (kWh)_t-240min,126.07626041215151
-Gross Planned Power Plant Generation_t+405min,125.90270817687806
-Solar Power Plants Net (Operational Control)_t-300min,125.79567173708124
-Gross Actual Power Plant Generation_t-375min,125.598641602835
-Estimated Solar Power Production (Day-Ahead)_t+240min,125.52272400632724
-Requested Positive aFRR Balancing Energy (kWh)_t-300min,125.29854985551533
-HU-SK_t-375min,125.25167977718118
-Requested Negative aFRR Balancing Energy (kWh)_t-600min,125.22389561086788
-Gross Certified System Load (Actual)_t-330min,125.1889350391123
-Estimated Wind Power Production (Intraday)_t+180min,124.88017953065403
-HU-AT Schedule_t+120min,124.4911021381259
-HU-AT_t-135min,124.44772127197976
-HU-UA Schedule_t+435min,124.4458354324828
-Requested Negative aFRR Balancing Energy (kWh)_t-375min,124.3891413348227
-HU-UA Schedule_t+390min,124.3535668120946
-Requested Positive aFRR Balancing Energy (kWh)_t-270min,124.27977279715633
-HU-SK_t-540min,124.2760622222465
-Negative GCC Energy (kWh)_t-240min,124.21078159761937
-Requested Negative aFRR Balancing Energy (kWh)_t-480min,124.20852648627947
-Estimated Solar Power Production (Current)_t+510min,124.1708577419594
-Requested Negative aFRR Balancing Energy (kWh)_t-540min,123.90629515944124
-HU-UA_t-150min,123.75944175437141
-HU-SK Schedule_t+120min,123.61232353406115
-HU-HR Schedule_t+510min,123.56293844088721
-System Direction (kWh)_t-150min,123.50811273837499
-Estimated Solar Power Production (Intraday)_t+540min,123.26125877154945
-HU-SK Schedule_t+705min,123.19304866586315
-HU-HR Schedule_t+345min,122.83228267114063
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-165min,122.31554653029889
-Requested Negative aFRR Balancing Energy (kWh)_t-255min,122.31212783877781
-Activated Negative aFRR Balancing Energy (kWh)_t-510min,121.81116555632522
-Estimated Solar Power Production (Current)_t+30min,121.62951010137412
-Estimated Wind Power Production (Current)_t+210min,121.48533745676573
-Requested Negative aFRR Balancing Energy (kWh)_t-495min,121.10158302622544
-HU-SK Schedule_t+345min,120.74301575072695
-Gross Actual Power Plant Generation_t-390min,120.37559850236251
-Gross Actual Power Plant Generation_t-135min,120.31707279939494
-Gross Actual Power Plant Generation_t-525min,120.31324244734203
-Activated Negative aFRR Balancing Energy (kWh)_t-180min,120.20758810241436
-Positive GCC Energy (kWh)_t-465min,120.03329543919858
-Requested Negative aFRR Balancing Energy (kWh)_t-510min,119.80503387812846
-Gross Planned Power Plant Generation_t+600min,119.75628470652279
-Gross Planned Power Plant Generation_t+345min,119.68606193459554
-HU-AT Schedule_t+480min,119.47875606104381
-HU-AT Schedule_t+555min,119.42921901283225
-Activated Negative aFRR Balancing Energy (kWh)_t-120min,119.2826574144461
-Wind Power Actual - Net Commercial Settlement_t-60min,119.12950451482978
-10m_wind_speed_std_t+75min,119.12058632360012
-Gross System Load Forecast (Day-Ahead)_t+510min,119.08795518748313
-Gross Planned Power Plant Generation_t+225min,118.8861576291672
-HU-SK_t-45min,118.83403110299432
-HU-SK_t-360min,118.64961512220825
-Estimated Solar Power Production (Current)_t+300min,118.63346941145471
-Gross Actual Power Plant Generation_t-450min,118.59962090499364
-Positive GCC Energy (kWh)_t-300min,118.49183169518146
-HU-UA_t-60min,118.46133348718755
-Negative GCC Energy (kWh)_t-330min,118.35293159567773
-Gross Certified System Load (Actual)_t-360min,118.31060395111885
-HU-AT Schedule_t+105min,117.65009232625842
-HU-RS Schedule_t+45min,117.57584776707263
-HU-AT Schedule_t+540min,117.52239697707316
-System Direction (kWh)_t-285min,117.49199978021416
-Estimated Solar Power Production (Current)_t+405min,117.26640289209755
-HU-RS Schedule_t+375min,117.12914977122117
-Negative GCC Energy (kWh)_t-225min,117.12031171091863
-Gross Planned Power Plant Generation_t+450min,117.08657806183737
-Estimated Solar Power Production (Day-Ahead)_t+555min,116.54145767319315
-Wind Power Actual - Net Operational Control_t-60min,116.45221851074271
-HU-RS Schedule_t+180min,116.44821269050469
-System Direction (kWh)_t-60min,116.38748653733535
-HU-RO Schedule_t+660min,116.3426830649513
-Gross System Load Forecast (Day-Ahead)_t+270min,116.28074124897452
-HU-UA_t-420min,116.23616882046133
-HU-UA Schedule_t+195min,116.19680795624734
-HU-RS Schedule_t+390min,116.15623723594426
-Estimated Solar Power Production (Day-Ahead)_t+195min,116.10422039363566
-HU-AT Schedule_t+615min,116.0587461368938
-Estimated Solar Power Production (Intraday)_t+270min,115.91808654746865
-HU-HR Schedule_t+645min,115.91780873006363
-HU-UA_t-165min,115.80204862589244
-HU-UA_t-210min,115.7481062218267
-Gross Planned Power Plant Generation_t+495min,115.65405837168149
-HU-AT_t-465min,115.5866725142735
-Gross System Load Forecast (Day-Ahead)_t+420min,115.57947390877489
-HU-RO Schedule_t+570min,115.56900360634825
-Estimated Wind Power Production (Current)_t+195min,115.55188619283331
-Estimated Solar Power Production (Day-Ahead)_t+480min,115.54767218434047
-System Direction (kWh)_t-270min,115.53007052729342
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-120min,115.46954668606813
-Estimated Wind Power Production (Current)_t+330min,115.3572484426059
-Solar Power Plants Net (Operational Control)_t-555min,115.34201950113652
-HU-RS_t-255min,115.26928378639954
-Estimated Wind Power Production (Intraday)_t+90min,115.25385422525267
-HU-AT_t-570min,115.0713738459654
-HU-RO_t-495min,114.90217216217047
-HU-AT Schedule_t+330min,114.77852931867392
-Estimated Solar Power Production (Current)_t+240min,114.58959326350836
-Requested Negative aFRR Balancing Energy (kWh)_t-390min,114.58665759948617
-Estimated Solar Power Production (Day-Ahead)_t+435min,114.5586570359591
-Activated Positive aFRR Balancing Energy (kWh)_t-285min,114.537323406833
-HU-HR Schedule_t+135min,114.50066120677316
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-375min,114.38434005543836
-Gross Certified System Load (Actual)_t-240min,114.2697141650367
-HU-UA Schedule_t+600min,114.11167846630978
-HU-RO,114.05954039926397
-Gross Planned Power Plant Generation_t+45min,114.05524889245119
-Negative GCC Energy (kWh)_t-375min,114.02644433719288
-Solar Power Plants Net (Operational Control)_t-345min,114.01805096223684
-Negative GCC Energy (kWh)_t-195min,113.99368520896027
-HU-UA Schedule_t+150min,113.89698087168783
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-75min,113.7673976723919
-Gross Actual Power Plant Generation_t-165min,113.60350948106165
-HU-SK_t-105min,113.48132795439524
-Activated Negative aFRR Balancing Energy (kWh)_t-585min,113.3825178867309
-Solar Power Plants Net (Operational Control)_t-585min,113.03849151368077
-Gross Certified System Load (Actual)_t-525min,113.02147854672519
-HU-AT Schedule_t+495min,112.97794359551919
-Estimated Solar Power Production (Day-Ahead)_t+120min,112.9369603136749
-HU-RS Schedule_t+645min,112.62801930427827
-HU-HR Schedule_t+555min,112.4279698099679
-Positive GCC Energy (kWh)_t-525min,112.34253956130485
-HU-RO_t-285min,112.09083976032102
-Gross Planned Power Plant Generation_t+630min,111.7814877340132
-Gross Actual Power Plant Generation_t-555min,111.72664261542366
-Gross Planned Power Plant Generation_t+180min,111.5892794998252
-HU-RO_t-270min,111.5552662947955
-HU-UA_t-375min,111.50439759387052
-HU-SK Schedule_t+465min,111.23456518720305
-Requested Positive aFRR Balancing Energy (kWh)_t-135min,111.10682143316872
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-390min,111.09371459607966
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-345min,111.05551521569491
-Wind Power Actual - Net Operational Control_t-255min,110.84323335992194
-Requested Positive aFRR Balancing Energy (kWh)_t-225min,110.82595441151223
-Wind Power Actual - Net Operational Control_t-420min,110.72094186714189
-Solar Power Plants Net (Operational Control)_t-525min,110.5944076772802
-HU-RS_t-285min,110.44813684354719
-Requested Negative aFRR Balancing Energy (kWh)_t-435min,110.37821879090139
-HU-SK_t-180min,110.36391051821934
-HU-SK Schedule_t+315min,110.22991173087442
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-525min,110.0992247502769
-Estimated Wind Power Production (Intraday)_t+15min,110.03690956879328
-Estimated Solar Power Production (Day-Ahead)_t+390min,109.9295132629185
-Estimated Solar Power Production (Intraday)_t+285min,109.85241327287149
-HU-RO Schedule_t+405min,109.82193729594765
-Gross Actual Power Plant Generation_t-495min,109.81890266007369
-HU-UA_t-45min,109.78400283386955
-Gross Certified System Load (Actual)_t-435min,109.7725967117641
-10m_wind_speed_std_t+30min,109.71514559987888
-HU-AT_t-60min,109.46798676308318
-ssrd_std_t+15min,109.44229954048126
-Estimated Wind Power Production (Current)_t+240min,109.34890818492711
-Requested Negative aFRR Balancing Energy (kWh)_t-315min,109.14679348610636
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-555min,109.09713241383267
-Gross Actual Power Plant Generation_t-180min,109.0901641031015
-dayofweek,109.03601401799736
-HU-UA Schedule_t+165min,109.01738400361174
-Gross Certified System Load (Actual)_t-285min,108.98061264666015
-10m_wind_speed_mean_t+60min,108.97744796659943
-Estimated Solar Power Production (Intraday)_t+30min,108.49393377478978
-Requested Positive aFRR Balancing Energy (kWh)_t-240min,108.4854739816822
-HU-SK Schedule_t+540min,108.33645203826718
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-75min,108.24265360997845
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-240min,108.17613684497876
-HU-RO Schedule_t+120min,108.06642221286442
-HU-HR_t-105min,108.01513417562433
-Activated Negative aFRR Balancing Energy (kWh)_t-270min,107.96011900761891
-HU-AT Schedule_t+420min,107.84711705187787
-HU-SK Schedule_t+135min,107.4674001941141
-HU-RS Schedule_t+75min,107.43341833906398
-Activated Negative aFRR Balancing Energy (kWh)_t-150min,107.42112652687251
-HU-RS_t-525min,107.40597934155839
-HU-UA Schedule_t+525min,107.26530261569974
-HU-SK Schedule_t+165min,106.91084029397663
-HU-AT_t-540min,106.8390479878864
-Gross Planned Power Plant Generation_t+270min,106.83323829014925
-HU-HR Schedule_t+450min,106.62044939808695
-HU-UA Schedule_t+120min,106.52371925398162
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-180min,106.47494415229161
-HU-SK Schedule_t+150min,106.43805556485245
-Estimated Solar Power Production (Day-Ahead)_t+90min,106.42628006961874
-Gross System Load Forecast (Day-Ahead)_t+645min,106.31564018890435
-Gross Certified System Load (Actual)_t-270min,106.2404368086865
-Estimated Solar Power Production (Intraday)_t+375min,106.14256095570553
-Activated Negative aFRR Balancing Energy (kWh)_t-600min,106.08332666807003
-Gross System Load Forecast (Day-Ahead)_t+555min,106.02793727099859
-HU-SK_t-585min,105.8378896964241
-HU-RS Schedule_t+150min,105.82985474476769
-HU-UA Schedule_t+300min,105.79759445117345
-Solar Power Plants Net (Operational Control)_t-330min,105.78344449811638
-HU-SK_t-90min,105.58806622974802
-Gross System Load Forecast (Day-Ahead)_t+360min,105.56410415422056
-HU-HR Schedule_t+675min,105.45458414175702
-Negative GCC Energy (kWh)_t-180min,105.40785036213465
-Estimated Solar Power Production (Day-Ahead)_t+105min,105.19976997102415
-temp_mean_t+45min,105.16414821258809
-Wind Power Actual - Net Operational Control,105.14951913934877
-HU-HR_t-555min,105.11705033183819
-Negative GCC Energy (kWh)_t-465min,105.1119817930917
-ssrd_std_t+30min,105.0259737061684
-Requested Negative aFRR Balancing Energy (kWh)_t-465min,104.99971427438918
-Gross Planned Power Plant Generation_t+240min,104.95228566366227
-HU-UA Schedule_t+585min,104.8721523155762
-HU-SK_t-255min,104.86177505586053
-HU-HR Schedule_t+630min,104.84471032098494
-Positive GCC Energy (kWh)_t-480min,104.53939633048535
-Negative GCC Energy (kWh)_t-495min,104.53329634082777
-Estimated Solar Power Production (Current)_t+375min,104.41716234837452
-Activated Negative aFRR Balancing Energy (kWh)_t-90min,104.36454339572506
-HU-HR_t-405min,104.13658855002966
-HU-RS_t-555min,103.94103076778602
-Estimated Solar Power Production (Current)_t+420min,103.74594503523576
-Activated Positive aFRR Balancing Energy (kWh)_t-225min,103.59173000249882
-Gross Actual Power Plant Generation_t-105min,103.52312362674317
-Solar Power Plants Net (Operational Control)_t-255min,103.47340809589464
-Activated Negative aFRR Balancing Energy (kWh)_t-195min,103.45445686247777
-HU-RS_t-195min,103.21232984019029
-Gross Actual Power Plant Generation_t-435min,102.92411076587567
-Gross Certified System Load (Actual)_t-480min,102.8246846873783
-HU-HR Schedule_t+435min,102.70497601829018
-HU-AT_t-345min,102.67806762329226
-HU-UA_t-330min,102.52840501906553
-Activated Negative aFRR Balancing Energy (kWh)_t-165min,102.3675940979391
-Solar Power Plants Net (Operational Control)_t-450min,102.20782203287283
-Estimated Solar Power Production (Day-Ahead)_t+570min,102.1372936715305
-Gross Certified System Load (Actual)_t-540min,102.10967317491547
-HU-RS_t-210min,101.99805650353491
-HU-UA Schedule_t+60min,101.96208621628169
-HU-UA_t-120min,101.88536785415229
-Activated Negative aFRR Balancing Energy (kWh)_t-555min,101.82384163961638
-Activated Positive aFRR Balancing Energy (kWh)_t-420min,101.80372902266589
-Estimated Solar Power Production (Current)_t+555min,101.70294449601542
-Requested Negative aFRR Balancing Energy (kWh)_t-150min,101.66329667664232
-HU-UA Schedule_t+45min,101.56111316827167
-HU-UA_t-75min,101.53186795166773
-HU-UA Schedule_t+360min,101.506547385463
-HU-HR Schedule_t+525min,101.46961595261769
-Gross Planned Power Plant Generation_t+315min,101.36508321684053
-HU-RO_t-585min,101.34152340573193
-HU-AT Schedule_t+570min,101.0982641916369
-Activated Negative aFRR Balancing Energy (kWh)_t-105min,101.0856987018251
-Gross Planned Power Plant Generation_t+465min,101.03201897521845
-System Direction (kWh)_t-390min,100.99396293487294
-HU-UA Schedule_t+75min,100.44375545804816
-Gross Certified System Load (Actual)_t-195min,100.43747552888695
-Requested Positive aFRR Balancing Energy (kWh)_t-480min,100.39117221201272
-Activated Negative aFRR Balancing Energy (kWh)_t-405min,100.35611729013239
-HU-HR_t-465min,100.26556194610566
-HU-SK Schedule_t+645min,100.19271232952097
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-90min,100.14371413641686
-temp_std_t+75min,100.12667185842645
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-390min,100.03895746534793
-Estimated Wind Power Production (Day-Ahead)_t+105min,99.96684041661432
-HU-SK Schedule_t+600min,99.9087418774642
-HU-SK_t-120min,99.87436296715062
-Gross Planned Power Plant Generation_t+645min,99.78676016914281
-HU-HR_t-330min,99.77185452093552
-HU-RO Schedule_t+465min,99.530755871253
-Wind Power Actual - Net Commercial Settlement,99.34143783052875
-Gross System Load Forecast (Day-Ahead)_t+405min,99.31893239096244
-Estimated Wind Power Production (Day-Ahead)_t+330min,99.27946956446699
-HU-HR_t-375min,99.23005631884068
-HU-UA Schedule_t+225min,99.18014974293433
-Gross Planned Power Plant Generation_t+195min,99.17624223831551
-HU-RS Schedule_t+510min,99.16808617180162
-Estimated Solar Power Production (Current)_t+45min,99.0582202696686
-Estimated Solar Power Production (Intraday)_t+405min,99.02312981178208
-HU-RO_t-255min,99.00360040828829
-Gross Actual Power Plant Generation_t-510min,98.80083596552385
-Wind Power Actual - Net Commercial Settlement_t-135min,98.79785994312809
-HU-RS_t-30min,98.7500680191894
-Wind Power Actual - Net Operational Control_t-90min,98.72619853019944
-HU-RS Schedule_t+225min,98.70863889499131
-HU-HR Schedule_t+360min,98.50479472094818
-Negative GCC Energy (kWh)_t-450min,98.40167412242354
-HU-RS Schedule_t+330min,98.33256586973485
-HU-AT_t-255min,98.32795125179376
-Estimated Solar Power Production (Day-Ahead)_t+75min,98.1710681588686
-Requested Positive aFRR Balancing Energy (kWh)_t-285min,98.12532698937109
-HU-RS_t-45min,98.11444432266464
-HU-UA_t-195min,98.0286814139295
-HU-SK_t-315min,98.01659289910877
-Gross Planned Power Plant Generation_t+480min,98.00724969793956
-HU-HR Schedule_t+165min,97.89765151888982
-Gross Planned Power Plant Generation_t+135min,97.83812676853883
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-150min,97.80977128252307
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-405min,97.6851219213892
-HU-RO_t-90min,97.52306806458806
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-510min,97.39226194547082
-Solar Power Plants Net (Operational Control)_t-600min,97.35515398457956
-Estimated Solar Power Production (Day-Ahead)_t+165min,97.25468244865172
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-570min,97.20365392983413
-Gross Planned Power Plant Generation_t+705min,97.18393711236129
-HU-UA Schedule_t+135min,96.71212747222928
-Negative GCC Energy (kWh)_t-165min,96.62270918211581
-System Direction (kWh)_t-315min,96.60000098239615
-HU-UA_t-510min,96.47808136705899
-Requested Positive aFRR Balancing Energy (kWh)_t-255min,96.43085430477193
-Gross Certified System Load (Actual)_t-120min,96.35767481321095
-HU-UA Schedule_t+555min,96.28305252742057
-Requested Positive aFRR Balancing Energy (kWh)_t-420min,96.24501489934173
-HU-HR Schedule_t+255min,96.23630138147173
-Gross Certified System Load (Actual)_t-30min,96.23002341339105
-Estimated Solar Power Production (Day-Ahead)_t+405min,95.9793649036744
-Gross Planned Power Plant Generation_t+300min,95.78884710136946
-HU-RO_t-510min,95.68977190048541
-HU-SK Schedule_t+555min,95.1827560261841
-HU-SK_t-60min,95.1596781950249
-Estimated Wind Power Production (Current)_t+75min,95.13807463016624
-System Direction (kWh)_t-225min,94.99467628517993
-Estimated Solar Power Production (Current),94.98981745297206
-Estimated Solar Power Production (Current)_t+570min,94.83505661772082
-HU-SK_t-225min,94.74070280839082
-System Direction (kWh)_t-255min,94.52335457255965
-System Direction (kWh)_t-75min,94.47117076681529
-Gross Planned Power Plant Generation_t+420min,94.43023589084802
-Estimated Solar Power Production (Day-Ahead)_t+210min,94.32608230264597
-Estimated Solar Power Production (Intraday)_t+360min,94.30728449312946
-HU-RO Schedule_t+90min,94.1982414852462
-Estimated Solar Power Production (Current)_t+315min,93.74478633044566
-HU-HR Schedule_t+600min,93.73251699301595
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-405min,93.72065019775134
-HU-HR Schedule_t+420min,93.61896455758674
-HU-RS Schedule_t+555min,93.42285398478502
-10m_wind_speed_std_t+15min,93.30996458951918
-Gross Planned Power Plant Generation_t+15min,93.24973961458085
-ssrd_std_t+45min,93.24115529548405
-HU-SK_t-465min,93.23822635635054
-Positive GCC Energy (kWh)_t-540min,93.15877057821123
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-45min,93.07096409969233
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-435min,93.04832321287958
-temp_std_t+60min,92.99962933919987
-HU-RS_t-480min,92.94885544649685
-Gross System Load Forecast (Day-Ahead)_t+540min,92.90729176564884
-HU-SK_t-435min,92.89940291390374
-Activated Positive aFRR Balancing Energy (kWh)_t-270min,92.77802743480045
-HU-SK Schedule_t+525min,92.70945375753651
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-240min,92.68559897825794
-Gross System Load Forecast (Day-Ahead)_t+135min,92.59398421404057
-Requested Negative aFRR Balancing Energy (kWh)_t-105min,92.5298225976045
-Positive GCC Energy (kWh)_t-270min,92.52390923957766
-HU-UA Schedule_t+345min,92.44490429127633
-temp_mean_t+60min,92.34022466647433
-HU-AT_t-75min,92.33428337967436
-HU-HR_t-510min,92.13359204337928
-Activated Negative aFRR Balancing Energy (kWh)_t-570min,92.11042565261536
-HU-RS Schedule_t+120min,92.02682276939088
-Solar Power Plants Net (Operational Control)_t-480min,91.98386104554564
-Requested Negative aFRR Balancing Energy (kWh)_t-90min,91.93545119458153
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-225min,91.88860632264932
-Requested Positive aFRR Balancing Energy (kWh)_t-180min,91.83975193793687
-Negative GCC Energy (kWh)_t-90min,91.65721260193557
-Positive GCC Energy (kWh)_t-285min,91.56846858817644
-Requested Positive aFRR Balancing Energy (kWh)_t-360min,91.48386697924133
-Solar Power Plants Net (Operational Control)_t-540min,91.45061041034577
-HU-SK_t-495min,91.44213195324437
-HU-AT_t-600min,91.43156623977418
-Estimated Solar Power Production (Current)_t+540min,91.37286116385789
-Requested Negative aFRR Balancing Energy (kWh)_t-195min,91.31503797200673
-HU-RS Schedule_t+615min,91.14173569618255
-Estimated Solar Power Production (Intraday)_t+15min,90.99289303338526
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-450min,90.92055672843576
-10m_wind_speed_std_t+45min,90.90188957385905
-Activated Negative aFRR Balancing Energy (kWh)_t-225min,90.90077185278908
-Requested Positive aFRR Balancing Energy (kWh)_t-465min,90.89899792104835
-HU-AT_t-300min,90.80399532478309
-Estimated Solar Power Production (Current)_t+585min,90.71761693531516
-Estimated Solar Power Production (Intraday)_t+420min,90.64408744589862
-Estimated Solar Power Production (Intraday)_t+600min,90.61930720380879
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-360min,90.61815283057813
-Activated Positive aFRR Balancing Energy (kWh)_t-345min,90.5975921112736
-Gross Certified System Load (Actual)_t-420min,90.53637736122884
-HU-UA Schedule_t+180min,90.53145800804211
-Estimated Solar Power Production (Intraday)_t+585min,90.43392426155336
-Gross Actual Power Plant Generation_t-585min,90.41379330414465
-Activated Positive aFRR Balancing Energy (kWh)_t-255min,90.3449391584478
-Requested Negative aFRR Balancing Energy (kWh)_t-120min,90.20011393118097
-HU-RS_t-405min,90.1409777027774
-HU-RO Schedule_t+150min,90.06285511963219
-HU-RO Schedule_t+105min,89.75859738081843
-HU-AT_t-450min,89.68636479070344
-HU-RS_t-270min,89.661433476756
-System Direction (kWh)_t-180min,89.63490181626746
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-195min,89.58608247012742
-Estimated Solar Power Production (Intraday)_t+315min,89.49258803671869
-HU-RS Schedule_t+345min,89.4625429212658
-HU-RS Schedule_t+420min,89.42334264959678
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-105min,89.36217266527458
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-525min,89.26515083086753
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-360min,89.0706828432235
-HU-HR_t-285min,89.0272712740558
-temp_mean_t+75min,88.8476132992523
-HU-SK_t-345min,88.8220048919824
-HU-SK_t-75min,88.80361268034721
-Estimated Solar Power Production (Current)_t+270min,88.78002403545602
-HU-RS Schedule_t+405min,88.57084377908987
-HU-SK Schedule_t+360min,88.53419038087307
-HU-SK_t-270min,88.18071674616974
-Estimated Wind Power Production (Intraday)_t+75min,88.17502671320129
-Activated Positive aFRR Balancing Energy (kWh)_t-360min,88.07445083008523
-Estimated Solar Power Production (Day-Ahead)_t+495min,87.92710342198312
-Positive GCC Energy (kWh)_t-330min,87.86176961955269
-HU-UA_t-225min,87.76152772904679
-Estimated Wind Power Production (Current)_t+585min,87.76143380172533
-Gross System Load Forecast (Day-Ahead)_t+315min,87.56387031479319
-HU-SK Schedule_t+585min,87.54722836841503
-Negative GCC Energy (kWh)_t-420min,87.35489338189005
-Wind Power Actual - Net Operational Control_t-330min,87.34904219203032
-HU-RO_t-240min,87.22253304193903
-Estimated Solar Power Production (Intraday)_t+435min,87.22171808992638
-Estimated Solar Power Production (Intraday)_t+570min,87.20975011793146
-Gross Certified System Load (Actual)_t-135min,87.20924937406608
-Estimated Wind Power Production (Day-Ahead)_t+75min,87.19539456945407
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-75min,87.00450586154209
-Wind Power Actual - Net Commercial Settlement_t-90min,86.84182972427485
-Wind Power Actual - Net Operational Control_t-225min,86.78134641769478
-Estimated Wind Power Production (Current)_t+30min,86.77780026178728
-HU-RS Schedule_t+240min,86.32237979502372
-HU-SK_t-300min,86.30701248542235
-Estimated Solar Power Production (Current)_t+360min,86.2581593093615
-Gross Planned Power Plant Generation_t+615min,86.13100126376543
-Estimated Solar Power Production (Current)_t+285min,86.07696808155221
-Estimated Solar Power Production (Intraday)_t+525min,86.04732080688983
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-300min,86.03912756923081
-Gross Certified System Load (Actual)_t-105min,85.90626599310744
-Positive GCC Energy (kWh)_t-345min,85.86733170232876
-Activated Positive aFRR Balancing Energy (kWh)_t-330min,85.83455972794218
-Solar Power Plants Net (Operational Control)_t-405min,85.66275036159273
-HU-RO_t-210min,85.60825788277762
-Gross Certified System Load (Actual)_t-255min,85.56819077206761
-HU-RO_t-30min,85.54448612905735
-HU-UA Schedule_t+285min,85.42386445532865
-Estimated Solar Power Production (Intraday)_t+480min,85.41061394604259
-Requested Positive aFRR Balancing Energy (kWh)_t-345min,85.3259657788956
-HU-SK_t-525min,85.08151669009098
-Wind Power Actual - Net Commercial Settlement_t-270min,84.9788612497825
-HU-AT Schedule_t+525min,84.96044937127395
-HU-RS Schedule,84.89357735263698
-HU-AT_t-210min,84.86586266504898
-Negative GCC Energy (kWh)_t-585min,84.81654112212269
-Gross System Load Forecast (Day-Ahead)_t+630min,84.81547831275769
-Requested Positive aFRR Balancing Energy (kWh)_t-150min,84.81370206059842
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-345min,84.79841502406505
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-300min,84.77553339896231
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-510min,84.75044599402209
-Gross System Load Forecast (Day-Ahead)_t+615min,84.74935520429092
-HU-RO_t-450min,84.64730500426586
-Estimated Solar Power Production (Current)_t+495min,84.49486808653408
-Estimated Solar Power Production (Intraday)_t+555min,84.38641530142779
-Estimated Wind Power Production (Day-Ahead),84.38523277470009
-HU-RS Schedule_t+285min,84.36235393280708
-Estimated Solar Power Production (Intraday)_t+330min,84.34213807883835
-Activated Negative aFRR Balancing Energy (kWh)_t-525min,84.274698292041
-Gross Certified System Load (Actual)_t-60min,84.17527967247683
-HU-RO_t-225min,84.15929317928122
-HU-SK_t-405min,83.95380589738377
-HU-RS_t-450min,83.94319916423665
-Wind Power Actual - Net Commercial Settlement_t-165min,83.82858315634823
-Estimated Solar Power Production (Intraday)_t+450min,83.5579337111279
-Gross Actual Power Plant Generation_t-600min,83.51900373036486
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-180min,83.47318927436221
-System Direction (kWh)_t-300min,83.38250166638912
-Estimated Solar Power Production (Current)_t+15min,83.36271999243576
-Solar Power Plants Net (Operational Control)_t-570min,83.22449857442022
-HU-RS Schedule_t+630min,83.18910909869842
-Gross Certified System Load (Actual)_t-150min,83.09132440875995
-Activated Negative aFRR Balancing Energy (kWh)_t-435min,83.04463502546933
-Activated Positive aFRR Balancing Energy (kWh)_t-180min,82.9210893832236
-HU-RO_t-150min,82.91525927529071
-System Direction (kWh)_t-360min,82.76748694375631
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-285min,82.642165499527
-Estimated Solar Power Production (Intraday)_t+300min,82.57779775176371
-HU-HR_t-195min,82.53820830963413
-HU-HR_t-90min,82.43915303435577
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-105min,82.42302018303384
-HU-RS_t-465min,82.4003400792657
-Requested Negative aFRR Balancing Energy (kWh)_t-135min,82.38373601716933
-HU-HR Schedule_t+615min,82.35441233167029
-HU-AT_t-90min,82.16012681234004
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-540min,82.15095463792373
-HU-HR_t-75min,82.06927887572353
-HU-HR Schedule_t+660min,81.96658920368505
-Negative GCC Energy (kWh)_t-315min,81.82465597797835
-Gross Planned Power Plant Generation_t+585min,81.67704383082943
-Wind Power Actual - Net Commercial Settlement_t-315min,81.60173879659965
-Estimated Solar Power Production (Current)_t+345min,81.54238150178654
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-420min,81.40997749128863
-Solar Power Plants Net (Operational Control)_t-435min,81.36008088467966
-HU-HR Schedule_t+405min,81.2306528370311
-Estimated Solar Power Production (Intraday),81.16132317967286
-HU-RO_t-60min,80.97526541321369
-HU-SK Schedule_t+690min,80.8083926015263
-Gross System Load Forecast (Day-Ahead)_t+570min,80.76804807803974
-Requested Positive aFRR Balancing Energy (kWh)_t-495min,80.64664601360148
-Estimated Solar Power Production (Current)_t+435min,80.64117803489071
-Solar Power Plants Net (Operational Control)_t-390min,80.58551191197449
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-135min,80.57029620008828
-HU-UA_t-465min,80.55084601199606
-HU-AT_t-285min,80.41684447287253
-Wind Power Actual - Net Commercial Settlement_t-75min,80.38195154550075
-Positive GCC Energy (kWh)_t-105min,80.37682423688895
-Activated Negative aFRR Balancing Energy (kWh)_t-375min,80.33585620697565
-Gross System Load Forecast (Day-Ahead)_t+330min,80.32888213034693
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-135min,80.21736070455816
-Wind Power Actual - Net Commercial Settlement_t-510min,80.1683831713417
-100m_wind_speed_mean_t+30min,80.15566912586665
-HU-SK_t-480min,80.06217880060107
-Gross System Load Forecast (Day-Ahead)_t+690min,80.05933291903322
-Estimated Solar Power Production (Intraday)_t+495min,79.96371761756544
-HU-RO_t-300min,79.93418193347618
-Wind Power Actual - Net Commercial Settlement_t-105min,79.91024865229167
-HU-UA Schedule_t+255min,79.8882344138616
-temp_std,79.81209544905944
-temp_std_t+45min,79.76811699705223
-HU-HR_t-585min,79.67261199259359
-Estimated Solar Power Production (Intraday)_t+510min,79.66817880713293
-System Direction (kWh)_t-345min,79.5416973429092
-Solar Power Plants Net (Operational Control)_t-240min,79.4981041823145
-HU-UA Schedule_t+570min,79.49294545970542
-HU-RO_t-45min,79.38602048594052
-Requested Negative aFRR Balancing Energy (kWh)_t-525min,79.2902576919957
-HU-HR_t-255min,79.2070880546057
-HU-RS Schedule_t+360min,79.16270626180292
-Gross System Load Forecast (Day-Ahead)_t+285min,79.15858517914549
-HU-SK_t-195min,79.1371192710199
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-240min,79.07737587987295
-Gross Certified System Load (Actual)_t-555min,78.98314602211755
-HU-RS Schedule_t+720min,78.96396856224995
-Activated Positive aFRR Balancing Energy (kWh)_t-435min,78.84064078698647
-HU-AT_t-330min,78.76585557265828
-Estimated Wind Power Production (Day-Ahead)_t+600min,78.75534783865228
-Requested Negative aFRR Balancing Energy (kWh)_t-165min,78.73294331091736
-Activated Positive aFRR Balancing Energy (kWh)_t-240min,78.7012790039645
-HU-HR_t-480min,78.67991388713746
-Estimated Wind Power Production (Intraday)_t+225min,78.6296586915945
-HU-RS_t-390min,78.52655249211847
-HU-UA Schedule_t+315min,78.49095357804461
-Requested Negative aFRR Balancing Energy (kWh)_t-570min,78.40466691777182
-Wind Power Actual - Net Operational Control_t-195min,78.34927972806875
-Requested Positive aFRR Balancing Energy (kWh)_t-540min,78.26029950303645
-HU-RO_t-135min,78.1978655996899
-HU-HR_t-390min,78.01989889040274
-HU-SK Schedule_t+480min,77.96756603885505
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-15min,77.94283884386682
-Gross System Load Forecast (Day-Ahead)_t+585min,77.91378982036017
-HU-RS_t-345min,77.89102698970893
-Solar Power Plants Net (Operational Control)_t-420min,77.82848912666736
-100m_wind_speed_mean_t+60min,77.73469198939736
-HU-AT_t-150min,77.61277853069004
-HU-AT_t-420min,77.58160154109837
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-30min,77.54878155352313
-Requested Positive aFRR Balancing Energy (kWh)_t-450min,77.51172221005746
-HU-RS_t-540min,77.46454780307573
-HU-RS_t-240min,77.42569221972273
-HU-RO_t-390min,77.36346450165027
-HU-RO_t-75min,77.18568803711479
-HU-RS_t-360min,76.84681110478125
-Wind Power Actual - Net Operational Control_t-450min,76.6671465810354
-HU-RO Schedule_t+675min,76.59512880793271
-HU-RO_t-195min,76.5754335505338
-HU-AT Schedule_t+720min,76.47282489381676
-Estimated Solar Power Production (Intraday)_t+345min,76.27569106694364
-HU-AT Schedule_t+345min,76.21442331836141
-HU-RS_t-120min,76.19410739025916
-System Direction (kWh)_t-165min,76.13436561942413
-10m_wind_speed_mean_t+30min,76.12006270144096
-10m_wind_speed_std_t+60min,76.01537185585826
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-345min,75.97763196640082
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-150min,75.82562448815881
-Solar Power Plants Net (Operational Control)_t-360min,75.76818566527146
-HU-HR_t-270min,75.7501076607067
-Activated Positive aFRR Balancing Energy (kWh)_t-465min,75.70326910270549
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-90min,75.49256465697913
-10m_wind_speed_std,75.4518348074909
-HU-SK_t-240min,75.44006458271346
-Solar Power Plants Net (Operational Control)_t-495min,75.4305340702284
-HU-RS_t-90min,75.38750288468924
-Estimated Solar Power Production (Day-Ahead)_t+585min,75.38088109289589
-HU-HR_t-345min,75.32337577215911
-Estimated Wind Power Production (Day-Ahead)_t+510min,75.26746207285676
-Activated Positive aFRR Balancing Energy (kWh)_t-375min,75.25202278694019
-HU-UA_t-255min,75.24218981479645
-HU-SK_t-285min,75.03023294491878
-Wind Power Actual - Net Operational Control_t-240min,74.96667513755713
-Estimated Wind Power Production (Current)_t+225min,74.89259209722452
-Positive GCC Energy (kWh)_t-360min,74.89005872459252
-Requested Positive aFRR Balancing Energy (kWh)_t-585min,74.87790146163123
-Wind Power Actual - Net Operational Control_t-405min,74.84117143416083
-Estimated Solar Power Production (Day-Ahead)_t+450min,74.81596556251091
-Wind Power Actual - Net Commercial Settlement_t-330min,74.7704702059364
-Activated Positive aFRR Balancing Energy (kWh)_t-480min,74.67789659673578
-HU-HR_t-165min,74.67590428040884
-HU-HR_t-540min,74.67041719400424
-HU-RS_t-435min,74.65178172521455
-HU-SK Schedule_t+495min,74.61505630211228
-Estimated Wind Power Production (Day-Ahead)_t+555min,74.50191365427644
-Gross Certified System Load (Actual)_t-510min,74.47365256419437
-HU-HR Schedule_t+540min,74.3925276866447
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-165min,74.38449477117595
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-180min,74.30938040694907
-HU-HR_t-360min,74.30633044702071
-HU-RS_t-15min,74.2896241488595
-Activated Positive aFRR Balancing Energy (kWh)_t-75min,74.19277743227046
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-405min,74.14547131277598
-Wind Power Actual - Net Commercial Settlement_t-540min,74.12844386737645
-HU-HR_t-420min,74.11050446150175
-Positive GCC Energy (kWh)_t-120min,74.09564017925697
-Requested Positive aFRR Balancing Energy (kWh)_t-570min,74.08812047252482
-System Direction (kWh)_t-570min,73.906561404185
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-585min,73.78101298892216
-Gross Planned Power Plant Generation_t+285min,73.75150466266741
-HU-AT_t-240min,73.71266027349688
-HU-AT_t-270min,73.64685624514327
-Estimated Solar Power Production (Day-Ahead)_t+600min,73.60980962612166
-Wind Power Actual - Net Commercial Settlement_t-360min,73.56921331192741
-HU-AT Schedule_t+375min,73.49283773983576
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-390min,73.45512857816236
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-300min,73.33334267284451
-Estimated Solar Power Production (Day-Ahead)_t+30min,73.27044626187416
-Requested Positive aFRR Balancing Energy (kWh)_t-390min,73.23485447178315
-HU-AT_t-375min,73.16206454008466
-Estimated Wind Power Production (Current)_t+285min,73.06618465716927
-Estimated Solar Power Production (Current)_t+450min,73.02392068122901
-Gross Certified System Load (Actual)_t-210min,72.974285961496
-HU-RO_t-555min,72.92808154098933
-Estimated Solar Power Production (Current)_t+330min,72.82665224244681
-Gross Planned Power Plant Generation_t+540min,72.80735259439484
-HU-RS_t-225min,72.78453923292936
-Estimated Wind Power Production (Intraday)_t+540min,72.78141788886398
-Requested Negative aFRR Balancing Energy (kWh)_t-555min,72.69904446462206
-Wind Power Actual - Net Commercial Settlement_t-585min,72.66547878215152
-System Direction (kWh)_t-585min,72.63781488609892
-Negative GCC Energy (kWh)_t-435min,72.60961538707352
-Estimated Solar Power Production (Current)_t+390min,72.59767368117816
-HU-RS Schedule_t+480min,72.5841847726721
-Wind Power Actual - Net Commercial Settlement_t-600min,72.53735499641593
-Solar Power Plants Net (Operational Control)_t-225min,72.37718939329397
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-465min,72.32418121560178
-Gross Actual Power Plant Generation_t-120min,72.24054253863746
-Activated Positive aFRR Balancing Energy (kWh)_t-450min,72.18702291861999
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-135min,72.05293066683285
-Estimated Wind Power Production (Day-Ahead)_t+240min,72.03790651878334
-HU-HR_t-15min,71.99327558724133
-HU-RS_t-495min,71.87021096789766
-Wind Power Actual - Net Commercial Settlement_t-435min,71.85897317851658
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-495min,71.7086790712275
-ssrd_std_t+60min,71.695635103793
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-225min,71.69034981734202
-Estimated Wind Power Production (Intraday),71.64914759394517
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-375min,71.62232191105822
-HU-RS Schedule_t+600min,71.45721265680746
-HU-RO_t-420min,71.29462426203517
-Estimated Wind Power Production (Day-Ahead)_t+270min,71.22530189004776
-Estimated Wind Power Production (Current)_t+405min,71.13546534581445
-Requested Positive aFRR Balancing Energy (kWh)_t-525min,71.00287383782282
-Estimated Wind Power Production (Intraday)_t+555min,70.9899664526866
-10m_wind_speed_mean_t+15min,70.94486870080813
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-435min,70.88950680447978
-Estimated Wind Power Production (Intraday)_t+570min,70.8839353693534
-Wind Power Actual - Net Commercial Settlement_t-150min,70.60312318413271
-Gross System Load Forecast (Day-Ahead)_t+435min,70.59472036555309
-HU-UA Schedule_t+210min,70.5837615397148
-HU-RO_t-435min,70.51695599498059
-System Direction (kWh)_t-210min,70.2933567126448
-Positive GCC Energy (kWh)_t-255min,70.2798868110292
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-420min,70.18153636036588
-HU-HR Schedule_t+315min,70.1680514276801
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-255min,70.15921026189977
-Gross Planned Power Plant Generation_t+210min,70.02910215984882
-HU-AT_t-105min,70.02006175360307
-Gross System Load Forecast (Day-Ahead)_t+660min,69.87200819180876
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-165min,69.80248870790588
-Gross System Load Forecast (Day-Ahead)_t+495min,69.75002822319752
-Gross Planned Power Plant Generation_t+510min,69.72196833950645
-temp_std_t+15min,69.6620981155373
-HU-HR Schedule_t+495min,69.62887027122508
-HU-RS Schedule_t+315min,69.53342755729383
-Estimated Wind Power Production (Day-Ahead)_t+525min,69.5010759010267
-HU-RO_t-105min,69.42521958189079
-HU-RO_t-465min,69.4060771863215
-HU-AT_t-435min,69.3717518429464
-HU-AT_t-555min,69.17686176806997
-Estimated Solar Power Production (Day-Ahead)_t+180min,69.09764891305788
-HU-RO_t-375min,68.90302935531683
-HU-RS_t-510min,68.877300471236
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-255min,68.78965843515758
-System Direction (kWh)_t-90min,68.68077470002945
-Requested Positive aFRR Balancing Energy (kWh)_t-75min,68.4363506055209
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-150min,68.30987327806456
-Gross Certified System Load (Actual)_t-75min,68.28346724773318
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-330min,68.26695847140785
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-420min,68.23572616038057
-Requested Positive aFRR Balancing Energy (kWh)_t-195min,68.20021580159316
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-285min,68.19774178907555
-HU-RS Schedule_t+675min,68.18162722649042
-HU-HR_t-600min,67.93815711716138
-HU-SK Schedule_t+420min,67.86672720567408
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-360min,67.76064121673106
-HU-RS_t-330min,67.6818781580654
-Gross Certified System Load (Actual)_t-465min,67.68091584666492
-HU-RO_t-180min,67.54817293026655
-Estimated Wind Power Production (Day-Ahead)_t+540min,67.4496199833471
-Activated Positive aFRR Balancing Energy (kWh)_t-540min,67.30568118744095
-Gross System Load Forecast (Day-Ahead)_t+300min,67.14855872953237
-Gross System Load Forecast (Day-Ahead)_t+450min,67.14429678300982
-HU-AT_t-360min,67.10000900498123
-HU-RS_t-420min,67.08520689021478
-HU-RO_t-315min,66.8620473002716
-Estimated Wind Power Production (Intraday)_t+420min,66.82486315296111
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-600min,66.80499378489343
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-225min,66.75345549008446
-HU-RO_t-345min,66.61218404181268
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-195min,66.5011395623597
-HU-RS_t-150min,66.41672355316713
-HU-HR Schedule_t+300min,66.36501144075365
-Estimated Wind Power Production (Day-Ahead)_t+60min,66.34414493335463
-Gross System Load Forecast (Day-Ahead)_t+600min,66.30624974704821
-Wind Power Actual - Net Operational Control_t-375min,66.21686529062876
-Activated Positive aFRR Balancing Energy (kWh)_t-315min,66.18200954731745
-Wind Power Actual - Net Commercial Settlement_t-120min,66.15816622410782
-Estimated Wind Power Production (Intraday)_t+495min,66.11796396445833
-System Direction (kWh)_t-330min,66.0536404758145
-Estimated Solar Power Production (Current)_t+480min,66.02584134152731
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-480min,65.97754626181087
-HU-RS_t-75min,65.9404776644187
-Estimated Wind Power Production (Current)_t+555min,65.80946868511211
-Wind Power Actual - Net Operational Control_t-345min,65.78430228380483
-Estimated Wind Power Production (Current)_t+300min,65.75931122066062
-Estimated Solar Power Production (Current)_t+465min,65.72483895868616
-Wind Power Actual - Net Commercial Settlement_t-195min,65.71113878150618
-Estimated Wind Power Production (Intraday)_t+390min,65.66955993796236
-Estimated Solar Power Production (Intraday)_t+255min,65.66702845123997
-Estimated Solar Power Production (Current)_t+525min,65.53748110344902
-HU-RS Schedule_t+705min,65.44382438517515
-HU-HR_t-180min,65.37465650177273
-HU-SK_t-450min,65.23424434022456
-Positive GCC Energy (kWh)_t-315min,65.20496741784753
-HU-AT_t-585min,65.19289334834073
-HU-SK_t-330min,65.19110074718984
-HU-HR_t-450min,65.0448962511479
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-105min,64.98986252900619
-HU-AT_t-225min,64.76178589297531
-HU-RS Schedule_t+570min,64.54240921694263
-Wind Power Actual - Net Operational Control_t-510min,64.50326893984865
-Estimated Wind Power Production (Current)_t+510min,63.87255391200679
-Requested Negative aFRR Balancing Energy (kWh)_t-210min,63.80333239441038
-Requested Positive aFRR Balancing Energy (kWh)_t-555min,63.7958108083523
-HU-RO_t-165min,63.67719379936555
-HU-RS_t-585min,63.63936670713896
-HU-RS Schedule_t+135min,63.62556801203391
-temp_std_t+30min,63.57627833332955
-Gross Certified System Load (Actual)_t-405min,63.37595575234368
-HU-AT_t-165min,63.31976114138953
-Estimated Wind Power Production (Intraday)_t+255min,63.14957527042022
-100m_wind_speed_mean_t+45min,63.05995605838963
-Activated Negative aFRR Balancing Energy (kWh)_t-135min,63.04250555106678
-HU-RO_t-360min,62.98184512958194
-Estimated Wind Power Production (Day-Ahead)_t+300min,62.902638348573895
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-120min,62.81602806145891
-100m_wind_speed_mean_t+75min,62.675286972411605
-HU-RO_t-15min,62.59439326196307
-HU-RS Schedule_t+540min,62.55737362433187
-Estimated Wind Power Production (Intraday)_t+345min,62.488805372401714
-HU-SK Schedule_t+660min,62.483617509579474
-HU-RS Schedule_t+435min,62.43504474022808
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-465min,62.41970461255943
-Requested Positive aFRR Balancing Energy (kWh)_t-435min,62.405845742018265
-HU-SK Schedule_t+375min,62.36903777685285
-Estimated Solar Power Production (Day-Ahead)_t+525min,62.335310048981775
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-495min,62.26483307520489
-Activated Positive aFRR Balancing Energy (kWh)_t-405min,62.237574849598275
-Estimated Solar Power Production (Day-Ahead)_t+150min,62.16101387668525
-Estimated Solar Power Production (Current)_t+600min,62.12108221538072
-Estimated Solar Power Production (Intraday)_t+390min,62.11118433106019
-100m_wind_speed_std_t+75min,62.04788959470401
-Activated Positive aFRR Balancing Energy (kWh)_t-90min,62.041122078614876
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-555min,61.96002067095024
-Activated Positive aFRR Balancing Energy (kWh)_t-210min,61.85294044979503
-HU-HR_t-525min,61.83639342605828
-Estimated Wind Power Production (Day-Ahead)_t+315min,61.74990255063445
-Estimated Wind Power Production (Current)_t+570min,61.650458367416
-Activated Positive aFRR Balancing Energy (kWh)_t-390min,61.604183198487966
-Estimated Wind Power Production (Day-Ahead)_t+450min,61.59339291445622
-HU-RS Schedule_t+525min,61.45767724620227
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-165min,61.31013943304731
-HU-HR_t-225min,61.22060513480644
-HU-UA_t-600min,61.18062276315817
-Estimated Solar Power Production (Day-Ahead)_t+510min,61.11285176132876
-System Direction (kWh)_t-480min,61.08317956028575
-System Direction (kWh)_t-465min,61.072619006512824
-Wind Power Actual - Net Operational Control_t-465min,61.05531914759674
-Estimated Wind Power Production (Current)_t+45min,61.03303444119429
-Estimated Wind Power Production (Intraday)_t+315min,60.99927704594796
-HU-SK Schedule_t+435min,60.955027096325566
-Gross Actual Power Plant Generation_t-405min,60.721041354043436
-Activated Positive aFRR Balancing Energy (kWh)_t-600min,60.69918066593315
-HU-HR_t-300min,60.47045484875125
-Activated Positive aFRR Balancing Energy (kWh)_t-135min,60.425784436043884
-Activated Negative aFRR Balancing Energy (kWh)_t-210min,60.398684221830784
-HU-HR_t-135min,60.316662970718696
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-480min,60.28923632553442
-System Direction (kWh)_t-420min,60.26839099963409
-HU-SK Schedule_t+720min,60.1962294603653
-Gross Actual Power Plant Generation_t-150min,60.17387090986549
-System Direction (kWh)_t-435min,60.17296360060976
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-315min,60.1274509250738
-Positive GCC Energy (kWh)_t-405min,59.9799824023706
-Requested Positive aFRR Balancing Energy (kWh)_t-510min,59.968413371927944
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-585min,59.93207272629307
-Activated Positive aFRR Balancing Energy (kWh)_t-495min,59.92103449785721
-Wind Power Actual - Net Commercial Settlement_t-255min,59.90459196867913
-Wind Power Actual - Net Commercial Settlement_t-480min,59.839485378221205
-Wind Power Actual - Net Operational Control_t-555min,59.828725768672314
-HU-HR Schedule_t+705min,59.78559310890326
-HU-RO_t-120min,59.68457256797154
-HU-RS Schedule_t+690min,59.65000185137144
-Activated Positive aFRR Balancing Energy (kWh)_t-105min,59.6056191391415
-Wind Power Actual - Net Commercial Settlement_t-420min,59.59120709175254
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-210min,59.42133785729967
-Requested Positive aFRR Balancing Energy (kWh)_t-330min,59.284580112740784
-HU-HR Schedule_t+585min,59.27485529275791
-Positive GCC Energy (kWh)_t-570min,59.212500648101184
-HU-RS Schedule_t+585min,59.18724233937795
-Wind Power Actual - Net Operational Control_t-270min,59.12904537043814
-Positive GCC Energy (kWh)_t-225min,59.073053422426554
-10m_wind_speed_mean_t+45min,58.99134216077796
-HU-HR_t-210min,58.63982821621674
-HU-RS_t-135min,58.62520952578497
-Wind Power Actual - Net Commercial Settlement_t-285min,58.60757671702021
-Requested Positive aFRR Balancing Energy (kWh)_t-405min,58.60510736664423
-HU-RS_t-180min,58.49493734774292
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-420min,58.29444379057171
-Estimated Wind Power Production (Intraday)_t+465min,58.02662455774193
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-585min,57.992055478699946
-Estimated Solar Power Production (Intraday)_t+465min,57.981890483488385
-System Direction (kWh)_t-450min,57.96362876947463
-Positive GCC Energy (kWh)_t-450min,57.905987679548275
-System Direction (kWh)_t-375min,57.83204170635115
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-495min,57.7323772408847
-HU-RS_t-570min,57.705259376704795
-Estimated Wind Power Production (Current)_t+465min,57.69871886297126
-HU-RS Schedule_t+210min,57.655777565228064
-Positive GCC Energy (kWh)_t-150min,57.45907547318468
-Negative GCC Energy (kWh)_t-555min,57.41071552840047
-Positive GCC Energy (kWh)_t-390min,57.15936133546762
-HU-RS Schedule_t+660min,57.05201537977054
-HU-HR Schedule_t+465min,57.04884333366749
-HU-HR_t-435min,57.03950870847592
-HU-RS Schedule_t+270min,56.99638836579059
-Gross Certified System Load (Actual)_t-225min,56.81296457587173
-Negative GCC Energy (kWh)_t-600min,56.7764330181844
-Positive GCC Energy (kWh)_t-435min,56.72772760596568
-Gross Planned Power Plant Generation_t+435min,56.624338278718525
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-570min,56.333937509336955
-Activated Positive aFRR Balancing Energy (kWh)_t-150min,56.23251562966086
-Wind Power Actual - Net Operational Control_t-105min,56.11498854586004
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-120min,55.94339199403389
-HU-AT_t-120min,55.865628939873055
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-600min,55.83409529840301
-Estimated Wind Power Production (Intraday)_t+375min,55.62380604278652
-HU-SK Schedule_t+405min,55.55123790398234
-Estimated Wind Power Production (Day-Ahead)_t+435min,55.515330192876185
-Estimated Wind Power Production (Intraday)_t+330min,55.44846140546031
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-465min,55.29645909903163
-Gross Certified System Load (Actual)_t-90min,55.292805249015224
-Wind Power Actual - Net Commercial Settlement_t-390min,55.276726203171165
-Estimated Wind Power Production (Day-Ahead)_t+345min,55.26630179446819
-Gross Actual Power Plant Generation_t-420min,55.2157318438826
-HU-AT_t-180min,55.196755694819714
-HU-HR Schedule_t+480min,55.11623208075482
-Requested Positive aFRR Balancing Energy (kWh)_t-210min,54.79071901100387
-Estimated Solar Power Production (Day-Ahead)_t+225min,54.76105865072202
-HU-HR_t-60min,54.700689769035044
-HU-AT_t-315min,54.695188854776234
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-540min,54.67933228807252
-Estimated Wind Power Production (Current)_t+480min,54.33973847516303
-HU-RS_t-315min,54.29487166755591
-Estimated Wind Power Production (Current)_t+525min,54.131907236413824
-HU-AT_t-390min,53.96103223388845
-Estimated Wind Power Production (Day-Ahead)_t+255min,53.901420198089866
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-555min,53.73788628468183
-HU-HR_t-45min,53.341493391966615
-Positive GCC Energy (kWh)_t-240min,53.318903490376194
-HU-HR_t-120min,53.24845065631321
-Wind Power Actual - Net Commercial Settlement_t-240min,52.99023626958664
-HU-AT_t-195min,52.954417531852165
-HU-RS_t-165min,52.78381377629902
-System Direction (kWh)_t-540min,52.76197431150088
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-450min,52.6080058812773
-Wind Power Actual - Net Operational Control_t-210min,52.57141105108625
-Wind Power Actual - Net Operational Control_t-150min,52.542982297962546
-Wind Power Actual - Net Commercial Settlement_t-555min,52.508449083288745
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-540min,52.47309291569208
-Estimated Wind Power Production (Day-Ahead)_t+405min,52.46618528430611
-Estimated Wind Power Production (Current)_t+390min,52.37990848671622
-HU-HR_t-150min,52.333381696523816
-Gross System Load Forecast (Day-Ahead)_t+525min,52.15878253015753
-Activated Positive aFRR Balancing Energy (kWh)_t-555min,52.1277198409957
-Wind Power Actual - Net Commercial Settlement_t-375min,52.05319219787604
-Negative GCC Energy (kWh)_t-570min,52.047373313102526
-System Direction (kWh)_t-195min,52.02757806657719
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-255min,52.02122376188284
-Gross Planned Power Plant Generation_t+660min,51.96096091055567
-Wind Power Actual - Net Operational Control_t-480min,51.9598951409057
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-315min,51.90280317610323
-Activated Positive aFRR Balancing Energy (kWh)_t-165min,51.70831233966584
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-210min,51.66727272432149
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-480min,51.589222863012424
-Requested Positive aFRR Balancing Energy (kWh)_t-375min,51.58460875123457
-System Direction (kWh)_t-510min,51.575818451798554
-Estimated Wind Power Production (Day-Ahead)_t+15min,51.554867080774684
-Wind Power Actual - Net Operational Control_t-570min,51.425233326510195
-HU-RO_t-600min,51.36965507559927
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-330min,51.32226439084328
-Estimated Wind Power Production (Current)_t+15min,51.28699065529713
-100m_wind_speed_std_t+60min,51.19895443327712
-Positive GCC Energy (kWh)_t-585min,51.17790473448687
-HU-SK Schedule_t+615min,51.161984200120045
-Estimated Wind Power Production (Day-Ahead)_t+480min,51.045998372460865
-Requested Positive aFRR Balancing Energy (kWh)_t-315min,50.99551139641906
-HU-SK Schedule_t+675min,50.990981052489715
-HU-HR_t-570min,50.93643910940206
-Gross Certified System Load (Actual)_t-390min,50.89695387492247
-Wind Power Actual - Net Commercial Settlement_t-210min,50.879860952324705
-HU-SK Schedule_t+630min,50.763224584356145
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-270min,50.66739751028409
-Wind Power Actual - Net Commercial Settlement_t-300min,50.62586294408561
-HU-RS Schedule_t+165min,50.547391662742584
-Positive GCC Energy (kWh)_t-555min,50.43085863549106
-Estimated Wind Power Production (Intraday)_t+450min,50.36376439517699
-Estimated Wind Power Production (Intraday)_t+210min,50.33669275761031
-HU-RS Schedule_t+255min,50.24247656353134
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-330min,50.21133785945996
-Estimated Wind Power Production (Intraday)_t+480min,49.983234188479756
-Wind Power Actual - Net Operational Control_t-525min,49.89614640424069
-Requested Positive aFRR Balancing Energy (kWh)_t-105min,49.88582997365207
-Positive GCC Energy (kWh)_t-135min,49.67172973821306
-Estimated Wind Power Production (Current)_t+360min,49.63553608607492
-Wind Power Actual - Net Operational Control_t-75min,49.61314890846463
-Estimated Wind Power Production (Intraday)_t+270min,49.549405478545864
-Activated Positive aFRR Balancing Energy (kWh)_t-585min,49.051763048905535
-System Direction (kWh)_t-405min,48.827903265848406
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-270min,48.80183777491065
-100m_wind_speed_std_t+15min,48.65762910974211
-Estimated Wind Power Production (Day-Ahead)_t+285min,48.582764338751375
-Estimated Wind Power Production (Intraday)_t+510min,48.56955714839127
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-435min,48.475744282590384
-Estimated Wind Power Production (Intraday)_t+45min,48.399202949397896
-Estimated Wind Power Production (Day-Ahead)_t+90min,48.373153559360176
-Estimated Wind Power Production (Intraday)_t+30min,48.309899364615
-HU-RS_t-60min,48.29859325919496
-Estimated Solar Power Production (Day-Ahead)_t+540min,48.12250545325361
-Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-450min,48.078170054912235
-Estimated Wind Power Production (Day-Ahead)_t+585min,48.064763985192855
-Estimated Wind Power Production (Day-Ahead)_t+390min,48.054343040657
-Estimated Wind Power Production (Current)_t+435min,47.791588258363014
-HU-SK Schedule_t+510min,47.755466550344956
-Requested Positive aFRR Balancing Energy (kWh)_t-90min,47.73285586080966
-HU-HR_t-240min,47.65313174224039
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-180min,47.41059543092807
-Estimated Wind Power Production (Current)_t+420min,47.368705298955256
-Wind Power Actual - Net Commercial Settlement_t-495min,47.33469539932863
-Activated Positive aFRR Balancing Energy (kWh)_t-120min,47.17834991285423
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-210min,47.063098033359886
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-315min,46.9101364197101
-100m_wind_speed_std_t+30min,46.80069532977092
-Estimated Wind Power Production (Day-Ahead)_t+420min,46.450454075055816
-System Direction (kWh)_t-525min,46.43125657883128
-Estimated Wind Power Production (Intraday)_t+405min,46.316163014318015
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-270min,46.29729124489238
-Activated Positive aFRR Balancing Energy (kWh)_t-510min,46.17888129774066
-Gross System Load Forecast (Day-Ahead)_t+345min,45.99253665023356
-Wind Power Actual - Net Operational Control_t-165min,45.98269407255549
-Estimated Wind Power Production (Day-Ahead)_t+465min,45.84412103748876
-Estimated Wind Power Production (Day-Ahead)_t+375min,45.82076167544268
-Estimated Wind Power Production (Intraday)_t+300min,45.726395557580894
-Wind Power Actual - Net Operational Control_t-180min,45.67450419528499
-HU-SK_t-390min,45.55468811318635
-Requested Positive aFRR Balancing Energy (kWh)_t-120min,45.49370638068864
-HU-AT_t-405min,45.48107449854175
-Positive GCC Energy (kWh)_t-210min,45.305802573630906
-Wind Power Actual - Net Operational Control_t-495min,45.03790917536476
-100m_wind_speed_std_t+45min,44.860781206788126
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-195min,44.844349969613106
-HU-RS_t-105min,44.61367769673495
-Wind Power Actual - Net Commercial Settlement_t-450min,44.597104699157526
-Estimated Wind Power Production (Intraday)_t+600min,44.48768549573153
-HU-RS Schedule_t+300min,44.379970720600255
-Activated Positive aFRR Balancing Energy (kWh)_t-195min,44.17769069808633
-System Direction (kWh)_t-600min,44.13903671191751
-Estimated Wind Power Production (Intraday)_t+585min,44.076900814741876
-Requested Positive aFRR Balancing Energy (kWh)_t-600min,43.88546233739194
-Wind Power Actual - Net Commercial Settlement_t-525min,43.763278647906205
-Positive GCC Energy (kWh)_t-180min,43.61211175700322
-Estimated Wind Power Production (Intraday)_t+60min,43.58360000308627
-Estimated Wind Power Production (Day-Ahead)_t+360min,43.50086506528663
-Wind Power Actual - Net Operational Control_t-135min,43.44731651252719
-Positive GCC Energy (kWh)_t-165min,43.416319348716556
-Wind Power Actual - Net Operational Control_t-600min,43.22123881102968
-Requested Positive aFRR Balancing Energy (kWh)_t-165min,42.936277105673696
-Positive GCC Energy (kWh)_t-195min,42.84472253785145
-Estimated Wind Power Production (Current)_t+345min,42.76034113510582
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-105min,42.613938997832726
-System Direction (kWh)_t-495min,42.512909482443746
-Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-285min,42.40199782585879
-Gross Certified System Load (Actual)_t-300min,42.122512892945046
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-495min,41.93401923194888
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-375min,41.73444061067989
-Wind Power Actual - Net Operational Control_t-360min,41.712140357369606
-Estimated Wind Power Production (Current)_t+450min,41.591703262947064
-Positive GCC Energy (kWh)_t-375min,41.484151988329096
-Estimated Wind Power Production (Day-Ahead)_t+570min,41.42874537476747
-Wind Power Actual - Net Operational Control_t-120min,41.06000163879669
-Estimated Wind Power Production (Intraday)_t+435min,40.774535668969285
-HU-RS Schedule_t+495min,40.560988421257065
-Wind Power Actual - Net Commercial Settlement_t-570min,40.53635432905792
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-150min,40.481659719597644
-Estimated Wind Power Production (Current)_t+270min,40.17869412593009
-Wind Power Actual - Net Commercial Settlement_t-225min,40.11098268307108
-Activated Positive aFRR Balancing Energy (kWh)_t-525min,39.84199370706779
-Wind Power Actual - Net Operational Control_t-300min,39.59598748073209
-Wind Power Actual - Net Operational Control_t-315min,39.524968289842846
-System Direction (kWh)_t-555min,39.46415122123407
-Wind Power Actual - Net Commercial Settlement_t-345min,39.39460025569633
-Wind Power Actual - Net Operational Control_t-540min,39.33547490952992
-Estimated Wind Power Production (Current)_t+315min,39.254053928253676
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-600min,38.8446570766691
-HU-HR Schedule_t+690min,38.83823565754549
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-240min,38.48026501094283
-Wind Power Actual - Net Commercial Settlement_t-180min,38.42503385766008
-HU-RS_t-375min,38.34197049996527
-Wind Power Actual - Net Operational Control_t-285min,38.32598675760117
-Wind Power Actual - Net Operational Control_t-435min,38.28555879917057
-Estimated Wind Power Production (Intraday)_t+360min,38.16649653044403
-Estimated Wind Power Production (Current)_t+495min,38.16499391172612
-Estimated Wind Power Production (Current)_t+255min,38.143841499636174
-Estimated Wind Power Production (Current)_t+600min,38.035191971460435
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-60min,37.99906219197023
-Estimated Wind Power Production (Current),37.932752946223715
-Positive GCC Energy (kWh)_t-420min,37.26697345829043
-HU-RS_t-300min,37.119471496114485
-Estimated Wind Power Production (Intraday)_t+525min,36.66948455304171
-Estimated Wind Power Production (Intraday)_t+285min,36.584612771189484
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-90min,36.338248185534155
-Positive GCC Energy (kWh)_t-90min,36.15205615742055
-Estimated Wind Power Production (Current)_t+540min,36.06873506520324
-Estimated Wind Power Production (Current)_t+60min,36.032248012278814
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-195min,35.77335189638332
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-360min,35.76294131530159
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-525min,35.43931041212258
-Estimated Wind Power Production (Day-Ahead)_t+495min,35.31999326173587
-Estimated Wind Power Production (Current)_t+375min,35.289139778543145
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-570min,35.06715795916587
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-525min,34.07472779128085
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-225min,33.815940720379906
-Estimated Wind Power Production (Day-Ahead)_t+30min,33.237470685813
-Positive GCC Energy (kWh)_t-600min,32.66295953757004
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-210min,32.43640683434516
-Wind Power Actual - Net Commercial Settlement_t-465min,32.07210942621266
-Activated Positive aFRR Balancing Energy Cost (HUF)_t-510min,31.816861068280808
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-135min,31.36823604988271
-Activated Positive aFRR Balancing Energy (kWh)_t-570min,31.350580211884875
-Wind Power Actual - Net Operational Control_t-585min,31.29896883338582
-Wind Power Actual - Net Operational Control_t-390min,30.72063411572144
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-540min,29.799836651618186
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-75min,29.45230508618829
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-435min,29.40029399119292
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-255min,28.93378793594809
-Estimated Wind Power Production (Day-Ahead)_t+45min,28.075567608597197
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-270min,27.56729143991732
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-465min,26.867473633145245
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-120min,26.544137289302093
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-510min,26.245944343998836
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-285min,25.82886747728235
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-330min,24.517460852699962
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-480min,23.91914051150993
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-300min,23.81671164266057
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-600min,22.71929878379048
-is_holiday,22.635309923634168
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-450min,22.083159953103568
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-345min,20.164063986202567
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-585min,19.96016222803764
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-555min,19.222562836387812
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-405min,18.580141586296367
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-570min,18.194590519965324
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-315min,17.94794370600631
-Activated Negative aFRR Balancing Energy Cost (HUF)_t-390min,17.590860436001257
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh),11125.96174453396
+Negative GCC Energy (kWh),10771.901959016854
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh),10274.324212211328
+Positive GCC Energy (kWh),6273.797544141461
+Activated Negative aFRR Balancing Energy (kWh),5995.335224150629
+Requested Negative aFRR Balancing Energy (kWh),5953.7372715330075
+Activated Positive aFRR Balancing Energy Cost (HUF),4811.1756915123115
+Negative GCC Energy (kWh)_t-60min,4407.829954109056
+Requested Positive aFRR Balancing Energy (kWh),4341.223415973902
+day_of_year,4059.7674460235667
+Activated Positive aFRR Balancing Energy (kWh),3845.27288660322
+Solar Power Plants Net (Operational Control)_t-45min,3432.025343782474
+Solar Power Plants Net (Operational Control)_t-90min,3184.888241283997
+Solar Power Plants Net (Operational Control)_t-60min,3105.8182275341983
+Requested Negative aFRR Balancing Energy (kWh)_t-60min,3071.235684605295
+Gross Certified System Load (Actual),3043.2697972515903
+Gross System Load Forecast (Day-Ahead)_t+60min,2929.7025625336355
+Activated Negative aFRR Balancing Energy (kWh)_t-60min,2922.539899373282
+Solar Power Plants Net (Operational Control)_t-105min,2783.110226105196
+Negative GCC Energy (kWh)_t-45min,2761.9933662735425
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-15min,2755.6669138878015
+Negative GCC Energy (kWh)_t-15min,2747.933947763696
+Solar Power Plants Net (Operational Control)_t-30min,2638.812397611389
+Gross System Load Forecast (Day-Ahead)_t+75min,2600.351761542754
+HU-AT Schedule_t+165min,2557.95990684906
+Solar Power Plants Net (Operational Control)_t-75min,2509.5614120341047
+Negative GCC Energy (kWh)_t-30min,2459.536060694175
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-30min,2434.646711969117
+Solar Power Plants Net (Operational Control)_t-120min,2378.0187229488524
+Gross Actual Power Plant Generation_t-15min,2325.0085733074498
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-15min,2313.5217633346047
+HU-AT Schedule_t+90min,2235.6152126123443
+HU-AT Schedule_t+15min,2210.1614092243676
+Gross System Load Forecast (Day-Ahead)_t+45min,2195.2953222823007
+Negative GCC Energy (kWh)_t-75min,2170.047140468815
+Requested Positive aFRR Balancing Energy (kWh)_t-60min,2154.86308972245
+HU-HR Schedule_t+30min,2134.7401747640433
+Solar Power Plants Net (Operational Control)_t-150min,2126.0862681976705
+HU-RO Schedule_t+15min,2088.536221596537
+HU-HR Schedule_t+90min,2055.7370181580686
+Requested Negative aFRR Balancing Energy (kWh)_t-15min,2049.915688454683
+Estimated Solar Power Production (Intraday)_t+135min,2017.391904123031
+Positive GCC Energy (kWh)_t-60min,2013.6315375784793
+Gross System Load Forecast (Day-Ahead)_t+90min,1992.9885708587592
+HU-HR Schedule_t+15min,1992.9172774523465
+Estimated Solar Power Production (Current)_t+165min,1950.5871324696132
+Estimated Solar Power Production (Current)_t+195min,1945.5970574057337
+HU-RO Schedule_t+195min,1945.050616094626
+Activated Positive aFRR Balancing Energy (kWh)_t-60min,1936.1779315987133
+HU-AT Schedule_t+240min,1926.7654815726007
+HU-RO Schedule_t+180min,1908.5848315429325
+Solar Power Plants Net (Operational Control)_t-135min,1884.1732034478146
+HU-HR,1879.1493017616042
+HU-AT Schedule_t+45min,1842.8433617397409
+dayofweek_cos,1796.3012601580954
+Estimated Solar Power Production (Current)_t+105min,1789.133929613215
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-30min,1774.7081504249127
+Estimated Solar Power Production (Intraday)_t+105min,1768.5085805674166
+HU-HR Schedule_t+45min,1763.9474827082022
+HU-AT Schedule_t+210min,1748.0446864356584
+System Direction (kWh),1736.5593787433013
+Gross System Load Forecast (Day-Ahead)_t+30min,1728.3666182324378
+Activated Negative aFRR Balancing Energy (kWh)_t-30min,1726.1938417407796
+Activated Negative aFRR Balancing Energy (kWh)_t-15min,1706.461815746387
+Estimated Wind Power Production (Intraday)_t+150min,1702.139812771159
+HU-RO Schedule_t+255min,1683.8374955304253
+HU-RO Schedule_t+30min,1682.9237714487526
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-45min,1681.3811198883495
+Negative GCC Energy (kWh)_t-105min,1671.029063239062
+HU-AT Schedule_t+60min,1640.8831571996095
+HU-RO Schedule_t+315min,1633.7369652998286
+ssrd_mean,1624.4084944471838
+Estimated Solar Power Production (Current)_t+75min,1616.7361019798009
+Estimated Solar Power Production (Current)_t+120min,1612.8409357075311
+ssrd_std,1598.7100330939506
+Estimated Solar Power Production (Current)_t+90min,1594.9268728644856
+Activated Negative aFRR Balancing Energy (kWh)_t-45min,1566.9494642520503
+Estimated Solar Power Production (Current)_t+135min,1564.9092882021496
+Estimated Solar Power Production (Current)_t+150min,1561.6519054331789
+ssrd_mean_t+60min,1559.3485734004112
+hour,1557.3679207983096
+ssrd_mean_t+15min,1546.9969884898783
+Gross Planned Power Plant Generation_t+75min,1540.2421066783904
+Requested Negative aFRR Balancing Energy (kWh)_t-45min,1536.6710888495043
+HU-SK,1535.2491414394956
+HU-SK Schedule_t+15min,1533.9038552589452
+Estimated Wind Power Production (Intraday)_t+135min,1516.9548155290088
+HU-SK Schedule_t+90min,1510.93393424745
+Gross Actual Power Plant Generation,1509.2588039859897
+HU-HR Schedule_t+60min,1504.2906705352334
+Gross Actual Power Plant Generation_t-30min,1494.2192447580437
+Gross Planned Power Plant Generation_t+420min,1489.9139118218682
+Estimated Solar Power Production (Current)_t+180min,1483.297058475269
+Gross Planned Power Plant Generation_t+60min,1482.7689967029567
+HU-RO Schedule_t+60min,1474.8680405908913
+HU-AT Schedule_t+30min,1474.1818153896904
+HU-RO Schedule_t+225min,1469.0536100240433
+HU-RO Schedule_t+210min,1466.046209911613
+Estimated Wind Power Production (Current)_t+120min,1455.3812816287157
+HU-AT Schedule_t+225min,1452.7919310200593
+HU-AT Schedule_t+75min,1444.5205337886846
+Estimated Solar Power Production (Intraday)_t+120min,1443.7600705654468
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-15min,1442.7448861882635
+Requested Negative aFRR Balancing Energy (kWh)_t-30min,1434.0652400468562
+Estimated Wind Power Production (Current)_t+135min,1430.3297225355593
+Gross Planned Power Plant Generation_t+105min,1429.5278665370404
+Gross System Load Forecast (Day-Ahead)_t+225min,1414.2606506458164
+Solar Power Plants Net (Operational Control)_t-330min,1409.7349919841713
+Gross Planned Power Plant Generation_t+45min,1408.3112592309235
+Positive GCC Energy (kWh)_t-45min,1406.0780426493372
+HU-SK_t-15min,1402.6072739797594
+Estimated Solar Power Production (Intraday)_t+150min,1373.7296697178886
+HU-AT Schedule,1372.8265636945378
+HU-RO Schedule,1368.409905190574
+HU-AT Schedule_t+180min,1365.7853290671037
+HU-HR Schedule_t+75min,1361.8961814350075
+Estimated Wind Power Production (Current)_t+150min,1355.5416185190631
+HU-AT_t-525min,1354.4339973082685
+Estimated Wind Power Production (Intraday)_t+105min,1345.527143673217
+Estimated Solar Power Production (Intraday)_t+90min,1334.5926908933382
+Wind Power Actual - Net Operational Control_t-30min,1328.2275227851333
+HU-SK_t-30min,1325.701716788241
+HU-RO Schedule_t+240min,1321.9735169671108
+Estimated Solar Power Production (Current)_t+60min,1311.5832137314421
+Estimated Solar Power Production (Intraday)_t+195min,1309.9342550999313
+HU-SK Schedule,1309.5644593055003
+10m_wind_speed_mean_t+75min,1304.1328268187306
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-45min,1299.675584290848
+HU-UA Schedule_t+705min,1298.8668555072445
+HU-SK Schedule_t+45min,1286.6795421005772
+HU-AT Schedule_t+390min,1279.3716485737832
+HU-HR Schedule_t+105min,1273.497974814184
+System Direction (kWh)_t-45min,1269.043272444743
+100m_wind_speed_mean_t+15min,1264.2799766990188
+HU-AT Schedule_t+270min,1260.7468756223077
+Solar Power Plants Net (Operational Control)_t-15min,1258.9065080692321
+Gross Actual Power Plant Generation_t-225min,1252.9678258233666
+HU-SK Schedule_t+270min,1250.3673309807393
+Gross Certified System Load (Actual)_t-600min,1246.7129755504234
+Solar Power Plants Net (Operational Control)_t-270min,1231.9031663507146
+Solar Power Plants Net (Operational Control)_t-180min,1220.3657893385744
+Requested Positive aFRR Balancing Energy (kWh)_t-15min,1213.1805565317047
+HU-AT Schedule_t+540min,1209.216571250655
+Estimated Wind Power Production (Intraday)_t+165min,1208.5788653689776
+Solar Power Plants Net (Operational Control)_t-165min,1203.1698521237795
+HU-SK Schedule_t+255min,1201.712375808096
+Estimated Solar Power Production (Current)_t+225min,1201.5543150144795
+Wind Power Actual - Net Operational Control_t-15min,1199.5918661280912
+Gross Actual Power Plant Generation_t-255min,1195.2911187009406
+Positive GCC Energy (kWh)_t-30min,1195.0686980908151
+Gross Actual Power Plant Generation_t-300min,1189.0003867474154
+Gross Actual Power Plant Generation_t-210min,1183.5197748697224
+HU-UA Schedule_t+435min,1178.4576800592074
+Solar Power Plants Net (Operational Control),1168.8083414708844
+Gross Certified System Load (Actual)_t-15min,1167.1356489709144
+HU-AT Schedule_t+510min,1163.7032278017193
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-45min,1163.1178834822942
+HU-AT Schedule_t+420min,1160.5982602241102
+HU-HR Schedule,1157.8788051070312
+HU-RO Schedule_t+75min,1152.7337348473807
+Requested Positive aFRR Balancing Energy (kWh)_t-45min,1152.066070911736
+HU-RO Schedule_t+45min,1151.2370233242066
+Wind Power Actual - Net Commercial Settlement_t-30min,1148.6638927516994
+HU-SK Schedule_t+285min,1147.4535301383585
+ssrd_std_t+75min,1138.9238862289185
+dayofweek_sin,1137.7652761560853
+Estimated Solar Power Production (Current)_t+210min,1134.5469659823152
+Negative GCC Energy (kWh)_t-135min,1133.424062097593
+HU-AT_t-495min,1132.8646937498954
+Estimated Wind Power Production (Current)_t+105min,1130.4677628311513
+HU-AT Schedule_t+285min,1113.352640705988
+Gross Planned Power Plant Generation_t+390min,1109.8819755171985
+Estimated Wind Power Production (Current)_t+165min,1108.9173697036938
+Estimated Solar Power Production (Intraday)_t+165min,1101.9459294774583
+HU-SK Schedule_t+30min,1101.758567398524
+Gross Actual Power Plant Generation_t-240min,1101.3956479103826
+Gross Planned Power Plant Generation_t+30min,1100.4927163494103
+Activated Positive aFRR Balancing Energy (kWh)_t-15min,1088.7427117361524
+HU-RO Schedule_t+300min,1088.1841727563246
+Positive GCC Energy (kWh)_t-15min,1083.9888506119828
+Gross Actual Power Plant Generation_t-330min,1081.2639324956629
+Estimated Solar Power Production (Intraday)_t+180min,1078.9542667565652
+Activated Negative aFRR Balancing Energy Cost (HUF),1077.0112581786332
+Gross System Load Forecast (Day-Ahead)_t+240min,1072.70515934988
+HU-HR Schedule_t+270min,1070.0607153254236
+ssrd_mean_t+30min,1067.3539710540815
+Wind Power Actual - Net Commercial Settlement_t-15min,1062.0598556895616
+HU-SK_t-570min,1056.799956845653
+Estimated Wind Power Production (Intraday)_t+120min,1054.1660611781158
+HU-SK_t-255min,1051.2231247724812
+HU-UA Schedule_t+690min,1044.1966254113922
+HU-UA Schedule_t+255min,1042.77030581139
+HU-UA_t-360min,1039.9501050058543
+HU-HR Schedule_t+120min,1039.8824401665177
+HU-AT Schedule_t+195min,1039.0681405556784
+Requested Negative aFRR Balancing Energy (kWh)_t-300min,1038.873623097859
+HU-RO Schedule_t+555min,1036.2182266505513
+10m_wind_speed_mean,1032.8390195518818
+HU-UA_t-270min,1032.4415510996428
+Estimated Solar Power Production (Current)_t+240min,1030.736459951735
+HU-SK Schedule_t+75min,1030.577757804229
+Estimated Solar Power Production (Day-Ahead)_t+360min,1030.4927915960247
+Estimated Solar Power Production (Day-Ahead)_t+375min,1029.1625513140546
+Gross System Load Forecast (Day-Ahead)_t+105min,1026.4396185842504
+Gross Planned Power Plant Generation_t+120min,1026.400881513
+HU-SK_t-90min,1026.3971977699002
+Estimated Solar Power Production (Day-Ahead)_t+270min,1024.8419742524927
+Gross Actual Power Plant Generation_t-390min,1024.7588326500295
+Gross Actual Power Plant Generation_t-60min,1018.169598185234
+Estimated Solar Power Production (Day-Ahead)_t+315min,1015.6194082604799
+HU-AT Schedule_t+135min,1013.1027147901448
+Estimated Wind Power Production (Day-Ahead)_t+195min,1012.305123399245
+HU-HR Schedule_t+210min,1002.1415829359782
+System Direction (kWh)_t-15min,998.4665694934338
+HU-RO_t-540min,995.2289370882436
+HU-RO Schedule_t+615min,994.6934588523304
+Gross Planned Power Plant Generation_t+195min,994.2177294557893
+Estimated Solar Power Production (Intraday)_t+345min,987.774178203693
+HU-AT Schedule_t+255min,985.0038834699127
+Wind Power Actual - Net Commercial Settlement_t-45min,983.6457055532937
+HU-UA Schedule_t+720min,980.3107741888031
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-60min,976.7183242383069
+HU-AT Schedule_t+615min,976.31698928184
+Solar Power Plants Net (Operational Control)_t-285min,974.4728076475612
+HU-AT_t-480min,974.3425165017065
+HU-HR Schedule_t+390min,963.6807141691872
+HU-AT_t-30min,963.1321717429507
+Estimated Solar Power Production (Day-Ahead)_t+285min,961.9068059111014
+Gross Planned Power Plant Generation_t+135min,961.7288052916509
+HU-HR Schedule_t+375min,959.8588788319533
+Solar Power Plants Net (Operational Control)_t-210min,959.5269693306851
+10m_wind_speed_std_t+75min,958.5612908065491
+Gross Actual Power Plant Generation_t-510min,954.094583942593
+HU-UA_t-30min,951.3529128424582
+Gross System Load Forecast (Day-Ahead)_t+150min,950.5343971743865
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-60min,950.2589686933894
+Gross System Load Forecast (Day-Ahead)_t+465min,948.921078710642
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-60min,948.4164697537481
+HU-RO Schedule_t+345min,948.2870214101313
+HU-RO Schedule_t+600min,942.0058019403534
+HU-AT Schedule_t+600min,940.7606576344159
+HU-UA_t-435min,940.1113701322522
+Negative GCC Energy (kWh)_t-150min,936.8565537293957
+HU-RO Schedule_t+510min,934.9587319766047
+Negative GCC Energy (kWh)_t-345min,933.9988871896766
+HU-RS Schedule_t+30min,929.8601249505816
+Gross Actual Power Plant Generation_t-315min,928.6859835955897
+HU-HR Schedule_t+240min,927.7596778090019
+HU-UA_t-480min,926.7846967833692
+Solar Power Plants Net (Operational Control)_t-315min,923.9185619428883
+HU-UA Schedule_t+645min,923.7972290067584
+Requested Negative aFRR Balancing Energy (kWh)_t-345min,923.1206919437947
+Negative GCC Energy (kWh)_t-300min,922.3881320279474
+HU-HR Schedule_t+330min,920.1910798611625
+HU-UA Schedule_t+615min,919.5395128491072
+Gross Planned Power Plant Generation_t+90min,918.9665210446421
+Requested Positive aFRR Balancing Energy (kWh)_t-240min,918.1938183540781
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-30min,915.5735099408317
+Negative GCC Energy (kWh)_t-120min,914.8105739451508
+HU-RO Schedule_t+390min,913.8174459998711
+ssrd_mean_t+75min,910.1492794933539
+Estimated Solar Power Production (Day-Ahead)_t+345min,908.7242587236252
+HU-SK Schedule_t+240min,908.3537773821089
+HU-AT Schedule_t+300min,907.6258410814588
+Requested Positive aFRR Balancing Energy (kWh)_t-300min,906.9405779911442
+Gross Certified System Load (Actual)_t-330min,906.2817023613527
+HU-RS Schedule_t+105min,905.3392832220798
+Gross Planned Power Plant Generation_t+465min,903.8544527038184
+HU-RS,900.1961721370516
+Solar Power Plants Net (Operational Control)_t-300min,897.7270920675803
+Gross Planned Power Plant Generation_t+375min,894.5943900964398
+HU-HR Schedule_t+510min,893.674555667618
+Negative GCC Energy (kWh)_t-270min,890.237759774852
+HU-HR Schedule_t+150min,889.6364964660038
+Activated Negative aFRR Balancing Energy (kWh)_t-360min,887.8162818041311
+Estimated Wind Power Production (Current)_t+180min,887.4478676145606
+HU-SK Schedule_t+210min,887.3990133330822
+HU-AT_t-45min,883.423261659353
+HU-AT_t-15min,881.7094491597773
+Gross System Load Forecast (Day-Ahead)_t+195min,881.3270552562434
+Activated Negative aFRR Balancing Energy (kWh)_t-480min,880.8409884755362
+HU-RO Schedule_t+375min,879.2698300498864
+HU-UA_t-420min,878.1280223031808
+Activated Positive aFRR Balancing Energy (kWh)_t-45min,875.3768215008523
+System Direction (kWh)_t-30min,873.2762429213443
+Estimated Wind Power Production (Day-Ahead)_t+180min,872.3958146237771
+Gross Actual Power Plant Generation_t-285min,871.9598367575942
+HU-SK_t-480min,870.6187929304554
+100m_wind_speed_mean,869.1126440357461
+Estimated Solar Power Production (Day-Ahead)_t+240min,867.5395404650707
+Estimated Solar Power Production (Day-Ahead)_t+300min,867.2642445014212
+Estimated Wind Power Production (Day-Ahead)_t+135min,866.4827073677932
+HU-HR Schedule_t+180min,863.3688272351496
+Negative GCC Energy (kWh)_t-405min,861.8850071751924
+HU-RS Schedule_t+90min,861.8462963154125
+Gross Planned Power Plant Generation_t+720min,861.2008261031744
+Activated Negative aFRR Balancing Energy (kWh)_t-420min,861.1456949423675
+Estimated Wind Power Production (Day-Ahead)_t+150min,860.6088461745139
+Estimated Wind Power Production (Intraday)_t+180min,859.4933341369222
+HU-AT Schedule_t+660min,859.0115024204713
+Solar Power Plants Net (Operational Control)_t-390min,856.4101362494107
+HU-RS Schedule_t+150min,853.2329113912779
+HU-HR Schedule_t+135min,850.6122163017034
+HU-HR Schedule_t+195min,848.0166435713361
+Negative GCC Energy (kWh)_t-540min,847.6033009732516
+temp_std_t+75min,844.4434290633876
+Requested Positive aFRR Balancing Energy (kWh)_t-270min,843.3348948569392
+Gross System Load Forecast (Day-Ahead)_t+165min,842.3931609406144
+Estimated Wind Power Production (Current)_t+90min,841.0481495822609
+HU-AT Schedule_t+450min,839.7467536221707
+ssrd_mean_t+45min,838.4326019453299
+HU-SK_t-210min,836.6179303591923
+Activated Negative aFRR Balancing Energy (kWh)_t-300min,833.8798285814636
+Estimated Wind Power Production (Day-Ahead)_t+225min,831.7289096829372
+HU-AT Schedule_t+630min,831.5444571620858
+10m_wind_speed_std,829.8495102149247
+HU-UA Schedule_t+225min,829.358467708068
+HU-RO Schedule_t+675min,826.5517883690163
+HU-AT Schedule_t+525min,826.4625241596293
+HU-RS_t-570min,824.0415325245958
+HU-AT Schedule_t+120min,823.092903772205
+HU-UA_t-375min,823.0771846187447
+HU-AT Schedule_t+690min,822.830200990491
+Requested Negative aFRR Balancing Energy (kWh)_t-75min,821.9497680960117
+Gross Actual Power Plant Generation_t-120min,818.5724299362271
+Activated Negative aFRR Balancing Energy (kWh)_t-465min,817.129601311095
+Gross Actual Power Plant Generation_t-375min,814.6284476341278
+Estimated Solar Power Production (Current)_t+405min,813.4160816528688
+HU-AT Schedule_t+585min,810.5238527378598
+Estimated Solar Power Production (Current)_t+600min,809.8762035267251
+Negative GCC Energy (kWh)_t-90min,802.2125548686106
+Requested Negative aFRR Balancing Energy (kWh)_t-420min,801.3482911017202
+HU-HR Schedule_t+225min,800.7988268389329
+HU-RO Schedule_t+690min,799.0143923704813
+Gross Certified System Load (Actual)_t-360min,798.3071658170197
+HU-UA_t-180min,797.8181996427879
+HU-UA_t-225min,797.3306825736181
+Gross System Load Forecast (Day-Ahead)_t+15min,794.2336937674688
+HU-UA,793.7737100668802
+HU-UA_t-495min,790.7225430403082
+HU-UA Schedule_t+135min,789.5644279228197
+HU-RO Schedule_t+465min,789.5366542632797
+Estimated Solar Power Production (Intraday)_t+60min,788.3721294819086
+System Direction (kWh)_t-60min,787.4950962315224
+HU-SK_t-510min,784.9614785416794
+HU-RO Schedule_t+285min,783.7424810534103
+HU-SK_t-345min,783.4330088384255
+Gross Actual Power Plant Generation_t-270min,782.0672511372593
+HU-AT_t-60min,781.9264036005275
+HU-AT Schedule_t+315min,778.4360027675664
+Gross System Load Forecast (Day-Ahead)_t+375min,776.6666770119264
+Gross Planned Power Plant Generation_t+180min,776.6285853771321
+Gross System Load Forecast (Day-Ahead)_t+390min,775.9458950303449
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-240min,774.4475985095887
+Requested Negative aFRR Balancing Energy (kWh)_t-360min,774.3063324856557
+HU-RO_t-525min,773.3154890274272
+Estimated Wind Power Production (Current)_t+195min,773.213384824831
+HU-SK_t-495min,770.627623513391
+HU-SK Schedule_t+300min,770.0027373448982
+HU-SK_t-180min,769.6608296276155
+HU-RO_t-480min,765.9973708546763
+HU-SK Schedule_t+60min,765.387433208373
+Activated Negative aFRR Balancing Energy (kWh)_t-240min,764.2117971647394
+HU-UA Schedule_t+675min,763.0247415040155
+Gross Certified System Load (Actual)_t-585min,762.8310465523062
+System Direction (kWh)_t-105min,762.5317078024436
+Estimated Solar Power Production (Current)_t+30min,761.746455423222
+Requested Negative aFRR Balancing Energy (kWh)_t-135min,760.9346259927521
+Activated Positive aFRR Balancing Energy (kWh)_t-30min,760.8121882778105
+HU-SK Schedule_t+105min,760.3105671097496
+Wind Power Actual - Net Operational Control_t-45min,758.5434268187487
+HU-RS Schedule_t+375min,758.0873729250306
+HU-UA Schedule_t+180min,758.0576237289839
+HU-AT Schedule_t+435min,755.9635332547973
+Gross System Load Forecast (Day-Ahead)_t+345min,755.6356147830086
+HU-RS Schedule_t+15min,755.1920604173247
+HU-UA_t-60min,754.9249148278798
+HU-AT Schedule_t+495min,754.6975274460108
+temp_mean_t+15min,753.7202016127112
+HU-SK Schedule_t+180min,748.329687611965
+HU-HR Schedule_t+525min,747.2702140150823
+Estimated Wind Power Production (Day-Ahead)_t+240min,744.7899803427781
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-105min,743.2582286283389
+Activated Negative aFRR Balancing Energy (kWh)_t-345min,741.1003385288873
+HU-RO Schedule_t+165min,739.4823023886142
+Solar Power Plants Net (Operational Control)_t-240min,738.4098221049235
+HU-UA Schedule_t+30min,738.1430643275249
+HU-SK Schedule_t+555min,737.4757849958437
+Solar Power Plants Net (Operational Control)_t-195min,737.2467121090888
+Activated Negative aFRR Balancing Energy (kWh)_t-525min,735.5561106178262
+Gross Certified System Load (Actual)_t-345min,735.0070978588963
+HU-UA Schedule_t+90min,734.8777184315645
+HU-HR Schedule_t+570min,734.3533608024602
+HU-AT,733.7419337605162
+HU-RS_t-600min,732.5868442428426
+Gross System Load Forecast (Day-Ahead)_t+120min,732.5189634350683
+Requested Positive aFRR Balancing Energy (kWh)_t-30min,732.5161975869555
+Gross Certified System Load (Actual)_t-495min,732.1211660018313
+HU-UA_t-510min,732.0304060817866
+HU-SK_t-465min,730.8128705486487
+Requested Negative aFRR Balancing Energy (kWh)_t-285min,729.9702556483289
+HU-SK Schedule_t+510min,729.6160591800789
+Activated Negative aFRR Balancing Energy (kWh)_t-285min,728.813987520575
+HU-RO_t-285min,728.4341432345823
+HU-SK_t-435min,728.0261787724844
+Gross Planned Power Plant Generation_t+15min,727.1339118914461
+Gross Actual Power Plant Generation_t-450min,727.0033901701852
+HU-UA Schedule_t+345min,726.3337139652921
+HU-AT_t-540min,725.991004581238
+HU-RO Schedule_t+450min,724.526862253297
+HU-SK_t-360min,722.3202434755422
+HU-UA_t-165min,721.1427034057804
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-300min,721.044529021266
+System Direction (kWh)_t-390min,719.794119540241
+Activated Negative aFRR Balancing Energy (kWh)_t-330min,718.8363529204858
+HU-RS Schedule_t+60min,718.3435330672867
+HU-SK_t-450min,717.8623422645486
+Estimated Solar Power Production (Current)_t+315min,717.7266088339732
+Negative GCC Energy (kWh)_t-285min,715.8792782731168
+HU-RO_t-165min,715.0664134971291
+HU-HR Schedule_t+540min,714.0009666539183
+Gross Actual Power Plant Generation_t-345min,711.1171137207672
+Estimated Solar Power Production (Day-Ahead)_t+255min,710.7941254542577
+HU-UA Schedule_t+330min,710.7468633454652
+HU-UA Schedule_t+165min,710.6718244196722
+Estimated Wind Power Production (Day-Ahead)_t+270min,710.613312583665
+Gross System Load Forecast (Day-Ahead),708.2802642578029
+HU-SK Schedule_t+315min,706.5906652609424
+HU-SK Schedule_t+195min,705.0314378319329
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-180min,705.0045534421564
+Negative GCC Energy (kWh)_t-360min,704.1643539461385
+HU-SK_t-270min,704.0739156061717
+HU-UA_t-600min,701.3950360064517
+HU-HR_t-495min,700.2702981731262
+HU-RO Schedule_t+540min,694.7611704046079
+HU-RO Schedule_t+105min,694.5314665334615
+Gross Actual Power Plant Generation_t-360min,694.3028033709161
+HU-RO Schedule_t+720min,692.9375182962801
+Positive GCC Energy (kWh)_t-75min,692.9319787322446
+Gross Planned Power Plant Generation_t+645min,691.6161906612795
+HU-AT Schedule_t+345min,690.8657448857495
+HU-HR Schedule_t+435min,690.521510535241
+Gross Actual Power Plant Generation_t-90min,688.0723533673793
+Solar Power Plants Net (Operational Control)_t-495min,687.3961322179349
+HU-AT Schedule_t+720min,687.1018266711613
+HU-SK Schedule_t+225min,684.4547795487881
+Activated Negative aFRR Balancing Energy (kWh)_t-600min,683.8746861321749
+Requested Negative aFRR Balancing Energy (kWh)_t-240min,683.6183229638638
+HU-UA_t-195min,683.5468057823082
+Gross System Load Forecast (Day-Ahead)_t+720min,683.309561626969
+HU-RO_t-15min,683.2560866086021
+Activated Negative aFRR Balancing Energy (kWh)_t-405min,683.0678282401595
+Gross System Load Forecast (Day-Ahead)_t+255min,679.9309158618127
+Wind Power Actual - Net Commercial Settlement_t-60min,679.6148795378717
+HU-UA Schedule_t+105min,679.2051606189473
+HU-HR Schedule_t+345min,678.9681261214766
+dayofweek,678.7184630079664
+HU-RS Schedule_t+390min,678.3771672616872
+Gross System Load Forecast (Day-Ahead)_t+210min,677.1521039322738
+HU-SK_t-240min,676.4969967863362
+Estimated Solar Power Production (Intraday)_t+225min,676.3642186224124
+Gross System Load Forecast (Day-Ahead)_t+435min,675.62857221392
+HU-AT Schedule_t+555min,674.2901868926622
+HU-UA Schedule_t+555min,674.2312895514941
+temp_mean,674.037550393661
+Gross System Load Forecast (Day-Ahead)_t+420min,673.5523266551909
+Wind Power Actual - Net Commercial Settlement,672.2308980593423
+Requested Negative aFRR Balancing Energy (kWh)_t-270min,671.6438124647939
+Gross System Load Forecast (Day-Ahead)_t+480min,671.5589693065431
+HU-RO Schedule_t+705min,670.7791104361211
+HU-SK_t-135min,670.5289278586175
+HU-RS Schedule_t+45min,669.9405011882774
+Negative GCC Energy (kWh)_t-255min,669.6653480011908
+HU-UA Schedule_t+300min,668.6108717067037
+Estimated Wind Power Production (Intraday)_t+45min,667.6949899599608
+HU-RO_t-435min,667.1642470543859
+HU-SK Schedule_t+330min,667.064582821615
+Solar Power Plants Net (Operational Control)_t-345min,666.7814610360746
+Gross Planned Power Plant Generation_t+540min,665.6219928218459
+HU-RS_t-345min,665.4691516251562
+HU-RO Schedule_t+645min,664.9943987649173
+Negative GCC Energy (kWh)_t-330min,661.9430951402006
+Requested Negative aFRR Balancing Energy (kWh)_t-495min,661.4522492903441
+Negative GCC Energy (kWh)_t-225min,661.0817915559924
+Gross Certified System Load (Actual)_t-30min,660.345266516013
+System Direction (kWh)_t-270min,660.3273548847737
+Estimated Wind Power Production (Current)_t+360min,659.8237042759952
+HU-RO_t-255min,659.5821744042973
+System Direction (kWh)_t-135min,659.3812728531382
+temp_mean_t+45min,659.0863442738075
+HU-AT_t-510min,658.928507661327
+Estimated Solar Power Production (Day-Ahead)_t+585min,658.0024290828574
+HU-AT Schedule_t+105min,657.9201237263126
+HU-UA_t-135min,657.6079885301833
+10m_wind_speed_mean_t+60min,657.3973119031739
+Gross System Load Forecast (Day-Ahead)_t+510min,657.1536205777159
+HU-RS_t-105min,655.6378671174016
+Estimated Wind Power Production (Day-Ahead)_t+60min,652.5774273165233
+Estimated Wind Power Production (Day-Ahead)_t+165min,652.1843535290315
+100m_wind_speed_mean_t+30min,650.4677220632207
+HU-UA_t-120min,648.542559344247
+Gross System Load Forecast (Day-Ahead)_t+270min,648.5058677764277
+HU-UA_t-345min,647.470803660564
+Negative GCC Energy (kWh)_t-240min,647.3595651030363
+Requested Negative aFRR Balancing Energy (kWh)_t-585min,647.1892039877343
+HU-RS_t-90min,646.9285029900534
+Estimated Wind Power Production (Day-Ahead)_t+210min,646.3728055377983
+Gross Planned Power Plant Generation_t+675min,646.2527384098681
+Estimated Solar Power Production (Intraday)_t+450min,645.1977696132496
+HU-RS Schedule,645.0911784090607
+Requested Negative aFRR Balancing Energy (kWh)_t-330min,643.3398793331971
+Estimated Solar Power Production (Intraday)_t+480min,643.258733629039
+Estimated Wind Power Production (Intraday)_t+90min,642.8560306690656
+HU-UA Schedule_t+660min,642.8430790242812
+Estimated Solar Power Production (Current)_t+525min,642.8146045247015
+Gross Actual Power Plant Generation_t-495min,642.3814308091507
+HU-UA Schedule_t+375min,642.3474516460292
+HU-HR Schedule_t+615min,641.159212776219
+Gross Actual Power Plant Generation_t-195min,640.3593924146589
+Solar Power Plants Net (Operational Control)_t-465min,639.4585942836076
+HU-UA Schedule_t+525min,638.4568454658585
+ssrd_std_t+15min,638.419742360003
+Negative GCC Energy (kWh)_t-180min,638.1353817540471
+Gross Planned Power Plant Generation_t+285min,637.9629105396915
+HU-UA Schedule_t+420min,637.6943810157188
+Requested Negative aFRR Balancing Energy (kWh)_t-225min,636.7276528219595
+HU-RO Schedule_t+480min,636.234139060772
+Negative GCC Energy (kWh)_t-465min,635.4073761934599
+HU-RS_t-510min,635.0698742042923
+HU-UA Schedule_t+195min,634.8167110606996
+Estimated Solar Power Production (Intraday)_t+45min,634.5767425179296
+ssrd_std_t+45min,633.7962071395156
+HU-UA Schedule_t+210min,633.4208485745951
+Requested Negative aFRR Balancing Energy (kWh)_t-480min,632.8653343253966
+HU-UA Schedule_t+390min,632.6530829894447
+Estimated Wind Power Production (Current)_t+210min,632.0492448128399
+Requested Positive aFRR Balancing Energy (kWh)_t-420min,632.0390847261704
+HU-SK Schedule_t+540min,630.2616835124614
+HU-UA_t-465min,629.9148029492558
+HU-SK_t-75min,629.186968139963
+Estimated Solar Power Production (Day-Ahead)_t+105min,629.1841046798705
+HU-SK Schedule_t+450min,628.1126100500575
+Estimated Solar Power Production (Day-Ahead)_t+90min,627.9961643370017
+HU-UA Schedule_t+315min,627.9250626155223
+HU-UA_t-255min,627.7919224630406
+Positive GCC Energy (kWh)_t-495min,626.7048437904532
+Estimated Solar Power Production (Day-Ahead)_t+195min,626.2100149513242
+HU-HR_t-105min,625.5409992963599
+Gross Planned Power Plant Generation_t+165min,624.5828373744587
+Requested Negative aFRR Balancing Energy (kWh)_t-90min,624.5533128433076
+HU-UA Schedule_t+570min,622.9766065976803
+Activated Positive aFRR Balancing Energy (kWh)_t-240min,622.9249871469411
+Gross Actual Power Plant Generation_t-480min,622.6868818625518
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-75min,621.6318940294254
+HU-RS_t-390min,621.4458653400623
+Activated Positive aFRR Balancing Energy (kWh)_t-225min,621.3778576499581
+HU-SK_t-120min,619.4344488049238
+HU-UA Schedule_t+75min,619.3073575659067
+Gross Certified System Load (Actual)_t-165min,618.9027712129588
+Negative GCC Energy (kWh)_t-195min,618.3504121651454
+Activated Negative aFRR Balancing Energy (kWh)_t-315min,616.9538538135151
+HU-AT Schedule_t+570min,615.9343501014857
+Gross System Load Forecast (Day-Ahead)_t+315min,615.8567936899285
+HU-HR Schedule_t+720min,615.7955109613551
+HU-SK Schedule_t+405min,615.7482671271057
+HU-HR Schedule_t+495min,615.2941270029144
+HU-SK Schedule_t+345min,615.1716753472995
+HU-RS Schedule_t+330min,614.9630656019567
+HU-HR Schedule_t+420min,614.3978031753031
+HU-RO_t-60min,613.90563618
+HU-RO Schedule_t+585min,613.6161708723355
+Activated Negative aFRR Balancing Energy (kWh)_t-180min,613.3771453478905
+Estimated Solar Power Production (Intraday)_t+30min,612.3271566010104
+HU-UA_t-315min,612.0080856657795
+HU-RS Schedule_t+135min,610.7780504644555
+Solar Power Plants Net (Operational Control)_t-405min,610.3314964791135
+Estimated Solar Power Production (Intraday)_t+600min,609.889522374945
+HU-SK_t-150min,609.7988957816405
+Requested Negative aFRR Balancing Energy (kWh)_t-600min,609.0797003888753
+HU-RO Schedule_t+630min,608.8686281956451
+HU-UA Schedule_t+60min,608.844041413407
+HU-AT Schedule_t+480min,608.1503494381695
+Requested Negative aFRR Balancing Energy (kWh)_t-510min,608.0572476590022
+Gross Certified System Load (Actual)_t-555min,607.4548855035691
+Estimated Solar Power Production (Intraday)_t+510min,607.3609095423469
+Gross Actual Power Plant Generation_t-420min,607.2750618511652
+Requested Positive aFRR Balancing Energy (kWh)_t-285min,606.3103847587175
+Gross System Load Forecast (Day-Ahead)_t+450min,604.7863734730875
+HU-RO Schedule_t+405min,604.0095074031617
+Estimated Solar Power Production (Day-Ahead)_t+210min,603.6702874640882
+HU-SK_t-300min,602.6673808277149
+Activated Negative aFRR Balancing Energy (kWh)_t-270min,601.6906640417926
+Gross Certified System Load (Actual)_t-525min,601.4008456158078
+Solar Power Plants Net (Operational Control)_t-435min,601.1343013442913
+HU-SK_t-525min,601.1212724022325
+HU-RO Schedule_t+420min,600.8723133140016
+Gross System Load Forecast (Day-Ahead)_t+675min,599.5796515825656
+Gross System Load Forecast (Day-Ahead)_t+540min,599.5765982062402
+System Direction (kWh)_t-120min,599.5679972674247
+HU-RO Schedule_t+525min,598.6467626429264
+HU-RS_t-285min,598.3250387386423
+HU-SK Schedule_t+585min,598.0094291031795
+HU-AT Schedule_t+645min,597.2736804648421
+HU-UA_t-240min,597.1817458458099
+HU-RO Schedule_t+270min,597.1711322647183
+Estimated Solar Power Production (Intraday)_t+570min,597.1396845809934
+Estimated Solar Power Production (Day-Ahead)_t+390min,596.8076359171448
+HU-RS_t-495min,595.0491296725341
+HU-SK_t-315min,594.8583006533873
+HU-RO Schedule_t+495min,594.6818582556417
+HU-UA_t-105min,594.6773563448266
+Gross Certified System Load (Actual)_t-450min,594.1954716006223
+HU-RO_t-300min,593.5135687286046
+HU-UA Schedule,592.903351668047
+HU-UA Schedule_t+270min,592.2235710029429
+Gross System Load Forecast (Day-Ahead)_t+330min,590.4403682426781
+Activated Positive aFRR Balancing Energy (kWh)_t-300min,590.0234988114837
+HU-RS Schedule_t+75min,588.86712242706
+Activated Positive aFRR Balancing Energy (kWh)_t-285min,588.5694840262798
+Estimated Solar Power Production (Current),588.1334907450797
+HU-RO Schedule_t+150min,587.6980305483938
+HU-HR Schedule_t+450min,585.7180864320776
+Solar Power Plants Net (Operational Control)_t-375min,584.8141973977564
+HU-RS_t-30min,584.6065671272897
+Requested Negative aFRR Balancing Energy (kWh)_t-180min,583.9325811643542
+HU-RO,583.8760332437633
+HU-AT Schedule_t+150min,583.6813751989673
+Gross Actual Power Plant Generation_t-45min,582.9201164997583
+Negative GCC Energy (kWh)_t-210min,582.9087346945597
+Activated Negative aFRR Balancing Energy (kWh)_t-495min,582.8686806253116
+System Direction (kWh)_t-315min,582.6558035939096
+HU-UA Schedule_t+495min,582.1684391861517
+System Direction (kWh)_t-150min,581.6359871037029
+Negative GCC Energy (kWh)_t-480min,581.0893106827842
+HU-HR_t-375min,580.311891027073
+Gross Certified System Load (Actual)_t-375min,579.1736914837242
+HU-SK_t-600min,578.4854519606818
+HU-RO Schedule_t+435min,577.0487829470312
+Gross Actual Power Plant Generation_t-600min,575.9603060060404
+Gross Actual Power Plant Generation_t-75min,575.0832897697769
+temp_mean_t+75min,575.0407608336384
+Estimated Solar Power Production (Day-Ahead)_t+330min,574.9284883681362
+HU-UA Schedule_t+150min,574.8013287058989
+Estimated Solar Power Production (Day-Ahead)_t+150min,574.5672443457183
+Positive GCC Energy (kWh)_t-510min,571.9876824266333
+Gross Planned Power Plant Generation_t+525min,571.7136071708746
+Gross Planned Power Plant Generation_t+435min,571.5990727317946
+Positive GCC Energy (kWh)_t-525min,571.4478543708058
+Estimated Solar Power Production (Intraday)_t+15min,571.2827375160273
+Gross Actual Power Plant Generation_t-435min,569.295213687308
+Estimated Solar Power Production (Intraday)_t+585min,569.0979964333519
+HU-SK_t-330min,568.7531462998784
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-90min,567.8583632126933
+HU-UA_t-45min,567.4395558261701
+HU-RS Schedule_t+120min,567.1068789206853
+HU-UA_t-150min,566.7853100991281
+System Direction (kWh)_t-255min,565.1612207724667
+HU-HR Schedule_t+555min,565.1371635364769
+Gross Actual Power Plant Generation_t-465min,564.6600744218051
+HU-SK Schedule_t+480min,564.4548835100434
+Gross Planned Power Plant Generation,563.6025755516173
+Activated Negative aFRR Balancing Energy (kWh)_t-450min,562.237269227618
+Gross Certified System Load (Actual)_t-540min,560.6993581767165
+Estimated Solar Power Production (Day-Ahead)_t+45min,560.6191600870166
+Gross Planned Power Plant Generation_t+495min,560.5307573821166
+Positive GCC Energy (kWh)_t-300min,560.3949147964398
+HU-SK Schedule_t+570min,560.3116202200191
+Estimated Solar Power Production (Current)_t+270min,560.0248323855623
+HU-AT_t-240min,559.1954744537868
+Gross Planned Power Plant Generation_t+570min,559.1105675377594
+HU-UA_t-15min,559.0928011766188
+Gross Planned Power Plant Generation_t+405min,558.6495592440156
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-390min,558.5286569104802
+Gross System Load Forecast (Day-Ahead)_t+660min,558.257560334451
+Gross Planned Power Plant Generation_t+630min,557.9163479733587
+HU-UA Schedule_t+465min,557.742439850097
+Negative GCC Energy (kWh)_t-165min,557.4609981875627
+HU-AT_t-300min,556.9314431785058
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-555min,556.2257343620097
+Estimated Solar Power Production (Day-Ahead)_t+180min,555.1007294051701
+Estimated Wind Power Production (Intraday)_t+195min,554.7416721749947
+Estimated Solar Power Production (Day-Ahead)_t+600min,554.691369045205
+HU-HR_t-450min,554.5997551704633
+Estimated Solar Power Production (Day-Ahead)_t+540min,553.7660453231301
+System Direction (kWh)_t-285min,552.9904184949403
+HU-UA Schedule_t+480min,552.8724306930629
+Estimated Solar Power Production (Intraday)_t+75min,550.8434407763536
+Requested Positive aFRR Balancing Energy (kWh)_t-345min,550.2152657722916
+HU-HR_t-330min,549.1344174193752
+HU-HR Schedule_t+405min,548.8207552246396
+Requested Negative aFRR Balancing Energy (kWh)_t-555min,547.8669152181278
+Solar Power Plants Net (Operational Control)_t-600min,547.4505751197229
+HU-UA Schedule_t+540min,547.2428503219531
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-195min,547.0604581353757
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-330min,546.9517309032115
+Gross Planned Power Plant Generation_t+315min,546.7633354816952
+Gross Planned Power Plant Generation_t+615min,545.6272234176013
+HU-RO_t-270min,545.3505168115083
+Estimated Solar Power Production (Day-Ahead)_t+135min,544.8673047772154
+Estimated Solar Power Production (Day-Ahead)_t+420min,544.6421277190041
+Gross Certified System Load (Actual)_t-480min,544.4262274992913
+Gross System Load Forecast (Day-Ahead)_t+555min,544.2657393756649
+Gross Planned Power Plant Generation_t+300min,544.2404790282264
+HU-UA Schedule_t+240min,544.0553618135722
+HU-RS_t-255min,543.6802485444373
+Estimated Wind Power Production (Day-Ahead),543.6354255366539
+ssrd_std_t+30min,543.521279793809
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-405min,542.9041054422137
+Estimated Solar Power Production (Intraday)_t+210min,542.5706251653139
+Positive GCC Energy (kWh)_t-480min,541.2741076701453
+Requested Negative aFRR Balancing Energy (kWh)_t-165min,541.1619545325657
+Requested Positive aFRR Balancing Energy (kWh)_t-255min,540.2688638349039
+Positive GCC Energy (kWh)_t-285min,539.9218690489437
+Estimated Solar Power Production (Current)_t+255min,539.7281901978906
+System Direction (kWh)_t-345min,539.3833524223677
+Estimated Solar Power Production (Day-Ahead)_t+225min,539.3213469884738
+Positive GCC Energy (kWh)_t-465min,539.3090355725653
+Estimated Solar Power Production (Intraday)_t+555min,538.5108567396455
+HU-RS Schedule_t+645min,538.1592886080658
+HU-AT_t-225min,537.9955192559386
+Requested Negative aFRR Balancing Energy (kWh)_t-465min,537.8660548994906
+Estimated Solar Power Production (Current)_t+435min,537.5347676006462
+HU-SK Schedule_t+165min,537.5258415492083
+HU-SK_t-585min,537.1788501377478
+HU-UA Schedule_t+120min,536.8283261618984
+System Direction (kWh)_t-240min,536.7452061776208
+Gross System Load Forecast (Day-Ahead)_t+600min,536.256097554819
+Gross Certified System Load (Actual)_t-150min,536.2521901583402
+HU-UA Schedule_t+45min,535.9028525974371
+100m_wind_speed_std,535.6605374361849
+Estimated Solar Power Production (Intraday)_t+540min,535.0923152242548
+HU-AT_t-450min,533.5856049833992
+Requested Positive aFRR Balancing Energy (kWh)_t-180min,532.9934347074391
+HU-AT Schedule_t+675min,530.2396129286691
+Gross System Load Forecast (Day-Ahead)_t+180min,529.4152688895753
+HU-AT_t-150min,529.1380582642457
+Negative GCC Energy (kWh)_t-495min,528.7460774029274
+Estimated Solar Power Production (Current)_t+555min,527.7176465533472
+HU-RO_t-75min,526.9845751256775
+Activated Negative aFRR Balancing Energy (kWh)_t-75min,526.6454372222912
+Estimated Solar Power Production (Day-Ahead)_t+435min,526.166965921846
+Gross Certified System Load (Actual)_t-45min,525.9880431338729
+HU-RO_t-120min,525.0610622483409
+Estimated Wind Power Production (Day-Ahead)_t+120min,524.5655411869867
+Estimated Solar Power Production (Day-Ahead)_t+60min,524.4896616322673
+HU-HR Schedule_t+360min,524.465311790424
+Activated Positive aFRR Balancing Energy (kWh)_t-180min,524.3948451384483
+Gross System Load Forecast (Day-Ahead)_t+360min,523.791054234042
+Estimated Solar Power Production (Current)_t+345min,523.5631010066586
+HU-RO Schedule_t+330min,522.6748824906115
+System Direction (kWh)_t-225min,522.2086557908979
+Estimated Solar Power Production (Current)_t+585min,522.0179397841541
+HU-UA_t-570min,521.4081488498167
+Gross System Load Forecast (Day-Ahead)_t+690min,520.7662649728725
+HU-SK Schedule_t+495min,519.4424674184687
+Estimated Solar Power Production (Intraday)_t+525min,519.3897616391848
+HU-AT Schedule_t+465min,519.3590348703232
+HU-UA_t-285min,518.8410272427594
+Estimated Solar Power Production (Current)_t+465min,518.8309987207011
+HU-RS_t-60min,518.3313662511684
+Estimated Solar Power Production (Current)_t+420min,517.9625527635808
+HU-RO_t-150min,516.7159668791253
+HU-RO_t-405min,516.0048409755996
+Gross System Load Forecast (Day-Ahead)_t+705min,515.3215668766328
+Estimated Solar Power Production (Day-Ahead),515.0377504663578
+HU-UA_t-405min,514.4284052446874
+Activated Negative aFRR Balancing Energy (kWh)_t-135min,514.111974856188
+HU-RS Schedule_t+555min,513.7346412378988
+Estimated Solar Power Production (Current)_t+375min,512.8216695917315
+HU-UA_t-75min,512.5523633830171
+HU-UA_t-330min,512.2656848336626
+Activated Positive aFRR Balancing Energy (kWh)_t-270min,512.2038312233833
+HU-HR_t-30min,511.88454735798507
+HU-RS_t-270min,511.27745857775767
+HU-RO Schedule_t+90min,510.6162253001518
+Gross Planned Power Plant Generation_t+345min,510.42215369410957
+Activated Negative aFRR Balancing Energy (kWh)_t-225min,510.18265373171226
+HU-RS_t-555min,510.1363273870959
+HU-RS Schedule_t+315min,508.30313702445056
+HU-HR_t-285min,508.0771248211703
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-390min,506.45981619705776
+Negative GCC Energy (kWh)_t-375min,506.3439860376476
+Requested Negative aFRR Balancing Energy (kWh)_t-450min,506.27809312213066
+Gross Actual Power Plant Generation_t-180min,504.19083459730564
+temp_mean_t+60min,503.97702214396764
+Gross Planned Power Plant Generation_t+510min,503.52137532407505
+HU-SK_t-420min,503.23290818270516
+HU-AT Schedule_t+375min,503.0118764271842
+HU-UA Schedule_t+600min,502.7937635665661
+temp_std_t+45min,502.76374624704243
+Estimated Wind Power Production (Day-Ahead)_t+75min,502.28192598433606
+Gross System Load Forecast (Day-Ahead)_t+525min,501.9205804838662
+Estimated Solar Power Production (Intraday),501.80738545207174
+Gross Planned Power Plant Generation_t+330min,501.7546940372094
+System Direction (kWh)_t-75min,501.0185155967937
+Solar Power Plants Net (Operational Control)_t-255min,500.5852838875297
+Activated Negative aFRR Balancing Energy (kWh)_t-585min,500.3236473781494
+HU-RO Schedule_t+360min,500.01579517907345
+Estimated Wind Power Production (Intraday)_t+240min,499.99706590681023
+HU-RS Schedule_t+510min,499.1838790464359
+HU-RS_t-435min,499.1780245153667
+Estimated Solar Power Production (Intraday)_t+240min,499.0443264218475
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-450min,498.5730552661829
+Estimated Solar Power Production (Intraday)_t+285min,498.4429652289466
+Activated Positive aFRR Balancing Energy (kWh)_t-75min,498.35706520155907
+10m_wind_speed_std_t+30min,497.9231723875309
+Requested Negative aFRR Balancing Energy (kWh)_t-120min,497.68370789495486
+Gross Planned Power Plant Generation_t+360min,497.5537613886563
+HU-HR_t-390min,497.20459600120944
+Negative GCC Energy (kWh)_t-510min,497.13460350758805
+HU-UA_t-525min,496.838927076091
+HU-HR_t-480min,496.5099941669221
+Estimated Solar Power Production (Current)_t+300min,496.4510854797762
+HU-HR_t-570min,496.0754456935068
+Gross Certified System Load (Actual)_t-570min,494.90872154278816
+10m_wind_speed_mean_t+30min,494.79991972965155
+Negative GCC Energy (kWh)_t-525min,494.678575681905
+HU-RO_t-210min,492.9409359027396
+Estimated Solar Power Production (Intraday)_t+405min,492.5855365759832
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-570min,492.466962277976
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-135min,492.3081858104209
+Estimated Solar Power Production (Current)_t+390min,491.92152543838534
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-180min,490.7987718547103
+HU-SK_t-165min,490.1926219315275
+Wind Power Actual - Net Operational Control_t-435min,490.0003115236848
+Estimated Wind Power Production (Day-Ahead)_t+300min,489.8259852276793
+HU-RS_t-180min,489.29120470520735
+HU-HR_t-585min,488.72436473646127
+HU-RO_t-555min,488.3447050025853
+HU-AT Schedule_t+330min,487.7540307471181
+Gross Certified System Load (Actual)_t-390min,487.45535917187436
+HU-SK Schedule_t+120min,486.7855393394852
+Estimated Solar Power Production (Intraday)_t+435min,486.11765608211357
+Activated Positive aFRR Balancing Energy (kWh)_t-360min,485.9974935154865
+Estimated Solar Power Production (Day-Ahead)_t+525min,485.7025213408346
+HU-UA Schedule_t+405min,485.44806270421446
+10m_wind_speed_mean_t+15min,484.21677653359217
+Requested Negative aFRR Balancing Energy (kWh)_t-525min,483.88944373363523
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-225min,483.3496857526923
+HU-HR_t-405min,483.2017798179006
+Estimated Solar Power Production (Current)_t+15min,482.5334003141618
+HU-HR Schedule_t+255min,480.8091213279197
+Activated Negative aFRR Balancing Energy (kWh)_t-255min,480.2444008556488
+Negative GCC Energy (kWh)_t-585min,479.9574676557851
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-135min,479.3669244708999
+HU-HR_t-420min,478.3119405241073
+HU-AT_t-465min,478.2222504996314
+Estimated Wind Power Production (Day-Ahead)_t+585min,477.6258363160011
+Negative GCC Energy (kWh)_t-420min,477.4069648015731
+HU-RO Schedule_t+120min,476.9967971730998
+HU-HR_t-510min,476.75154641604774
+HU-SK Schedule_t+435min,476.5469565351608
+Gross Planned Power Plant Generation_t+690min,476.28408958285695
+Gross System Load Forecast (Day-Ahead)_t+285min,476.0657274655792
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-525min,475.2758762078547
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-360min,475.1671020526195
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-375min,474.7815616218262
+HU-SK Schedule_t+690min,474.73688658666185
+Gross System Load Forecast (Day-Ahead)_t+570min,474.7338326280204
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-420min,474.6624165273347
+HU-UA Schedule_t+630min,474.5079236294058
+HU-UA_t-585min,474.1324684749212
+HU-UA_t-450min,473.9374380112532
+Gross System Load Forecast (Day-Ahead)_t+585min,473.7064553928906
+HU-SK_t-285min,473.16134719676444
+HU-RS Schedule_t+420min,472.95393335478275
+Estimated Wind Power Production (Intraday)_t+555min,472.56289867698166
+100m_wind_speed_mean_t+60min,472.1649845338085
+Gross Planned Power Plant Generation_t+705min,471.5107035856146
+HU-RO Schedule_t+570min,471.3453682676029
+Estimated Solar Power Production (Day-Ahead)_t+495min,471.3363425491292
+HU-SK_t-105min,471.1454610203636
+HU-RS_t-450min,470.38762073958196
+Estimated Wind Power Production (Current)_t+315min,470.3828581050291
+10m_wind_speed_mean_t+45min,469.6605273547023
+Requested Negative aFRR Balancing Energy (kWh)_t-150min,469.6015818747782
+Gross Certified System Load (Actual)_t-435min,469.3646179813032
+Estimated Wind Power Production (Current)_t+30min,469.2710834165005
+Positive GCC Energy (kWh)_t-540min,469.10901147152504
+Activated Negative aFRR Balancing Energy (kWh)_t-390min,469.1023016189267
+Solar Power Plants Net (Operational Control)_t-570min,468.9065881664556
+HU-UA Schedule_t+285min,468.21651183255454
+HU-RO_t-450min,467.622952014273
+Estimated Wind Power Production (Day-Ahead)_t+90min,467.58254253914953
+Requested Positive aFRR Balancing Energy (kWh)_t-360min,466.10083517935686
+10m_wind_speed_std_t+45min,466.0590901100338
+System Direction (kWh)_t-90min,465.326476196856
+HU-UA Schedule_t+360min,463.57399016003706
+Requested Negative aFRR Balancing Energy (kWh)_t-405min,462.972734999949
+Gross Certified System Load (Actual)_t-225min,461.9701270579119
+HU-AT_t-120min,461.89123837276094
+HU-UA Schedule_t+15min,461.75695343027536
+HU-HR_t-45min,460.30004829802357
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-345min,460.2712503868197
+HU-RO_t-390min,460.1525047586026
+HU-AT_t-345min,459.43453301957334
+temp_mean_t+30min,459.2958773432413
+Estimated Solar Power Production (Day-Ahead)_t+555min,459.1638090062488
+HU-RO_t-510min,459.14650504943506
+Estimated Wind Power Production (Current)_t+45min,458.85709394210585
+Solar Power Plants Net (Operational Control)_t-420min,458.717750229395
+HU-HR Schedule_t+465min,458.68065346182595
+HU-AT_t-435min,458.49125502541483
+HU-HR Schedule_t+165min,458.3521564991435
+HU-SK Schedule_t+645min,457.66235593830663
+Gross Certified System Load (Actual)_t-105min,457.5166409810898
+Estimated Solar Power Production (Day-Ahead)_t+570min,457.26448281698555
+Wind Power Actual - Net Operational Control,456.2915963065511
+Estimated Solar Power Production (Day-Ahead)_t+165min,456.08353414162036
+HU-AT_t-135min,455.963823774666
+HU-HR_t-465min,455.1909468171594
+HU-UA Schedule_t+450min,454.96982449451684
+HU-RS Schedule_t+270min,454.7062587241224
+Gross System Load Forecast (Day-Ahead)_t+300min,453.09287141488585
+HU-AT_t-165min,452.06002553959746
+Solar Power Plants Net (Operational Control)_t-360min,451.6427707142675
+Estimated Wind Power Production (Current)_t+240min,451.3147784752146
+Estimated Solar Power Production (Day-Ahead)_t+75min,450.6787362722191
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-495min,450.34052826562424
+Gross Certified System Load (Actual)_t-90min,450.3143500405031
+Requested Negative aFRR Balancing Energy (kWh)_t-540min,449.82377232216265
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-435min,448.75339934751696
+HU-RS_t-315min,448.67272846885874
+Solar Power Plants Net (Operational Control)_t-540min,448.6126882207051
+HU-SK Schedule_t+705min,448.4368365315833
+HU-RS_t-465min,447.8680794589271
+HU-AT_t-285min,447.72926109848265
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-75min,447.09401565811777
+Requested Negative aFRR Balancing Energy (kWh)_t-435min,446.7303191630998
+Estimated Wind Power Production (Current)_t+300min,446.4582216812262
+System Direction (kWh)_t-165min,446.22305871018415
+HU-HR_t-15min,445.8705919540349
+Estimated Solar Power Production (Current)_t+540min,444.80206485347856
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-570min,444.25258583831555
+Wind Power Actual - Net Commercial Settlement_t-540min,443.09635270911696
+Wind Power Actual - Net Commercial Settlement_t-225min,443.00225833872025
+HU-RS Schedule_t+405min,442.3104567985869
+HU-RS Schedule_t+480min,441.87446337258484
+HU-RS_t-375min,441.6563733366108
+Estimated Solar Power Production (Day-Ahead)_t+405min,441.3261541586197
+HU-SK_t-195min,440.2786234019112
+Positive GCC Energy (kWh)_t-225min,439.39621748605566
+Gross Planned Power Plant Generation_t+210min,439.28078680916366
+Activated Positive aFRR Balancing Energy (kWh)_t-345min,439.04721324285566
+System Direction (kWh)_t-300min,438.97625994080386
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-135min,438.58137919668764
+Negative GCC Energy (kWh)_t-315min,438.45819372871665
+HU-HR_t-540min,438.4574183625547
+HU-HR Schedule_t+645min,437.8929282409081
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-165min,437.4591327649466
+Activated Negative aFRR Balancing Energy (kWh)_t-165min,437.40767092644256
+HU-RS_t-540min,437.0782623905346
+Requested Negative aFRR Balancing Energy (kWh)_t-390min,436.98943990210194
+HU-AT_t-390min,436.8821456467535
+Requested Negative aFRR Balancing Energy (kWh)_t-210min,436.31849470581807
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-105min,436.21826139841653
+HU-HR_t-525min,435.9553067894681
+Gross Planned Power Plant Generation_t+585min,435.5284759575916
+HU-HR_t-165min,435.50060483242265
+HU-AT Schedule_t+360min,434.79050273997495
+Estimated Solar Power Production (Day-Ahead)_t+450min,434.52786510369435
+Estimated Wind Power Production (Current)_t+255min,434.4964981823861
+HU-HR Schedule_t+300min,434.4360101369309
+HU-HR Schedule_t+705min,434.1835456684794
+HU-HR Schedule_t+285min,433.6834716204056
+Wind Power Actual - Net Commercial Settlement_t-375min,433.2510894708888
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-375min,432.96283495273383
+Activated Negative aFRR Balancing Energy (kWh)_t-150min,432.5769966810488
+Estimated Wind Power Production (Day-Ahead)_t+285min,432.4375740303011
+Requested Negative aFRR Balancing Energy (kWh)_t-375min,432.1904331181376
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-45min,431.45745840694644
+Gross System Load Forecast (Day-Ahead)_t+405min,430.9105164943277
+Gross System Load Forecast (Day-Ahead)_t+135min,430.39298799350354
+Gross Actual Power Plant Generation_t-405min,430.1742200243065
+Gross System Load Forecast (Day-Ahead)_t+495min,429.6642044463539
+Activated Positive aFRR Balancing Energy (kWh)_t-120min,428.9488726031326
+HU-RS Schedule_t+300min,428.0645680802528
+HU-RS Schedule_t+345min,427.77392280612685
+HU-AT Schedule_t+405min,427.5125966995703
+Solar Power Plants Net (Operational Control)_t-450min,427.1868867611863
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-75min,426.87678367189363
+Gross Planned Power Plant Generation_t+240min,426.7429586022155
+Gross Planned Power Plant Generation_t+660min,426.5564225588798
+Gross Actual Power Plant Generation_t-570min,425.3278387703261
+Positive GCC Energy (kWh)_t-330min,425.2529900727784
+Activated Negative aFRR Balancing Energy (kWh)_t-105min,425.11643423526647
+HU-UA_t-540min,424.8622520313347
+Solar Power Plants Net (Operational Control)_t-555min,424.57119054029545
+Positive GCC Energy (kWh)_t-240min,422.77448517240146
+Wind Power Actual - Net Operational Control_t-75min,422.0695602721239
+Estimated Wind Power Production (Current)_t+540min,421.23462535804543
+Estimated Wind Power Production (Day-Ahead)_t+255min,421.176790058042
+Activated Positive aFRR Balancing Energy (kWh)_t-195min,420.9295444767487
+HU-AT_t-555min,420.8762172527876
+HU-AT_t-180min,420.6195821723344
+HU-AT Schedule_t+705min,420.5827374477027
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-150min,420.2447210684347
+HU-RO_t-195min,420.1856914214761
+HU-RS Schedule_t+720min,419.88789010277554
+Activated Negative aFRR Balancing Energy (kWh)_t-90min,419.59805819181946
+HU-RO_t-135min,419.40645473193996
+100m_wind_speed_mean_t+75min,418.80525999525145
+HU-SK_t-405min,418.74308300638467
+Estimated Solar Power Production (Intraday)_t+390min,418.7354309778533
+HU-RS Schedule_t+180min,417.6549240329699
+Estimated Solar Power Production (Day-Ahead)_t+30min,417.6435170225979
+HU-AT_t-210min,416.9613689991237
+Requested Negative aFRR Balancing Energy (kWh)_t-195min,416.17974965392807
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-270min,415.68194577483024
+Wind Power Actual - Net Operational Control_t-300min,415.4784387359098
+HU-HR_t-195min,415.20330520315787
+Estimated Solar Power Production (Current)_t+45min,414.9743265270643
+Requested Positive aFRR Balancing Energy (kWh)_t-75min,414.89455303236076
+Estimated Wind Power Production (Current)_t+225min,413.9259273139903
+HU-RS Schedule_t+450min,413.4725294210101
+Estimated Wind Power Production (Day-Ahead)_t+555min,413.4626198501402
+Estimated Solar Power Production (Intraday)_t+360min,413.34457977537164
+HU-SK Schedule_t+465min,412.399921627232
+Wind Power Actual - Net Commercial Settlement_t-435min,412.3459608220446
+HU-UA_t-555min,412.22751863613917
+Activated Negative aFRR Balancing Energy (kWh)_t-195min,412.145074871231
+Gross Actual Power Plant Generation_t-150min,412.01673857783186
+HU-SK Schedule_t+135min,411.10196856288917
+HU-RO_t-105min,410.09945941561256
+HU-UA Schedule_t+585min,409.1388282729923
+HU-AT_t-75min,408.7181779910452
+Activated Negative aFRR Balancing Energy (kWh)_t-435min,408.4655546984
+HU-SK Schedule_t+675min,408.02621625656514
+HU-HR_t-135min,407.8011802196209
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-585min,407.0397759398369
+HU-RO_t-180min,406.9745240888741
+HU-HR Schedule_t+480min,406.7191927960319
+HU-RO_t-315min,406.10620861035204
+Wind Power Actual - Net Commercial Settlement_t-495min,406.0624278467263
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-255min,405.44642285679384
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-360min,405.3773368887256
+Activated Positive aFRR Balancing Energy (kWh)_t-330min,405.3176665365497
+Gross Planned Power Plant Generation_t+270min,404.9595071443125
+HU-RS Schedule_t+435min,403.9818164514159
+Requested Positive aFRR Balancing Energy (kWh)_t-225min,403.7906798403826
+HU-RS_t-150min,402.6923514578904
+HU-HR Schedule_t+600min,402.5965145510787
+Wind Power Actual - Net Commercial Settlement_t-420min,402.5641025608421
+Requested Negative aFRR Balancing Energy (kWh)_t-255min,402.4893321780851
+Activated Negative aFRR Balancing Energy (kWh)_t-375min,401.6189585648567
+Estimated Solar Power Production (Day-Ahead)_t+15min,401.61330057926705
+HU-AT_t-105min,401.0781994804127
+Solar Power Plants Net (Operational Control)_t-480min,400.5121942045416
+Activated Negative aFRR Balancing Energy (kWh)_t-555min,400.48721461620346
+Estimated Solar Power Production (Intraday)_t+465min,399.29699023438667
+HU-RO_t-30min,398.53300328517525
+Requested Positive aFRR Balancing Energy (kWh)_t-465min,398.4935463383635
+Gross Planned Power Plant Generation_t+150min,398.1334671123163
+Gross Certified System Load (Actual)_t-420min,397.5763793904522
+Gross Certified System Load (Actual)_t-405min,397.54035141040606
+HU-RO_t-360min,396.9495574249553
+System Direction (kWh)_t-195min,396.8357141909339
+HU-RO Schedule_t+135min,396.6307689892422
+HU-SK Schedule_t+600min,396.48854241217316
+Negative GCC Energy (kWh)_t-390min,395.88928806644634
+HU-RO_t-90min,395.6919759127356
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-540min,395.4875962715714
+Negative GCC Energy (kWh)_t-435min,395.1636484982902
+Estimated Solar Power Production (Current)_t+510min,395.1179518447108
+Estimated Solar Power Production (Intraday)_t+315min,395.0753827265869
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-465min,394.97883536906266
+HU-RO_t-330min,394.8786270919681
+HU-UA_t-390min,394.74019759935305
+System Direction (kWh)_t-450min,394.43505043993156
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-285min,393.7301809306761
+HU-UA_t-300min,393.4906330410593
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-375min,393.42053947246166
+Estimated Solar Power Production (Intraday)_t+300min,392.9361736583441
+HU-HR_t-180min,392.6085112595401
+HU-RO_t-495min,392.39338863342175
+Estimated Solar Power Production (Current)_t+330min,392.35350542528136
+Estimated Solar Power Production (Intraday)_t+495min,391.72336954359565
+Wind Power Actual - Net Operational Control_t-135min,391.26696337424437
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-15min,391.15056570958234
+100m_wind_speed_std_t+60min,390.85744185277537
+HU-AT_t-420min,390.72088439542017
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-90min,390.6389649429767
+Positive GCC Energy (kWh)_t-270min,390.52437629872645
+Wind Power Actual - Net Operational Control_t-255min,390.44764430181027
+Estimated Solar Power Production (Current)_t+450min,390.3547532390805
+System Direction (kWh)_t-465min,389.86020397710473
+Activated Positive aFRR Balancing Energy (kWh)_t-450min,389.28867193472473
+Gross Planned Power Plant Generation_t+225min,387.71414873019955
+Gross Certified System Load (Actual)_t-195min,387.36914477553097
+HU-AT_t-255min,386.14510575406996
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-165min,385.7519775374105
+Estimated Wind Power Production (Intraday)_t+285min,385.54586440084074
+Gross Certified System Load (Actual)_t-315min,385.17902352108194
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-330min,384.8178186159736
+Activated Positive aFRR Balancing Energy (kWh)_t-480min,384.66129801698503
+HU-RS Schedule_t+495min,384.5992152195109
+Estimated Solar Power Production (Intraday)_t+270min,384.2217155094897
+Wind Power Actual - Net Commercial Settlement_t-150min,383.88759369726233
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-240min,383.7004800645355
+100m_wind_speed_mean_t+45min,382.8531657345008
+Gross Actual Power Plant Generation_t-165min,382.84104746934025
+HU-AT_t-90min,382.40522121754617
+HU-RS Schedule_t+540min,382.20778623788624
+temp_std_t+15min,381.96767704079105
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-315min,381.86188667926024
+HU-RS Schedule_t+570min,381.53543630813954
+HU-AT_t-585min,381.2678114248082
+HU-RO_t-45min,381.1657164988111
+Wind Power Actual - Net Commercial Settlement_t-135min,380.5595926680752
+Wind Power Actual - Net Commercial Settlement_t-390min,379.8068771695852
+HU-RO_t-600min,379.76598171494487
+Estimated Solar Power Production (Current)_t+495min,379.74487039378175
+HU-UA Schedule_t+510min,379.6329860639299
+Gross Actual Power Plant Generation_t-585min,379.40298339644977
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-180min,379.26573232404894
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-210min,378.836327928884
+Gross Certified System Load (Actual)_t-255min,378.72136598830787
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-195min,378.6904960130409
+Gross Certified System Load (Actual)_t-240min,378.29011959085324
+HU-UA_t-210min,378.12474136009104
+HU-AT_t-315min,377.48833367298374
+Positive GCC Energy (kWh)_t-105min,377.24842496930717
+Solar Power Plants Net (Operational Control)_t-510min,376.97376488625616
+Estimated Wind Power Production (Current)_t+435min,376.3530371955938
+HU-RS Schedule_t+690min,376.0515327428786
+HU-SK Schedule_t+720min,376.02127853051184
+Requested Positive aFRR Balancing Energy (kWh)_t-510min,375.63535325776934
+HU-RS_t-300min,375.28671422839614
+Requested Positive aFRR Balancing Energy (kWh)_t-135min,374.8201731288392
+Wind Power Actual - Net Commercial Settlement_t-90min,374.7913081976616
+HU-UA_t-90min,374.54430554842634
+Wind Power Actual - Net Operational Control_t-120min,374.40161654486496
+Activated Positive aFRR Balancing Energy (kWh)_t-135min,374.1082249956182
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-405min,373.4917269766926
+Wind Power Actual - Net Commercial Settlement_t-570min,373.353318231716
+Requested Negative aFRR Balancing Energy (kWh)_t-315min,372.430846668742
+HU-HR Schedule_t+315min,371.8591610324155
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-510min,371.75876000894493
+Activated Negative aFRR Balancing Energy (kWh)_t-120min,371.6110845501796
+Negative GCC Energy (kWh)_t-450min,371.31286890075023
+Gross Certified System Load (Actual)_t-75min,371.266062995917
+Estimated Wind Power Production (Day-Ahead)_t+105min,371.0230474757078
+Positive GCC Energy (kWh)_t-120min,370.9122506775422
+Gross Planned Power Plant Generation_t+480min,370.275860529444
+Estimated Solar Power Production (Current)_t+285min,370.19747600848893
+Estimated Wind Power Production (Current)_t+480min,369.156404192658
+HU-HR_t-75min,369.0913632109151
+10m_wind_speed_std_t+60min,369.0721753104469
+System Direction (kWh)_t-375min,368.7684596711581
+Solar Power Plants Net (Operational Control)_t-225min,368.7398915828754
+HU-SK Schedule_t+525min,367.165812280247
+Requested Positive aFRR Balancing Energy (kWh)_t-315min,366.47278751212764
+Activated Positive aFRR Balancing Energy (kWh)_t-525min,366.34622761280326
+Gross Actual Power Plant Generation_t-555min,365.81390060384626
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-600min,365.7594166814166
+Activated Negative aFRR Balancing Energy (kWh)_t-510min,365.44612403977345
+Negative GCC Energy (kWh)_t-555min,365.27566274032137
+Estimated Solar Power Production (Intraday)_t+375min,364.74749773520284
+Wind Power Actual - Net Operational Control_t-225min,364.70700038958387
+HU-SK_t-375min,364.6978866125882
+Estimated Wind Power Production (Day-Ahead)_t+450min,364.58742295019726
+HU-RS_t-420min,364.5872204615419
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-210min,364.36053688815446
+Negative GCC Energy (kWh)_t-600min,363.969200811383
+Gross Actual Power Plant Generation_t-105min,363.2601048184598
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-165min,363.1374771403447
+Estimated Wind Power Production (Current)_t+450min,362.9896395328571
+Wind Power Actual - Net Operational Control_t-345min,362.95934915894804
+HU-HR_t-555min,362.58972843714935
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-345min,362.22276019280673
+Positive GCC Energy (kWh)_t-555min,362.1812111358762
+Wind Power Actual - Net Operational Control_t-285min,362.1246111750395
+HU-HR_t-120min,360.9055908942532
+HU-RS_t-15min,360.7191878534084
+ssrd_std_t+60min,360.7129639677257
+Requested Negative aFRR Balancing Energy (kWh)_t-570min,360.30224107206385
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-150min,359.7278874780483
+HU-RS_t-360min,359.52492050823315
+HU-SK_t-540min,359.4846821907444
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-405min,358.951365282025
+HU-RS_t-45min,358.7340387733968
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-270min,358.5997835342406
+Gross Certified System Load (Actual)_t-60min,358.44635424276436
+Gross Actual Power Plant Generation_t-135min,358.35367273231566
+Gross System Load Forecast (Day-Ahead)_t+645min,358.10812695931384
+HU-AT_t-570min,357.2689763440758
+Wind Power Actual - Net Operational Control_t-585min,357.07785124286465
+HU-SK Schedule_t+375min,357.0553383618036
+HU-HR_t-345min,357.0041674087974
+HU-RS Schedule_t+195min,356.5254797887452
+Estimated Wind Power Production (Current)_t+405min,356.1483845545708
+Estimated Solar Power Production (Day-Ahead)_t+510min,355.75540924922905
+Solar Power Plants Net (Operational Control)_t-525min,354.2424170222248
+HU-SK_t-60min,354.2363732127743
+System Direction (kWh)_t-555min,353.32187224875366
+Gross Certified System Load (Actual)_t-510min,353.263790792441
+HU-HR_t-60min,352.23871019524637
+Wind Power Actual - Net Operational Control_t-60min,352.1612798958149
+Estimated Wind Power Production (Day-Ahead)_t+540min,352.0034814444627
+System Direction (kWh)_t-360min,351.547304544218
+Wind Power Actual - Net Commercial Settlement_t-240min,351.17054935314013
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-210min,351.00802772811386
+HU-RO_t-465min,350.57166752105013
+temp_std,350.53103674936
+Gross Planned Power Plant Generation_t+600min,350.4240807112524
+HU-RS Schedule_t+360min,350.13874896886125
+Activated Positive aFRR Balancing Energy (kWh)_t-465min,350.0625163512939
+Estimated Solar Power Production (Current)_t+360min,349.695755680841
+Activated Negative aFRR Balancing Energy (kWh)_t-570min,349.44510099531095
+Requested Positive aFRR Balancing Energy (kWh)_t-495min,349.1493019551515
+Wind Power Actual - Net Operational Control_t-600min,349.01243081711675
+Estimated Wind Power Production (Intraday)_t+210min,348.27812624182155
+Solar Power Plants Net (Operational Control)_t-585min,348.2602950549626
+HU-AT_t-270min,348.2024604105154
+Gross Certified System Load (Actual)_t-135min,347.03263659646086
+Requested Positive aFRR Balancing Energy (kWh)_t-480min,346.9960020246687
+Wind Power Actual - Net Commercial Settlement_t-255min,346.5147842901883
+Estimated Wind Power Production (Intraday)_t+600min,344.91229164358776
+HU-RS Schedule_t+630min,344.74004568616573
+System Direction (kWh)_t-330min,344.51023250114963
+10m_wind_speed_std_t+15min,344.3657559476295
+HU-SK_t-555min,344.09098622032997
+Wind Power Actual - Net Operational Control_t-540min,344.0365912267447
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-150min,343.73970145041926
+Estimated Wind Power Production (Intraday)_t+525min,343.6656170585527
+Estimated Solar Power Production (Current)_t+480min,342.6889029724805
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-420min,342.5976939637685
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-480min,342.2552378727491
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-555min,342.16910169599015
+Wind Power Actual - Net Commercial Settlement_t-510min,342.1538122547546
+Activated Positive aFRR Balancing Energy (kWh)_t-90min,341.11805716397123
+HU-RO_t-570min,340.53327218859636
+HU-RS_t-405min,340.44903379368685
+100m_wind_speed_std_t+15min,340.37339933460225
+Wind Power Actual - Net Operational Control_t-465min,340.04131656025345
+Gross Certified System Load (Actual)_t-285min,339.6984953163587
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-465min,339.4768612630187
+Estimated Solar Power Production (Day-Ahead)_t+465min,339.3677137044833
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-525min,339.3197625045508
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-120min,337.69764603413574
+System Direction (kWh)_t-495min,337.6420211908462
+Estimated Wind Power Production (Day-Ahead)_t+570min,337.1803681091085
+100m_wind_speed_std_t+75min,336.9407807755094
+System Direction (kWh)_t-540min,336.7659995336828
+Wind Power Actual - Net Operational Control_t-375min,336.5465430165809
+HU-RO_t-585min,335.81596995304864
+System Direction (kWh)_t-420min,335.465010672469
+Requested Negative aFRR Balancing Energy (kWh)_t-105min,334.393068718591
+Wind Power Actual - Net Commercial Settlement_t-210min,334.3511578696958
+HU-RS_t-135min,334.02383300274676
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-30min,333.3058584855236
+System Direction (kWh)_t-180min,333.01850436458994
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-315min,333.01685838789615
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-285min,332.76286458123974
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-120min,332.7360207305225
+HU-HR_t-90min,332.57774324077104
+HU-SK_t-45min,332.4989674292137
+Activated Positive aFRR Balancing Energy (kWh)_t-150min,331.3477178175848
+Gross System Load Forecast (Day-Ahead)_t+630min,331.16931742564753
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-90min,330.9068700720363
+Activated Negative aFRR Balancing Energy (kWh)_t-540min,330.16253465254965
+Estimated Wind Power Production (Day-Ahead)_t+375min,328.90084228277055
+HU-RS_t-195min,328.73883486953724
+HU-RO_t-375min,328.62329058711464
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-360min,328.593423312363
+Activated Positive aFRR Balancing Energy (kWh)_t-255min,327.0308300165997
+HU-AT_t-600min,327.0106669280689
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-105min,326.6156969271273
+HU-HR Schedule_t+585min,326.2908824094928
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-270min,325.89697984538265
+Estimated Solar Power Production (Day-Ahead)_t+120min,325.5061788227723
+Estimated Wind Power Production (Day-Ahead)_t+480min,325.4763570439089
+HU-AT_t-360min,325.4345611269145
+HU-SK Schedule_t+660min,325.0881223691872
+HU-SK Schedule_t+390min,324.8680170532945
+Estimated Wind Power Production (Current)_t+345min,324.5723941400548
+HU-AT_t-195min,324.55486241778317
+Estimated Wind Power Production (Intraday)_t+75min,324.41617053044706
+HU-SK_t-225min,324.0806331556382
+Requested Positive aFRR Balancing Energy (kWh)_t-540min,323.97034528891584
+HU-RO Schedule_t+660min,322.20936151124863
+Wind Power Actual - Net Operational Control_t-390min,321.6146893243966
+Wind Power Actual - Net Operational Control_t-150min,321.14337181115025
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-285min,320.47784480733407
+Activated Positive aFRR Balancing Energy (kWh)_t-315min,320.3613374206797
+Wind Power Actual - Net Operational Control_t-480min,320.13092431006544
+HU-SK_t-390min,319.66998382307787
+HU-RS Schedule_t+465min,319.46150025351045
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-480min,319.36542760716804
+Gross Certified System Load (Actual)_t-180min,318.26424378151586
+System Direction (kWh)_t-405min,318.2053083674467
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-600min,316.8359852665654
+HU-HR Schedule_t+660min,316.67172947964553
+Estimated Wind Power Production (Intraday)_t+30min,316.16409360114824
+HU-HR_t-240min,315.6047037909658
+Gross Planned Power Plant Generation_t+555min,314.7699404744345
+HU-HR_t-270min,314.62395787094044
+Positive GCC Energy (kWh)_t-150min,314.4519549702785
+Estimated Wind Power Production (Day-Ahead)_t+525min,314.14075729853073
+Requested Positive aFRR Balancing Energy (kWh)_t-450min,314.08694157413373
+Requested Positive aFRR Balancing Energy (kWh)_t-90min,314.07422421100335
+Wind Power Actual - Net Commercial Settlement_t-600min,313.75975747714494
+Positive GCC Energy (kWh)_t-255min,313.34455398095474
+Estimated Wind Power Production (Intraday)_t+540min,312.8264048377067
+Gross Actual Power Plant Generation_t-525min,312.6665857703657
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-300min,312.62886637605845
+Positive GCC Energy (kWh)_t-390min,312.393560974963
+Positive GCC Energy (kWh)_t-315min,311.9400431153982
+HU-HR Schedule_t+630min,311.5672187057811
+HU-SK Schedule_t+150min,310.89761516411875
+Requested Positive aFRR Balancing Energy (kWh)_t-390min,310.69531217218986
+Estimated Solar Power Production (Day-Ahead)_t+480min,309.67783095407924
+HU-RS_t-120min,309.44143503451147
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-420min,309.43752346845844
+Activated Positive aFRR Balancing Energy (kWh)_t-165min,309.0545976437142
+Positive GCC Energy (kWh)_t-450min,308.9689164169876
+HU-RS_t-75min,308.27999471958145
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-120min,307.76489646644336
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-225min,306.9798517252801
+Estimated Solar Power Production (Intraday)_t+420min,306.6829553689453
+Estimated Wind Power Production (Day-Ahead)_t+435min,306.57844027382816
+Estimated Wind Power Production (Day-Ahead)_t+345min,306.5234439486469
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-315min,306.1271121389348
+Gross Planned Power Plant Generation_t+255min,306.0800044500901
+HU-AT_t-330min,306.04964426036213
+Estimated Wind Power Production (Intraday)_t+255min,305.6210414610773
+Estimated Solar Power Production (Current)_t+570min,305.25420607357813
+HU-SK Schedule_t+615min,304.2008188287154
+Gross Certified System Load (Actual)_t-120min,304.1417537603383
+Estimated Solar Power Production (Intraday)_t+255min,303.79481669943857
+Positive GCC Energy (kWh)_t-345min,302.98077233722034
+Estimated Wind Power Production (Intraday)_t+15min,302.94714357874614
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-495min,302.4875329545298
+HU-RS_t-225min,302.2134878345148
+Negative GCC Energy (kWh)_t-570min,301.5012899838092
+Gross Certified System Load (Actual)_t-270min,301.154835745406
+Estimated Wind Power Production (Intraday)_t+225min,300.9382985552158
+HU-SK Schedule_t+630min,300.81903308387524
+HU-RS_t-480min,300.07958823312316
+HU-RS_t-525min,299.8491105847249
+Requested Positive aFRR Balancing Energy (kWh)_t-600min,299.67782263138116
+Estimated Wind Power Production (Current)_t+525min,299.0945816187685
+Estimated Wind Power Production (Current)_t+420min,298.40085861212657
+HU-RS Schedule_t+285min,298.24350040979914
+System Direction (kWh)_t-210min,296.85289699444627
+HU-RS Schedule_t+210min,296.32627635345943
+HU-SK Schedule_t+420min,296.2548464909015
+Estimated Wind Power Production (Day-Ahead)_t+315min,295.62839565908786
+Wind Power Actual - Net Commercial Settlement_t-180min,295.607818999574
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-435min,294.63585854982966
+Requested Positive aFRR Balancing Energy (kWh)_t-150min,294.05814999771815
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-240min,293.716349117247
+Wind Power Actual - Net Commercial Settlement_t-585min,293.71067605939425
+HU-RS_t-210min,293.417127639088
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-345min,293.23660070952974
+HU-RS_t-165min,292.74325179776383
+Requested Positive aFRR Balancing Energy (kWh)_t-375min,292.29161637528875
+Wind Power Actual - Net Commercial Settlement_t-120min,291.7080821673904
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-495min,291.51620731586434
+HU-AT_t-375min,291.34428301759385
+HU-HR_t-300min,291.1554189791265
+HU-HR_t-600min,290.3938767805656
+Estimated Wind Power Production (Intraday)_t+270min,289.60561160804366
+Positive GCC Energy (kWh)_t-405min,289.585452737491
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-330min,288.4021094966689
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-390min,288.0761192635513
+Estimated Solar Power Production (Intraday)_t+330min,288.027283517486
+Requested Positive aFRR Balancing Energy (kWh)_t-585min,287.418971423505
+Estimated Wind Power Production (Intraday)_t+435min,286.51707618259627
+Wind Power Actual - Net Operational Control_t-405min,286.36809278271693
+Requested Positive aFRR Balancing Energy (kWh)_t-405min,286.09805253120055
+HU-RS Schedule_t+615min,285.9127044089457
+Requested Positive aFRR Balancing Energy (kWh)_t-435min,285.36326859617145
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-255min,284.32744416331184
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-510min,283.6231938020636
+HU-HR_t-315min,283.2702944620145
+HU-RO_t-345min,282.96961635287516
+HU-SK Schedule_t+360min,282.8741814699484
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-300min,282.6798418942343
+Wind Power Actual - Net Operational Control_t-450min,282.63015972490075
+Gross System Load Forecast (Day-Ahead)_t+615min,282.5843197805058
+Wind Power Actual - Net Commercial Settlement_t-285min,281.1427993083275
+System Direction (kWh)_t-480min,280.33204500367185
+Wind Power Actual - Net Operational Control_t-270min,280.09624105379237
+Estimated Wind Power Production (Intraday)_t+465min,279.46477342416927
+100m_wind_speed_std_t+45min,278.90450724343606
+Activated Positive aFRR Balancing Energy (kWh)_t-435min,278.2406786332036
+Wind Power Actual - Net Operational Control_t-420min,277.47280045037246
+Positive GCC Energy (kWh)_t-570min,277.2333266247434
+HU-HR_t-360min,277.1661087066792
+Activated Positive aFRR Balancing Energy (kWh)_t-555min,276.76793403902667
+HU-HR_t-225min,276.61652895871197
+Activated Positive aFRR Balancing Energy (kWh)_t-600min,275.9573609183744
+HU-HR Schedule_t+675min,275.86228119804446
+HU-AT_t-405min,275.7121309158098
+Wind Power Actual - Net Commercial Settlement_t-360min,275.2288378217527
+Estimated Wind Power Production (Current)_t+600min,274.68821475492047
+HU-RO_t-225min,274.4441694705622
+Requested Positive aFRR Balancing Energy (kWh)_t-525min,273.2754566491769
+Estimated Wind Power Production (Intraday),272.53021958701385
+Estimated Wind Power Production (Current)_t+465min,272.50206629240336
+Positive GCC Energy (kWh)_t-360min,271.99146694757746
+System Direction (kWh)_t-600min,271.23980566260406
+Gross Planned Power Plant Generation_t+450min,270.90121954774673
+Gross Certified System Load (Actual)_t-465min,270.5486047822521
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-255min,270.13053521461535
+Estimated Wind Power Production (Current)_t+375min,269.8852041232943
+Estimated Wind Power Production (Intraday)_t+345min,269.80019390973257
+Estimated Wind Power Production (Day-Ahead)_t+360min,269.7640334755192
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-225min,269.74555253409557
+Positive GCC Energy (kWh)_t-600min,268.8955988851473
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-600min,268.49897353196513
+Positive GCC Energy (kWh)_t-375min,268.3558534341028
+Gross Certified System Load (Actual)_t-300min,267.8776465095159
+Activated Positive aFRR Balancing Energy (kWh)_t-510min,267.4451494314667
+Activated Positive aFRR Balancing Energy (kWh)_t-210min,267.13762407220537
+HU-RS Schedule_t+225min,266.0264207708515
+Gross Actual Power Plant Generation_t-540min,265.47849468600435
+Estimated Wind Power Production (Intraday)_t+495min,265.44641357131945
+HU-RS_t-585min,265.2733150952163
+System Direction (kWh)_t-525min,265.16718989275455
+HU-RS Schedule_t+240min,264.34661640621215
+Wind Power Actual - Net Commercial Settlement_t-345min,264.3234390819185
+Wind Power Actual - Net Operational Control_t-570min,264.2154696124207
+temp_std_t+60min,263.598430825379
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-540min,262.6621219564589
+HU-RS Schedule_t+675min,262.2277076546956
+Estimated Wind Power Production (Day-Ahead)_t+390min,261.6905117398407
+Wind Power Actual - Net Operational Control_t-105min,260.7210343407469
+Requested Positive aFRR Balancing Energy (kWh)_t-195min,259.83120873167974
+Wind Power Actual - Net Commercial Settlement_t-165min,259.819847088283
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-165min,259.69135534907525
+Estimated Wind Power Production (Intraday)_t+450min,259.6695654174244
+Activated Positive aFRR Balancing Energy (kWh)_t-585min,258.08574736258083
+Wind Power Actual - Net Commercial Settlement_t-465min,258.08511054471455
+Estimated Wind Power Production (Day-Ahead)_t+510min,257.6401648817166
+Negative Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-585min,257.37102384727694
+HU-RS Schedule_t+660min,257.27196664858354
+System Direction (kWh)_t-510min,256.8793256439596
+Activated Positive aFRR Balancing Energy (kWh)_t-375min,255.83713988637487
+HU-HR_t-150min,255.32324491686643
+temp_std_t+30min,254.3220763462051
+Wind Power Actual - Net Operational Control_t-180min,254.19315407718224
+Estimated Wind Power Production (Current)_t+75min,254.14881409449333
+HU-HR_t-255min,251.44688560299812
+Activated Positive aFRR Balancing Energy (kWh)_t-420min,251.35590986855854
+System Direction (kWh)_t-570min,251.30030580030095
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-585min,251.26992888367275
+Estimated Wind Power Production (Day-Ahead)_t+600min,251.0406204493783
+HU-RO_t-240min,250.87408977894893
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-105min,250.05878027700672
+Positive GCC Energy (kWh)_t-420min,249.32440350394296
+Requested Positive aFRR Balancing Energy (kWh)_t-105min,249.22040516948016
+Estimated Wind Power Production (Current)_t+585min,247.77480529605742
+Positive GCC Energy (kWh)_t-585min,247.31679773982196
+Wind Power Actual - Net Commercial Settlement_t-75min,247.28211729956894
+Estimated Wind Power Production (Current)_t+60min,246.5107792064575
+Estimated Wind Power Production (Current)_t+285min,246.29817643318995
+Activated Negative aFRR Balancing Energy (kWh)_t-210min,246.2032183510553
+Wind Power Actual - Net Operational Control_t-315min,245.7004711892859
+Estimated Wind Power Production (Intraday)_t+585min,245.55957602369023
+HU-RS Schedule_t+255min,245.33218411201247
+Activated Positive aFRR Balancing Energy (kWh)_t-105min,244.8866370298481
+Activated Positive aFRR Balancing Energy (kWh)_t-495min,244.46829179789913
+Requested Positive aFRR Balancing Energy (kWh)_t-120min,243.99912443900922
+Requested Positive aFRR Balancing Energy (kWh)_t-555min,243.38847581123582
+HU-HR_t-435min,243.01141428718728
+Wind Power Actual - Net Commercial Settlement_t-300min,242.49553108705436
+HU-RS Schedule_t+705min,242.02516608192784
+Positive GCC Energy (kWh)_t-435min,241.7162163266761
+Estimated Wind Power Production (Day-Ahead)_t+30min,241.64397646976164
+HU-HR Schedule_t+690min,241.27405942203202
+Activated Positive aFRR Balancing Energy (kWh)_t-405min,240.90900813274328
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-450min,240.77555769373487
+HU-RS_t-330min,240.71049763278427
+Wind Power Actual - Net Operational Control_t-495min,240.07138759831707
+Gross Certified System Load (Actual)_t-210min,239.6099635751111
+Requested Positive aFRR Balancing Energy (kWh)_t-165min,238.4573345601472
+HU-RS Schedule_t+600min,237.33297402368743
+HU-RS Schedule_t+525min,237.17260057024012
+HU-HR_t-210min,236.6633248361831
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-555min,236.28479115103218
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-450min,236.1405943435005
+Activated Positive aFRR Balancing Energy (kWh)_t-390min,235.1059763052068
+Wind Power Actual - Net Commercial Settlement_t-480min,234.58699256900712
+Wind Power Actual - Net Operational Control_t-525min,234.32659176570098
+Estimated Wind Power Production (Intraday)_t+570min,233.8011889196327
+System Direction (kWh)_t-435min,231.8317645380653
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-600min,231.43098560744568
+Wind Power Actual - Net Operational Control_t-195min,231.18469185833018
+Estimated Wind Power Production (Intraday)_t+360min,230.11768739165535
+Positive GCC Energy (kWh)_t-90min,229.8759400686605
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-195min,229.79348462567523
+Estimated Wind Power Production (Current)_t+570min,229.47115142406597
+Estimated Wind Power Production (Day-Ahead)_t+495min,228.8119285556489
+Positive Balancing Energy Unit Price for Balance Groups (HUF/kWh)_t-465min,228.49279384545042
+Estimated Wind Power Production (Intraday)_t+315min,228.43220023100025
+Positive GCC Energy (kWh)_t-180min,228.35208599522207
+Estimated Wind Power Production (Intraday)_t+300min,228.223198331228
+Requested Positive aFRR Balancing Energy (kWh)_t-330min,228.07141382454546
+Wind Power Actual - Net Commercial Settlement_t-450min,225.45383819578353
+Estimated Wind Power Production (Day-Ahead)_t+405min,225.30023099103667
+Wind Power Actual - Net Operational Control_t-240min,224.74686543956452
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-540min,224.25942830058938
+Estimated Wind Power Production (Intraday)_t+60min,223.19392772781623
+HU-RO_t-420min,220.6171697693942
+HU-RS_t-240min,219.8970759847767
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-525min,218.71915095152934
+Estimated Wind Power Production (Current)_t+330min,218.3661809256953
+Wind Power Actual - Net Operational Control_t-555min,216.77304927445064
+System Direction (kWh)_t-585min,214.30474029708668
+Wind Power Actual - Net Operational Control_t-90min,213.32413379013357
+Requested Positive aFRR Balancing Energy (kWh)_t-210min,212.29377792078765
+Estimated Wind Power Production (Current)_t+15min,211.94106775711668
+Activated Positive aFRR Balancing Energy (kWh)_t-540min,211.87570899327284
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-525min,210.09215024297814
+Wind Power Actual - Net Commercial Settlement_t-105min,210.08858158853386
+Wind Power Actual - Net Commercial Settlement_t-330min,210.0392038919682
+Estimated Wind Power Production (Current)_t+495min,209.8802748534356
+Wind Power Actual - Net Commercial Settlement_t-405min,209.8736530755561
+Activated Positive aFRR Balancing Energy (kWh)_t-570min,209.86967852198003
+Wind Power Actual - Net Commercial Settlement_t-525min,209.77162492485962
+Estimated Wind Power Production (Day-Ahead)_t+45min,209.46998277721642
+Estimated Wind Power Production (Current)_t+510min,207.03638183973345
+Wind Power Actual - Net Operational Control_t-330min,207.01399942961774
+Positive GCC Energy (kWh)_t-210min,206.22008475554105
+100m_wind_speed_std_t+30min,205.32641850477802
+Estimated Wind Power Production (Day-Ahead)_t+15min,205.03450393259072
+Wind Power Actual - Net Operational Control_t-210min,204.45442628111127
+Estimated Wind Power Production (Current)_t+270min,204.13027589997947
+Positive GCC Energy (kWh)_t-135min,202.8450315642065
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-60min,202.66592284079053
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-420min,202.38195439628615
+Estimated Wind Power Production (Current)_t+555min,201.1671623692286
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-540min,201.11992770896182
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-480min,199.44240149178052
+Estimated Wind Power Production (Intraday)_t+375min,198.92590749372147
+Wind Power Actual - Net Operational Control_t-360min,198.6602587292349
+Estimated Wind Power Production (Day-Ahead)_t+465min,198.03589487089164
+Wind Power Actual - Net Operational Control_t-510min,196.65451618497937
+Estimated Wind Power Production (Intraday)_t+510min,196.61568433360497
+Wind Power Actual - Net Commercial Settlement_t-555min,195.54559456299916
+Estimated Wind Power Production (Day-Ahead)_t+420min,195.27876113344888
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-570min,194.65887574743286
+HU-RS Schedule_t+165min,190.58119479430894
+Estimated Wind Power Production (Intraday)_t+330min,189.95533478124293
+Wind Power Actual - Net Commercial Settlement_t-315min,189.5066630333262
+Requested Positive aFRR Balancing Energy (kWh)_t-570min,188.34246738323796
+Wind Power Actual - Net Operational Control_t-165min,187.3917278702069
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-435min,186.2139032959123
+Wind Power Actual - Net Commercial Settlement_t-195min,185.6376237192955
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-480min,185.21558167237092
+Activated Positive aFRR Balancing Energy Cost (HUF)_t-510min,185.11117667110392
+Estimated Wind Power Production (Current)_t+390min,184.28825926086452
+Positive GCC Energy (kWh)_t-195min,184.16646782598588
+Wind Power Actual - Net Commercial Settlement_t-270min,183.9919148872525
+Estimated Wind Power Production (Intraday)_t+390min,179.2340151802646
+Estimated Wind Power Production (Intraday)_t+420min,178.55925163953864
+Estimated Wind Power Production (Intraday)_t+405min,172.83506080013296
+HU-RS Schedule_t+585min,171.4912058720308
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-375min,168.3138974101589
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-150min,167.5750987916107
+Estimated Wind Power Production (Day-Ahead)_t+330min,167.52047613038584
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-435min,161.0037823344715
+Positive GCC Energy (kWh)_t-165min,160.79019747021852
+Estimated Wind Power Production (Current),159.8898378105796
+is_holiday,153.8319251303959
+Estimated Wind Power Production (Intraday)_t+480min,153.37722887240344
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-135min,153.08676412296563
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-195min,152.258540727104
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-120min,150.36434556335197
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-180min,150.22009289710678
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-450min,145.70830847041157
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-90min,143.61258686626599
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-555min,141.14292069560167
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-75min,137.25173063814526
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-300min,134.94360669502586
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-345min,132.00121994999125
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-240min,131.94826624257365
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-360min,131.65095391268844
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-585min,127.50359422086825
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-225min,122.2903911854005
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-465min,120.0438663354957
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-495min,117.29321271262435
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-210min,108.93526109463912
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-405min,104.51446938052968
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-285min,97.9815939510054
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-270min,97.85303427448679
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-510min,97.70301850048313
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-570min,90.90410111185975
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-390min,87.64246876448306
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-315min,84.3739855386769
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-255min,82.84160698539752
+Activated Negative aFRR Balancing Energy Cost (HUF)_t-330min,77.98721299058842
