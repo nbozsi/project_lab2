@@ -7,31 +7,27 @@ pl.Config.set_fmt_str_lengths(120)
 
 def shap_agg_plot(df):
     return (
-        (
-            alt.Chart(df)
-            .mark_bar()
-            .encode(
-                x=alt.X("sum(mean_abs_shap)", axis=alt.Axis(title="Sum of Shap Value", labelFontSize=14, titleFontSize=16)),
-                y=alt.Y(
-                    "Feature:N",
-                    sort=alt.EncodingSortField(
-                        field="mean_abs_shap",  # field to sort by
-                        op="sum",  # aggregate operation
-                        order="descending",  # descending = biggest on top
-                    ),
-                    axis=alt.Axis(title="Feature", labelFontSize=14, titleFontSize=16),
+        alt.Chart(df)
+        .mark_bar()
+        .encode(
+            x=alt.X("sum(mean_abs_shap)", axis=alt.Axis(title="Sum of Shap Value ", labelFontSize=16, titleFontSize=20, format="~s")),
+            y=alt.Y(
+                "Feature:N",
+                sort=alt.EncodingSortField(
+                    field="mean_abs_shap",  # field to sort by
+                    op="sum",  # aggregate operation
+                    order="descending",  # descending = biggest on top
                 ),
-                color=alt.Color("lag:Q").scale(scheme="plasma").legend(values=range(-600, 721, 30)),
-                order=alt.Order(
-                    # Sort the segments of the bars by this field
-                    "lag:O",
-                    sort="ascending",
-                ),
-            )
+                axis=alt.Axis(title="Feature", labelFontSize=18, titleFontSize=20),
+            ),
+            color=alt.Color("lag:Q").scale(scheme="plasma").legend(values=range(-600, 721, 30)),
+            order=alt.Order(
+                # Sort the segments of the bars by this field
+                "lag:O",
+                sort="ascending",
+            ),
         )
-        .properties(width=1600, height=800)
-        .configure_legend(gradientLength=1600, gradientThickness=20, orient="bottom", direction="horizontal")
-    )
+    ).properties(width=1600, height=800)
 
 
 targets = [
@@ -41,6 +37,7 @@ targets = [
 ]
 
 label2idx = pl.DataFrame()
+combined_chart = None
 for target in targets:
     df = pl.read_csv(f"shap_results/SHAP_Aggregated_{target}.csv")
     df = df.with_columns(
@@ -73,4 +70,12 @@ for target in targets:
         label2idx.write_csv(f"figurelabels.csv", separator="&", line_terminator=" \\\\\n", include_header=False)
     df = df.join(label2idx, on="base_feature")
     chart = shap_agg_plot(df)
-    chart.save(f"figures/shap_aggregated_{target}plot.png")
+    chart.configure_legend(gradientLength=1600, gradientThickness=20, orient="bottom", direction="horizontal").save(
+        f"figures/shap_aggregated_{target}plot.png"
+    )
+
+    combined_chart = combined_chart & chart if combined_chart else chart
+
+combined_chart.configure_legend(gradientLength=1600, gradientThickness=20, orient="bottom", direction="horizontal").save(
+    f"figures/shap_aggregated_plot.png", ppi=200
+)

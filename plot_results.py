@@ -70,11 +70,11 @@ def compare_results(results):
 
     for meas in compare["error measure"].unique():
         chart = lag_chart(sys_dir.filter(pl.col("error measure") == meas))
-        chart.save(f"figures/{meas}_system_direction.png")
+        chart.save(f"figures/{meas}_system_direction.png", ppi=200)
         chart = lag_chart(pos_unit_prices.filter(pl.col("error measure") == meas))
-        chart.save(f"figures/{meas}_pos_unit_price.png")
+        chart.save(f"figures/{meas}_pos_unit_price.png", ppi=200)
         chart = lag_chart(neg_unit_prices.filter(pl.col("error measure") == meas))
-        chart.save(f"figures/{meas}_neg_unit_price.png")
+        chart.save(f"figures/{meas}_neg_unit_price.png", ppi=200)
 
 
 results = {
