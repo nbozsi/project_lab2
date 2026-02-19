@@ -1,0 +1,37 @@
+name,EIC Code,timezone,currency
+Albania,10YAL-KESH-----5,Europe/Tirane,ALL
+Austria,10YAT-APG------L,Europe/Vienna,EUR
+Belgium,10YBE----------2,Europe/Brussels,EUR
+Bosnia & Herz.,10YBA-JPCC-----D,Europe/Sarajevo,BAM
+Bulgaria,10YCA-BULGARIA-R,Europe/Sofia,BGN
+Croatia,10YHR-HEP------M,Europe/Zagreb,EUR
+Cyprus,10YCY-1001A000W,Asia/Nicosia,EUR
+Czechia,10YCB-CZECH-REP5,Europe/Prague,CZK
+Denmark,10Y1001A1001A65H,Europe/Copenhagen,DKK
+Estonia,10Y1001A1001A391,Europe/Tallinn,EUR
+Finland,10YFI-1--------U,Europe/Helsinki,EUR
+France,10YFR-1001A00043,Europe/Paris,EUR
+Germany,10YCB-GERMANY--8,Europe/Berlin,EUR
+Greece,10YGR-HTSO-----Y,Europe/Athens,EUR
+Hungary,10YHU-MAVIR----U,Europe/Budapest,HUF
+Iceland,10YIS-1001A0003E,Atlantic/Reykjavik,ISK
+Ireland,10YIE-1001A00010,Europe/Dublin,EUR
+Italy,10YIT-1001A0001E,Europe/Rome,EUR
+Latvia,10YLV-1001A00074,Europe/Riga,EUR
+Lithuania,10YLT-1001A0008Q,Europe/Vilnius,EUR
+Luxembourg,10YLU-CEGEDEL-NQ,Europe/Luxembourg,EUR
+Montenegro,10YME-1001A0001P,Europe/Podgorica,EUR
+Netherlands,10YNL----------L,Europe/Amsterdam,EUR
+North Macedonia,10YMK-MEPSO----8,Europe/Skopje,MKD
+Norway,10YNO-0--------C,Europe/Oslo,NOK
+Poland,10YPL-AREA-----S,Europe/Warsaw,PLN
+Portugal,10YPT-REN------W,Europe/Lisbon,EUR
+Romania,10YRO-TEL------P,Europe/Bucharest,RON
+Serbia,10YCS-SERBIATSOV,Europe/Belgrade,RSD
+Slovakia,10YSK-SEPS-----K,Europe/Bratislava,EUR
+Slovenia,10YSI-ELES-----W,Europe/Ljubljana,EUR
+Spain,10YES-REE------0,Europe/Madrid,EUR
+Sweden,10YSE-1--------K,Europe/Stockholm,SEK
+Switzerland,10YCH-SWISSGRIDZ,Europe/Zurich,CHF
+Ukraine,10YUA-WEPS-----0,Europe/Kyiv,UAH
+United Kingdom (NI),10Y1001A00010037,Europe/Belfast,GBP
